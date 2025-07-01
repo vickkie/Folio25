@@ -1,0 +1,117 @@
+{
+  "privacyPolicy": {
+    "title": "This Data Collection and Processing Policy, or Privacy Policy (hereafter referred to as the \"Policy\")",
+    "content": [
+      "explains how the Company collects information about You, how it is used, kept, and disclosed when You visit the Website."
+    ]
+  },
+  "consentStatement": {
+    "text": "You hereby consent to the Processing of Your Personal Data and confirm that You have been informed of the procedure, purpose, and other terms of their processing in accordance with the EU Regulation No. 2016/678 of 26.04.2016, the California State Consumer Privacy Act of 2018. (CCPA), California Online Privacy Protection Act of 2003 (CalOPPA) and other applicable regulations."
+  },
+  "agreementStatement": {
+    "text": "By providing any of the information about Yourself via the relevant form on the Website,, You agree to Our Policy and give the Company permission to collect, use, and disclose information about You for the purposes outlined below."
+  },
+  "legalAbilityStatement": {
+    "text": "By continuing to use our Website, You acknowledge that You have the legal ability to consent to this Policy and to the Processing of Your Personal Data under these conditions in accordance with the laws of United states and Your personal applicable jurisdiction."
+  },
+  "policyChangesStatement": {
+    "text": "We reserve the right to make changes to this Policy at any time. We will notify You of any changes by changing the date at the top of this text. When using the Website, We encourage You to read the Policy to keep informed about the methods and ways We protect Your privacy."
+  },
+  "definitionsSection": {
+    "header": "Definitions",
+    "content": [
+      {
+        "term": "",
+        "definition": ""
+      }
+    ]
+  },
+  "userRightsSection": {
+    "header": "User's rights",
+    "rights": [
+      "Access to Your Personal Data, as well as confirmation from the Company of the Processing of Your Personal Data and the status of their storage;",
+      "If You believe that Your fundamental rights to privacy and Data protection outweigh Our legitimate interest in continuing the Processing, You may withdraw Your consent. We may keep an anonymous record of the User's activities (except for Personal Data). The Company deletes all information it has about the User within 30 (thirty) days of receiving Your request for deletion of information. Please contact Us",
+      "Changing Your Personal Information If there is an error, it has lost its relevance, or Your Personal Data has been deleted as a result of the completion of the purpose for which Data has been collected.",
+      "Request for information about the User that the Company has on file. The Company may take up to 30 (thirty) days to process a request, but We always make every effort to respond as soon as it is practically possible.",
+      "Obtaining a copy of the User's Personal Data in a structured, machine-readable, and widely used format."
+    ]
+  },
+  "dataCollectionSection": {
+    "header": "Data We collect",
+    "content": [
+      "We collect information and Personal Information from Users directly when they register on the Website in sections such as \"Sign up\" or \"Contact us\" as well as when they browse Our Website. We collect Personal Data only when You fill out the form in the above sections of the Website and with Your permission, the rest of the Data We collect is mostly Usage Data."
+    ],
+    "personalDataTypes": [
+      "Name",
+      "Email",
+      "Phone Number"
+    ],
+    "usageDataTypes": [
+      "Browser type;",
+      "Browser version;",
+      "The type of device You are using;",
+      "Pages of Our Website that You have visited;",
+      "Your visit to the Website at what time and on what date;",
+      "The time You spent on these pages of the Website;",
+      "Unique device identifiers;",
+      "IP Address (can be collected as Personal Data as well);",
+      "Geolocation Data (can be collected as Personal Data as well);",
+      "Other diagnostic Data."
+    ]
+  },
+  "cookiesPolicySection": {
+    "text": "The Website has the ability to generate objects and store them on the User's device. To set up and improve User interaction, We use Cookies to collect certain Usage Data, such as pages visited and Services used on Our Website."
+  },
+  "sessionCookiesStatement": {
+    "text": "Session Cookies are typically stored and used to interact with Our Service. Session Cookies save the information entered by the User and track the User's movement on the Website."
+  },
+  "sessionCookiesDuration": {
+    "duration": "one (one) calendar year"
+  },
+  "cookiesPurposeList": [
+    "Obtaining standard web analytics Data;",
+    "Obtain Data collected through the use of HTML Cookies, Flash Cookies, web beacons, and other similar technologies;",
+    "Obtain demographic information and other details to assist Us in customizing the Website to Your preferences;"
+  ],
+  "cookiesSharingStatement": {
+    "text": "We may share this information with partners who help Us restore, manage, or maintain Our Website (third parties). By clearing Your browser's browsing history, You can delete all Cookies that are already on Your device. You can set Your browser to prevent Cookies from being placed on Your device, but You may need to do so manually each time You visit the Website."
+  },
+  "cookiesLegalCompliance": {
+    "text": "If You live in the EU or are an EU citizen, You must comply with the provisions of the European Commission's General Data Protection Regulation if You agree to the use of Cookies based on a message posted on Our Website according to the art. 6 (1) (a) on the General Data Protection Regulation of the European Commission."
+  },
+  "crossBorderDataTransferSection": {
+    "text": "Cross Border Data Transfer may occur if the transfer is required for the conclusion or performance of a contract between the Controller and a Third Party, and only when it is in the data subject's best interests."
+  },
+  "legalBasisOfProcessingSection": {
+    "title": "Legal basis of Personal Data Processing",
+    "bases": [
+      "With Your personal permission for one or more of the following purposes (listed below);",
+      "As necessary for Our legitimate interests in providing the Services, provided that such interests do not outweigh Your fundamental rights and freedoms in terms of Data confidentiality;",
+      "Data Processing is associated with a task carried out in the public interest or in the exercise of state authority."
+    ]
+  },
+  "termsOfDataStorageSection": {
+    "text": "We will only keep Your Personal Information for as long as it is required for the purposes outlined in this Policy. We will only store and use Your Personal Data to the extent required to comply with Our legal obligations (for example, if We are required to keep Your Data in accordance with applicable laws), resolve disputes, enforce Our legal agreements, and follow the rules of this Policy."
+  },
+  "usageDataStorageDuration": {
+    "duration": "typically kept for a shorter period of time than Personal Data, unless it is used to improve the security or functionality of Our Service, or We are legally required to keep this Data for a longer period of time."
+  },
+  "maximumUsageDataRetentionPeriod": {
+    "duration": "no longer than 6 years from the date of the last use, unless the purpose of Data Processing requires otherwise."
+  },
+  "supplementalNoticeCaliforniaResidentsSection": {
+    "text": "This Supplemental California Privacy Notice only applies to Our Processing of Personal Data that is subject to the California Consumer Privacy Act of 2018 (\"CCPA\"). The CCPA provides California residents with the right to know what categories of Personal Data Company has collected about them in the preceding 12 months."
+  },
+  "optOutStatement": {
+    "text": "Opt-out of \"Sales\". California residents may opt-out of the \"sale\" of their Personal Data by contacting Us as set forth in \"Contact Us\" below."
+  },
+  "nonDiscriminationStatement": {
+    "text": "Non-Discrimination. California residents have the right not to receive discriminatory treatment by Us for the exercise of their rights conferred by the CCPA."
+  },
+  "authorizedAgentStatement": {
+    "text": "Authorized Agent. Only You, or someone legally authorized to act on Your behalf, may make a verifiable consumer request related to Your Personal Data. You may also make a verifiable consumer request on behalf of Your minor child. To designate an authorized agent, please contact Us as set forth in \"Contact Us\" below and provide written authorization signed by You and Your designated agent."
+  },
+  "contactUsSection": {
+    "text": "Please contact Us at weare@lazarev.agency if You have any questions or concerns about LAZAREV.AGENCY's Privacy Policy, or if You decide at any time that We no longer need to hold any of Your Personal Information."
+  }
+}

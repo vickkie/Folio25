@@ -1,0 +1,95 @@
+.contactHeader {
+  text-align: center;
+  font-family: var(--font-3);
+  font-size: var(--hc-xxl);
+  padding: 2rem 0;
+}
+.contactBody,
+.contactSubbody,
+.contactPOthers {
+  margin: 0.7rem;
+  padding: 2rem 0;
+  background-color: var(--white);
+  border-radius: 1rem;
+}
+.contactBody {
+  background: url("https://ik.imagekit.io/ae76otrg0/images/unknown/665dd0c3419f9932b6cbff8e_card%203-p-500.avif");
+  background-color: var(--grey);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactHeadExpla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactHeadExplaText {
+  font-size: var(--hc-base);
+  color: var(--black);
+  font-family: var(--font-1);
+}
+.contactContactBody {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  width: 100%;
+}
+.contactBoxy {
+  height: 20vw;
+  background-color: var(--primary);
+  border-radius: 25px;
+  padding: 10px 20px;
+  border-radius: 45px;
+  background: var(--lightteal);
+  backdrop-filter: blur(2.5rem);
+  /* min-height: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.contaIcon {
+  height: 2rem;
+  width: 2rem;
+}
+.contaBoxHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .contactContactBody {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contactBoxy {
+    margin: 0 0.5rem;
+  }
+}
+.contctOthersHead {
+  text-align: center;
+  font-size: var(--hc-md);
+  font-family: var(--font-1);
+  width: 100%;
+}
+.contaBoxDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contactPOthers {
+  margin: 0.7rem;
+  padding: 2rem 0;
+  background-color: var(--white);
+  border-radius: 1rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

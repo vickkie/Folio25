@@ -1,0 +1,178 @@
+padding-global.large {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.padding-global {
+  padding: var(--_spacer---l) 5%;
+  width: 100%;
+}
+.w-container:before,
+.w-container:after {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+.footer-cta-grid {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr auto;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+.footer-cta-top-left {
+  padding-right: 34px;
+  padding-bottom: var(--_spacer---m);
+  position: relative;
+}
+.footer-cta-title {
+  max-width: 600px;
+}
+.heading-1-no-anim {
+  font-family: var(--_font-family---title);
+  font-size: var(--_font-size---heading--h1);
+  letter-spacing: -1px;
+  text-wrap: balance;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 110%;
+}
+.font-ivyora {
+  font-family: var(--font-4);
+  font-style: italic;
+  display: inline;
+  color: var(--primary);
+}
+.footer-line-vertical {
+  background-color: var(--primary--orange);
+  width: calc(100% - 11px);
+  height: 3px;
+  position: absolute;
+  inset: auto auto 0% 0%;
+}
+.footer-cta-top-right {
+  position: relative;
+}
+.footer-line-horizontal {
+  background-color: var(--primary);
+  width: 3px;
+  height: calc(100% - 11px);
+  position: absolute;
+  inset: 0% auto auto 0%;
+}
+.footer-line-vertical.right {
+  inset: auto 0% 0% auto;
+}
+.footer-line-vertical {
+  background-color: var(--primary--orange);
+  width: calc(100% - 11px);
+  height: 3px;
+  position: absolute;
+  inset: auto auto 0% 0%;
+}
+.footer-cta-bottom-left {
+  grid-column-gap: var(--_spacer---xs);
+  grid-row-gap: var(--_spacer---xs);
+  flex-flow: column;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  padding-right: 34px;
+  display: flex;
+}
+.footer-banner-link {
+  font-family: var(--_font-family---title);
+  color: var(--dblack);
+  letter-spacing: -0.5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 130%;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-cta-bottom-right {
+  padding-top: var(--_spacer---s);
+  padding-left: 34px;
+  position: relative;
+}
+:root {
+  --primary--beige: #f8f7f1;
+  --_font-family---title: Parabolica, Arial, sans-serif;
+  --_font-size---heading--h1: 52px;
+  --_font-size---heading--h2: 40px;
+  --_font-size---heading--h3: 32px;
+  --_font-size---heading--h4: 24px;
+  --_font-size---heading--h5: 20px;
+  --_font-size---heading--h6: 16px;
+  --_spacer---m: 40px;
+  --_font-family---paragraph: Parabolica, Arial, sans-serif;
+  --greyscale--black: black;
+  --_font-size---paragraph--s: 14px;
+  --_font-size---paragraph--l: 18px;
+  --greyscale--grey: #e3e0d6;
+  --_font-size---paragraph--xl: 24px;
+  --_font-size---paragraph--m: 16px;
+  --_font-size---paragraph--xs: 11px;
+  --primary--orange: var(--primary);
+  --_spacer---l: 72px;
+  --_spacer---xxl: 160px;
+  --primary--black: #2d2d2d;
+  --_spacer---s: 24px;
+  --_font-family---ivyora: "IvyOra Display", "Times New Roman", sans-serif;
+  --_spacer---xxs: 8px;
+  --_spacer---xl: 120px;
+  --_spacer---xs: 16px;
+  --greyscale--white: white;
+  --greyscale--light-grey: whitesmoke;
+  --greyscale--medium-grey: #888c8f;
+  --greyscale--dark-grey: #434649;
+  --system--success: #22af5c;
+  --system--error: #eb392e;
+  --_font-family---link: Parabolica, Arial, sans-serif;
+}
+
+.footer-banner-contact {
+  border-bottom: 7px solid var(--dblack);
+  color: var(--dblack);
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 110%;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+@media screen and (max-width: 679px) {
+  .footer-cta-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-banner-contact {
+    font-size: var(--_font-size---heading--h2);
+  }
+  .footer-line-horizontal {
+    display: none;
+  }
+}
+.socials-buttons {
+  display: flex;
+  margin-top: 12px;
+}
+.social-networks {
+  align-items: center;
+  background-color: rgba(1, 1, 1, 0);
+  border: 1px solid rgba(1, 1, 1, 0.35);
+  border-radius: 100%;
+  display: flex;
+  height: 52px;
+  justify-content: center;
+  margin-right: 4px;
+  width: 52px;
+}
+.social-img {
+  height: 24px;
+  width: 24px;
+}
+.h1 {
+  color: unset;
+}

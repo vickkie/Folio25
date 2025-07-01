@@ -1,0 +1,17 @@
+{
+  "header": "Referral Progress",
+  "requirements": [
+    {
+      "text": "Referrals must deposit at least $100.",
+      "met": false
+    },
+    {
+      "text": "Referrals must have used your referral link.",
+      "met": true
+    },
+    {
+      "text": "Referrals must be at least 3.",
+      "met": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "name": "Transparency",
+      "description": "We are committed to being open and honest in all our communications and operations. Transparency ensures that our stakeholders have a clear understanding of our processes and decisions."
+    },
+    {
+      "name": "Integrity",
+      "description": "We uphold the highest standards of honesty and ethical behavior. Integrity means doing the right thing even when it's difficult or when no one is watching."
+    },
+    {
+      "name": "Competence",
+      "description": "We strive to be highly skilled and knowledgeable in our field. Competence involves continuously improving our expertise to provide the best possible service and solutions."
+    },
+    {
+      "name": "Customer Focused",
+      "description": "Our primary goal is to meet and exceed the needs and expectations of our customers. Being customer-focused means prioritizing their needs and working to provide exceptional experiences and value."
+    }
+  ]
+}

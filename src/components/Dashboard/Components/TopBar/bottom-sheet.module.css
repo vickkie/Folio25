@@ -1,0 +1,73 @@
+.overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 1000;
+}
+
+.sheet {
+  background: hsl(0 0% 100%);
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(0);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 24px auto;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.option {
+  display: block;
+  padding: 10px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  background-color: var(--darkestblue);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.option:hover {
+  background: var(--primary);
+}
+
+.sheetToggle {
+  height: 7px;
+  background-color: hsl(240, 5%, 88%);
+  border-radius: 9999px;
+  width: 100px;
+  cursor: grab;
+}
+.sheetToggler {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

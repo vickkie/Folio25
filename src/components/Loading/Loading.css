@@ -1,0 +1,48 @@
+.preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 999999999999;
+  background-color: #e6e8f5;
+  transition: transform 1.2s cubic-bezier(0.7, 0, 0.3, 1);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.preloader--icon {
+  position: absolute;
+  z-index: 1;
+  width: 36px;
+  height: 36px;
+  animation: rotate-gear 3s infinite;
+}
+
+@keyframes rotate-gear {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.preloader--icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.preloader--icon img {
+  max-width: 100%;
+  height: auto;
+}

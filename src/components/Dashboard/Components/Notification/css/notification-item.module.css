@@ -1,0 +1,33 @@
+.item {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.unread {
+  background-color: #f0f8ff;
+}
+
+.read {
+  background-color: white;
+}
+
+.item:hover {
+  background-color: #f5f5f5;
+}
+
+.content {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #777;
+}

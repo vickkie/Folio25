@@ -1,0 +1,162 @@
+.Dashcontainer {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--white);
+}
+
+.content {
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+
+.drawer {
+  background-color: #1f1e30;
+  transition: width 0.3s ease;
+  width: 60px;
+  overflow: hidden;
+  /* margin: 0.7rem; */
+  /* border-radius: 20px; */
+}
+
+.drawer.expanded {
+  width: 200px;
+}
+.drawer.expanded .navItem {
+  margin: 0 10px;
+  border-radius: 39px;
+}
+
+.toggleButton {
+  z-index: 1000;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.navItem {
+  border-radius: 100px;
+}
+
+.navItem:hover {
+  background-color: #e0e0e0;
+}
+.navItem:hover .RouteName,
+.navItem:hover .icon {
+  color: var(--black);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0px;
+}
+
+.RouteName {
+  margin-left: 10px;
+}
+.content {
+  flex: 1;
+  padding: 0 10px;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .drawer {
+    position: fixed;
+    top: 0;
+    left: -212px;
+    height: 100vh;
+    width: 200px;
+    z-index: 1000;
+  }
+
+  .mobileToggle {
+    display: block;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobileToggle {
+    display: none;
+  }
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  /* padding: 10px 0 0 0; */
+  margin: -10px 0;
+  background: var(--darkestblue);
+}
+.logoName {
+  color: var(--white);
+  justify-content: center;
+  text-align: center;
+  font-size: var(--hc-md);
+}
+.logoImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashLogo {
+  height: 2rem;
+  border-radius: 100px;
+}
+.expandedLOgo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0 19px;
+}
+.mobileExpanded {
+  transform: translateX(212px);
+}
+.mobileExpanded.drawer {
+  border-radius: 0px !important;
+  margin: 0 !important;
+}
+.overlayForMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.overlayForMenu.active {
+  opacity: 1;
+  visibility: visible;
+}
+@media screen and (min-width: 768px) {
+  .Dashcontainer {
+    /* max-height: 100svh !important; */
+  }
+}

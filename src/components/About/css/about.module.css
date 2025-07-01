@@ -1,0 +1,179 @@
+@media (min-width: 1024px), (min-width: 768px) and (orientation: portrait) {
+  :root {
+    --side-padding: 5.375rem;
+    --section-spacing: 7.5rem;
+    --top-bar-height: 2rem;
+    --header-height: 2.5rem;
+    --border-radius: 0.75rem;
+  }
+}
+
+.aboutHero {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 30px;
+  margin: 1.3rem;
+  background: var(--white);
+  border-radius: 1.2rem;
+}
+.NumbersWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 1rem;
+  margin: 1rem;
+  background: var(--white);
+  border-radius: 1rem;
+}
+.numbersHead {
+  font-size: var(--hc-xxl);
+  font-family: var(--font-3);
+  padding: 2rem;
+}
+.aboutHeader {
+  font-size: var(--hc-xl);
+  margin-bottom: 1rem;
+  color: var(--black);
+  font-family: var(--font-1);
+}
+.aboutExpla {
+  padding: 2rem;
+  color: #333;
+}
+
+.HeroText {
+  margin-bottom: 0.375rem;
+  font-size: var(--hc-xxl);
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  font-family: var(--font-3);
+  transition: var(--ost);
+  transition-property: opacity, transform;
+  text-align: center;
+}
+.heroExpla {
+  font-size: var(--hc-base);
+  font-family: var(--font-2);
+  padding: 2rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .th {
+    padding: 3rem 11rem 2rem !important;
+  }
+}
+.th {
+  padding: 3rem 2rem 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: url(/images/story-bg.png);
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+  .th {
+    padding: 3rem 6rem 2rem;
+    --top-frame-heigh: 11rem;
+    --side-frame-height: 2.5rem;
+    gap: 2.125rem;
+    min-height: 60vh;
+  }
+}
+.heroSub {
+  margin-top: 0.6em;
+}
+
+.numbersRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+@media (min-width: 1024px), (min-width: 768px) and (orientation: portrait) {
+  .numberItem {
+    gap: 0.5rem;
+    padding: 1.5rem 3rem;
+    position: relative;
+  }
+}
+
+.NumbersNumber {
+  font-size: var(--hc-xxl);
+  font-family: var(--font-3);
+}
+.numberItem::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: linear-gradient(to bottom, #deeae81a, #deeae800);
+  -webkit-backdrop-filter: blur(2.5rem);
+  backdrop-filter: blur(2.5rem);
+}
+.NumbersExpla {
+  padding-top: 1em;
+}
+.heroContent {
+  -webkit-backdrop-filter: blur(2.5rem);
+  backdrop-filter: blur(2.5rem);
+  border-radius: 45px;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .heroExpla {
+    padding: 2rem 0;
+  }
+  .heroSub {
+    display: none;
+  }
+  .th {
+    padding: 3rem 1.2rem 2rem;
+  }
+  .aboutHero {
+    grid-template-columns: repeat(1, 1fr);
+
+    margin: var(--small-margin);
+  }
+  .NumbersWrapper {
+    margin: var(--small-margin);
+  }
+}
+
+@media screen and (min-width: 468px) and (max-width: 767px) {
+  .numbersRow {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .numberItem {
+    min-height: 120px;
+  }
+}
+@media screen and (max-width: 468px) {
+  .numbersRow {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .numberItem {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.numberItem {
+  display: grid;
+  background: var(--lightgray);
+  border: solid 0.0058vw var(--lightgray);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.storyText {
+  margin-top: 1rem;
+  line-height: 1.8;
+  font-size: var(--hc-base);
+}

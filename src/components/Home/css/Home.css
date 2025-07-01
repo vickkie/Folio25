@@ -1,0 +1,128 @@
+/* Card.css */
+.cardStyle {
+  background-color: #ffffff;
+  border-radius: var(--hc-md);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 1rem;
+  flex: 1 1 300px;
+  max-width: 50svw;
+}
+
+@media (max-width: 468px) {
+  .cardStyle {
+    padding: 1rem;
+    max-width: 100%;
+  }
+}
+/* CardStyles.css */
+.cardTitleStyle {
+  color: var(--black);
+  font-size: var(--hc-md);
+  margin-bottom: 1rem;
+  font-family: var(--font-3);
+}
+
+.cardTextStyle {
+  color: var(--black);
+  font-size: var(--hc-base);
+  line-height: 1.6;
+}
+.chooseusCardsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+.cardImage {
+  max-height: 8rem;
+  height: 8rem;
+}
+.topcard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.topcardCount {
+  font-size: calc(var(--hc-xxxl) * 2);
+  font-family: var(--font-2);
+  color: var(--primary);
+  justify-self: end;
+  opacity: 0.4;
+  /* position: absolute; */
+  right: 10px;
+  top: 10px;
+  margin: -70px 0 0 0;
+}
+.cardWrapper {
+  padding: 1rem;
+  background-color: #f4f7fa;
+}
+
+@media screen and (max-width: 767px) {
+  .chooseusCardsWrapper {
+    grid-template-columns: 1fr !important;
+    position: relative;
+  }
+  .cardWrapper {
+    padding: 0rem;
+    background-color: #f4f7fa;
+  }
+  .topcardCount {
+    font-size: calc(var(--hc-lg) * 2);
+    position: relative;
+    margin: 0;
+  }
+  .cardStyle {
+    max-width: 100svw;
+  }
+  .whoweare {
+    padding: 0 !important;
+    font-size: var(--hc-lg) !important;
+  }
+}
+.whoweare {
+  padding: 2rem 3rem;
+  font-size: var(--hc-xxl);
+}
+.belowHeroWrapper {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  margin: 3rem 2rem;
+  background-image: url("https://ik.imagekit.io/ae76otrg0/images/unknown/665e0505ff21250c2bcef945_9280 3.avif");
+}
+@media screen and (max-width: 564px) {
+  .belowHeroWrapper {
+    margin: 2rem 1rem !important;
+  }
+  .nextButton {
+    height: 2.6rem;
+    width: 2.6rem;
+    align-self: center;
+    right: 78px;
+    bottom: 53px;
+  }
+  .testimonial-bottom .inner {
+    gap: 14px !important;
+  }
+}
+
+#processContent1 {
+  transform: translate(50px, 15px);
+}
+#processContent2 {
+  transform: translate(330.5px, 15px);
+}
+#processContent3 {
+  transform: translate(265.5px, 105px);
+}
+#processContent4 {
+  transform: translate(145.5px, 195px);
+}
+#processContent5 {
+  transform: translate(400px, 280px);
+}
+#processContent6 {
+  transform: translate(100px, 280px);
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "image": "https://ik.imagekit.io/ae76otrg0/images/partners/undraw_vault_re_s4my.svg",
+    "title": "Keep your money safe as it grows.",
+    "description": "First, security is key - Cash Reserve lets you earn interest even during volatile times. FDIC insurance covers your money up to $1 million ($4 million for platinum accounts) at our program banks, meaning you won’t have to sacrifice security for growth.",
+    "reverse": false
+  },
+  {
+    "id": 2,
+    "image": "https://ik.imagekit.io/ae76otrg0/images/partners/undraw_transfer_money_re_6o1h.svg",
+    "title": "Capital Liquidity Flexibility.",
+    "description": "Access to Capital: Investors can access capital through loans or withdrawals whenever necessary, allowing for flexibility in managing personal finances or investments.",
+    "reverse": true
+  },
+  {
+    "id": 3,
+    "image": "https://ik.imagekit.io/ae76otrg0/images/partners/undraw_security_on_re_e491.svg",
+    "title": "You deserve financial peace of mind.",
+    "description": "That's where we come in. We're here to simplify overly-complex ideas. To help you set goals and give purpose to your money. To build peace of mind into your financial future.",
+    "reverse": false
+  },
+  {
+    "id": 4,
+    "image": "https://ik.imagekit.io/ae76otrg0/images/partners/undraw_mobile_encryption_re_yw3o.svg",
+    "title": "No Lock-in Investment Period.",
+    "description": "There is no mandatory lock-in period for investments, providing investors with the ability to withdraw or adjust investments at their discretion.",
+    "reverse": true
+  },
+  {
+    "id": 5,
+    "image": "https://ik.imagekit.io/ae76otrg0/images/partners/undraw_savings_re_eq4w.svg",
+    "title": "Investment Growth Opportunities.",
+    "description": "Steady Growth: Investors in the Bronze, Silver, and Gold Tiers earn weekly returns, ensuring their capital grows steadily over time.",
+    "reverse": false
+  }
+]

@@ -1,0 +1,246 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--white);
+  padding: var(--hc-lg);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.login-container h2 {
+  color: var(--primary); /* Dark blue for the heading */
+  margin-bottom: 1.5rem;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+.login-container input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #8d8c8947;
+  border-radius: 0.9rem;
+  background-color: var(--lightgray);
+  color: var(--black);
+  font-size: 1rem;
+}
+
+.login-container input::placeholder {
+  color: var(--gray); /* Grey placeholder color */
+}
+
+.login-submit {
+  padding: 0.75rem;
+  background-color: var(--primary); /* Bright blue button */
+  color: var(--white);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.login-submit:hover {
+  background-color: var(--black); /* Darker blue on hover */
+}
+
+.signup-prompt {
+  margin-top: 1rem;
+  color: var(--black);
+  font-size: var(--hc-sm);
+}
+
+.signup-prompt a {
+  color: var(--black); /* Bright blue for the link */
+  text-decoration: none;
+}
+
+.signup-prompt a:hover {
+  color: var(--lightyellow); /* Darker blue on hover */
+}
+h1 {
+  color: var(--primary);
+}
+.error-message {
+  color: var(--red);
+  padding: 7px 2px;
+  font-size: var(--hc-sm);
+}
+.input-error {
+  border-color: #ff00003d !important;
+}
+
+.input-success {
+  border-color: #00800047 !important;
+}
+.linkColor {
+  color: var(--buttonhover);
+}
+.accountLoginWraaper {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+.loginImage {
+  background-image: url(https://ik.imagekit.io/ae76otrg0/images/abstract1.webp) !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--lightyellow);
+  position: relative;
+}
+.loginImage2 {
+  background-image: url(https://ik.imagekit.io/ae76otrg0/images/image.avif) !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--lightyellow);
+  position: relative;
+}
+.label {
+  font-size: var(--hc-sm);
+  font-family: var(--font-3);
+  padding: 5px 2px;
+}
+.labelHolder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px;
+}
+
+input::placeholder {
+  color: #888;
+  font-size: calc(var(--hc-sm) - 2px);
+  font-family: var(--font-2);
+  opacity: 1;
+}
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.forgot-password-link {
+  color: var(--buttonhover);
+  text-decoration: none;
+  font-size: var(--hc-sm);
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+.login-options label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: var(--hc-sm);
+}
+.login-options input {
+  margin: unset;
+  width: unset;
+}
+.welcome-msg {
+  font-family: var(--font-2);
+  padding: 1rem 0;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .accountLoginWraaper {
+    grid-template-columns: 1fr;
+  }
+  .loginImage {
+    display: none !important;
+  }
+
+  .login-container input,
+  .login-options {
+    margin-bottom: unset;
+  }
+  .login-options {
+    gap: 10px;
+    padding: 1em;
+  }
+  form {
+    gap: 10px !important;
+  }
+  .login-options label,
+  .forgot-password-link {
+    font-size: var(--hc-sm);
+  }
+}
+.accountLoginWraaper .navbar {
+  display: none;
+  position: absolute;
+}
+.Homelink {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 2rem;
+  width: 2rem;
+  padding: 5px;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  cursor: pointer;
+  color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+  .Homelink {
+    display: none;
+  }
+}
+.inputContainer {
+  display: grid;
+  position: relative;
+}
+.eyeToggle {
+  position: absolute;
+  right: 7px;
+  top: 30%;
+  cursor: pointer;
+}
+.loginHeader {
+  font-size: var(--hc-lg);
+  font-family: var(--font-3);
+}
+.overlay-bg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 10%,
+    rgba(255, 255, 255, 0.5) 40%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.overlayText-bg {
+  position: absolute;
+  bottom: 20px; /* Adjust the text position */
+  width: 100%;
+  text-align: center;
+  color: #333; /* Adjust the text color */
+  font-size: var(--hc-base);
+  font-family: var(--font-2);
+}

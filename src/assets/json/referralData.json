@@ -1,0 +1,21 @@
+{
+  "header": "How Referrals Work",
+  "details": [
+    {
+      "icon": "check",
+      "text": "Invite people using your referral code and earn rewards when they sign up!"
+    },
+    {
+      "icon": "check",
+      "text": "Your friend must sign up using your referral code."
+    },
+    {
+      "icon": "check",
+      "text": "Your friend must make a deposit for you to earn a commission."
+    },
+    {
+      "icon": "check",
+      "text": "Commissions are earned based on the amount deposited by your referred friends."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0px;
+}
+
+.app-bar {
+    margin: 0;
+    width: 100%;
+    padding: 0; /* Ensures no padding for the AppBar */
+}
+
+.main-content {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.balance-card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    transition: transform 0.3s ease;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.balance-card:hover {
+    transform: translateY(-5px);
+}
+
+.balance-amount {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.balance-tier {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffd700;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cards-container, .graph-card {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+.custom-card {
+    flex: 1;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-1 {
+    background: linear-gradient(45deg, #00b09b 30%, #96c93d 90%);
+}
+
+.card-2 {
+    background: linear-gradient(45deg, #00c6ff 30%, #0072ff 90%);
+}
+
+.card-3 {
+    background: linear-gradient(45deg, #fbd72b 30%, #f89f1b 90%);
+}
+.graph-card {
+    margin-top: 16px;
+    padding: 0 16px;
+}
+
+.graph-card .MuiCard-root {
+    border-radius: 8px;
+}
+.app-bar {
+    background: linear-gradient(to right, #e0f7fa, #1e88e5); /* Light blue to blue gradient */
+  }
+  
+  .graph-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .custom-card {
+    background: #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
+  }
+  
+  .tier-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .ResponsiveContainer {
+    background: #e0e0e0;
+    border-radius: 15px;
+    box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;
+  }
+  

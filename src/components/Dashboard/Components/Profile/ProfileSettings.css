@@ -1,0 +1,353 @@
+.profile-settings {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.profile-header {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  margin-right: 20px;
+  border-radius: 200px;
+  padding: 2px;
+  border: solid 2px grey;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .profile-header-inner {
+    justify-content: start !important;
+    gap: 10px;
+    flex-direction: row !important;
+  }
+  .profile-settings-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+}
+.profile-header-inner {
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 200px;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.profile-info p {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+.view-profile-btn {
+  margin-left: auto;
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.settings-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: solid 0.0058vw #e9e9e9;
+  margin: 10px 0;
+}
+
+.settings-tabs div {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: var(--black);
+}
+
+.settings-tabs div.active {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  border-bottom: solid 1px black;
+}
+
+.password-form h2 {
+  margin-top: 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: var(--hc-sm);
+  font-family: var(--font-2);
+}
+.my-details-form input {
+  width: 100%;
+}
+
+.form-group input {
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #8d8c8947;
+  border-radius: 0.9rem;
+  background-color: var(--lightgray);
+  color: var(--black);
+  font-size: 1rem;
+}
+.form-group {
+  margin: 0;
+}
+
+.password-hint {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 0;
+}
+
+.cancel-btn,
+.update-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: var(--primary);
+}
+
+.update-btn {
+  background-color: #000;
+  color: #fff;
+}
+.actionTab {
+  padding: 2px 12px;
+}
+.changePassForm {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+.userNameGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.changePassForm .form-group {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  justify-content: space-around;
+  align-items: start;
+}
+.error {
+  color: var(--red);
+}
+.form-group .error {
+  grid-area: 2/2/2/2;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-settings {
+    padding: 5px;
+  }
+  .plainHead {
+    font-size: var(--hc-md) !important;
+  }
+  .plainDetails label {
+    font-size: var(--hc-base) !important;
+  }
+  .plainDetails {
+    grid-template-columns: 1fr !important;
+  }
+  .changePassForm .form-group,
+  .userNameGroup {
+    grid-template-columns: 1fr;
+  }
+  .form-group .error {
+    grid-area: 1 / 1;
+  }
+  .my-details-form input {
+    width: 100% !important;
+    margin-bottom: 0.3rem;
+  }
+  .profile-header,
+  .image-upload-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-info,
+  .profile-image {
+    justify-self: center;
+    text-align: center;
+  }
+  .profile-info h1 {
+    display: none;
+  }
+  .profile-info {
+    margin: 10px;
+  }
+}
+.toggleEditable {
+  padding: 10px;
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: var(--white);
+}
+.my-details-form input {
+  font-family: var(--font-1);
+}
+.updateSubmit {
+  background-color: var(--black);
+}
+.editPicButton {
+  position: absolute;
+  right: -6px;
+  background: var(--white);
+  border-radius: 200px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2px;
+  border: solid 2px grey;
+}
+.editPicButton svg {
+  height: 50%;
+  width: 50%;
+}
+.editPicButton label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.uploadImageBtn {
+  width: 146px;
+  justify-self: center;
+  margin: 13px;
+  background-color: var(--black);
+  border-radius: 10px;
+  justify-self: center;
+  padding: 10px 20px;
+  color: var(--white);
+  cursor: pointer;
+}
+.profileImg2 {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.profileImgWrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.phoneNumberh {
+  cursor: not-allowed;
+}
+.profile-wrap {
+  border: solid 0.0158vw #b9b9b9;
+  padding: 30px 20px;
+  border-radius: 25px;
+}
+.plainDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.plainHeader {
+  padding: 0px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plainHead {
+  font-family: var(--font-3);
+  font-size: var(--hc-base);
+}
+.plainDetails label {
+  font-family: var(--font-3);
+  font-size: var(--hc-sm);
+}
+.plainDetails span {
+  font-family: var(--font-1);
+  font-size: var(--hc-sm);
+}
+.editButton {
+  color: var(--black);
+  background: var(--white);
+  padding: 2px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.flex-center {
+}
+.Gold,
+.Silver,
+.Platinum,
+.Bronze {
+  border-radius: 300px;
+  display: flex;
+  font-weight: 800;
+  justify-content: center;
+  padding: 2px 9px;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: var(--font-1);
+}
+
+.Gold {
+  background-color: #f3d0ce;
+  color: #b75454;
+}
+.Platinum {
+  background-color: #cbfccd;
+  color: #26a532;
+}
+.Silver {
+  background: #c0daff !important;
+  color: #317ce7 !important;
+}
+.Bronze {
+  background-color: #ffd8c4;
+  color: #ee6d19;
+}

@@ -1,0 +1,136 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 60px;
+}
+
+.logo {
+  font-size: var(--hc-base);
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: var(--white);
+  border-radius: 100px;
+  color: #333;
+  transition: color 0.2s ease;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.searchInputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  padding: 12px 10px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  border-radius: 25px;
+}
+
+.closeSearch {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  background-color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .topBar {
+    padding: 0 10px;
+  }
+  .searchInputContainer,
+  .searchGlass {
+    display: none;
+  }
+
+  .iconButton {
+    margin-left: 15px;
+  }
+}
+
+.toggleButtonx {
+  cursor: pointer;
+}
+.userProfilepic {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  overflow: hidden;
+  cursor: pointer;
+  /* margin-left: 6px; */
+}
+.userProfileImage {
+  border-radius: 100px;
+  height: 100%;
+  width: auto;
+  cursor: pointer;
+}
+.iconEmail {
+  display: flex;
+  gap: 5px;
+  border: solid 0.0058vw #c9c8d9;
+  padding: 2px 7px 1px 3px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.emailx {
+  font-family: var(--font-2);
+  font-size: calc(var(--hc-sm) - 2px);
+  color: rgb(136, 136, 136);
+}
+.usernamex {
+  color: rgb(17, 16, 16);
+  font-size: var(--hc-sm);
+  font-family: var(--font-3);
+}
+.emailNmae {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+  .emailNmae {
+    display: none;
+  }
+  .iconEmail {
+    padding: 2px;
+  }
+}
+.profileImg2 {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.profileImgWrapper {
+  height: 100%;
+  width: 100%;
+}

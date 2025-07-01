@@ -1,0 +1,205 @@
+{
+  "paymentMethods": [
+    { 
+      "paymentType": "mpesa",
+      "faqs": [
+        {
+          "question": "How do I deposit using Mpesa?",
+          "answer": "To deposit using Mpesa, select Mpesa as your payment method, enter the amount, and complete the payment."
+        },
+        {
+          "question": "How do agent deposits work?",
+          "answer": "The customer pays through the agent, and the agent then transfers the amount to the customer's account."
+        },
+        {
+          "question": "Why are some payment methods not available in my country?",
+          "answer": "Due to high charges that may be applied to our clients, in some countries we use authorized agents."
+        },
+        {
+          "question": "How long does it take for my deposit to be processed?",
+          "answer": "Deposits are usually processed within 3 hours. However, some payment methods may take up to 24 hours to process."
+        },
+        {
+          "question": "Are there any fees for making a deposit?",
+          "answer": "Our platform does not charge deposit fees, but your payment provider may apply some charges."
+        },
+        {
+          "question": "What do I do if my account balance doesn't reflect within 3 hours?",
+          "answer": "Sometimes account balances may take longer than expected. You can reach out to our agents or contact us through the provided contact details."
+        }
+      ]
+    },
+    {
+      "paymentType": "creditcard",
+      "faqs": [
+        {
+          "question": "How do I deposit using a credit card?",
+          "answer": "Select Credit Card as your payment method, enter your card details, and the amount to complete the transaction."
+        },
+        {
+          "question": "Are credit card deposits secure?",
+          "answer": "Yes, we use secure encryption methods to protect your card details during the transaction."
+        },
+        {
+          "question": "What should I do if my credit card deposit fails?",
+          "answer": "Ensure your card details are correct and your bank has approved online transactions. Contact your bank if the issue persists."
+        },
+        {
+          "question": "How long does it take for credit card deposits to be processed?",
+          "answer": "Credit card deposits are typically processed instantly."
+        },
+        {
+          "question": "Are there any fees for credit card deposits?",
+          "answer": "We do not charge any fees, but your bank may apply additional charges."
+        }
+      ]
+    },
+    {
+      "paymentType": "skrill",
+      "faqs": [
+        {
+          "question": "How do I deposit using Skrill?",
+          "answer": "Select Skrill as your payment method, log in to your Skrill account, and authorize the payment."
+        },
+        {
+          "question": "What are the advantages of using Skrill?",
+          "answer": "Skrill offers fast and secure transactions with minimal fees."
+        },
+        {
+          "question": "How long does it take for Skrill deposits to be processed?",
+          "answer": "Skrill deposits are usually processed instantly."
+        },
+        {
+          "question": "Are there any fees for Skrill deposits?",
+          "answer": "We do not charge any fees for Skrill deposits, but Skrill may apply a small transaction fee."
+        }
+      ]
+    },
+    {
+      "paymentType": "crypto",
+      "faqs": [
+        {
+          "question": "How do I deposit using cryptocurrency?",
+          "answer": "Select Crypto as your payment method, choose your preferred cryptocurrency, and follow the instructions to complete the payment."
+        },
+        {
+          "question": "Which cryptocurrencies are accepted?",
+          "answer": "We accept Bitcoin, Ethereum, and several other major cryptocurrencies."
+        },
+        {
+          "question": "How long does it take for cryptocurrency deposits to be processed?",
+          "answer": "Crypto deposits are typically processed within 1 to 2 confirmations, usually within an hour."
+        },
+        {
+          "question": "Are there any fees for cryptocurrency deposits?",
+          "answer": "We do not charge any fees, but network fees may apply depending on the cryptocurrency."
+        }
+      ]
+    },
+    {
+      "paymentType": "alipay",
+      "faqs": [
+        {
+          "question": "How do I deposit using Alipay?",
+          "answer": "Select Alipay as your payment method, scan the QR code, and complete the payment in your Alipay app."
+        },
+        {
+          "question": "Is Alipay deposit secure?",
+          "answer": "Yes, Alipay transactions are encrypted and secure."
+        },
+        {
+          "question": "How long does it take for Alipay deposits to be processed?",
+          "answer": "Alipay deposits are usually processed instantly."
+        },
+        {
+          "question": "Are there any fees for Alipay deposits?",
+          "answer": "We do not charge any fees for Alipay deposits, but Alipay may apply a small transaction fee."
+        }
+      ]
+    },
+    {
+      "paymentType": "amazonpay",
+      "faqs": [
+        {
+          "question": "How do I deposit using Amazon Pay?",
+          "answer": "Select Amazon Pay as your payment method, log in with your Amazon account, and confirm the payment."
+        },
+        {
+          "question": "Is Amazon Pay secure?",
+          "answer": "Yes, Amazon Pay transactions are highly secure, using advanced encryption."
+        },
+        {
+          "question": "How long does it take for Amazon Pay deposits to be processed?",
+          "answer": "Amazon Pay deposits are usually processed instantly."
+        },
+        {
+          "question": "Are there any fees for Amazon Pay deposits?",
+          "answer": "We do not charge any fees for Amazon Pay deposits, but Amazon may apply a small transaction fee."
+        }
+      ]
+    },
+    {
+      "paymentType": "swish",
+      "faqs": [
+        {
+          "question": "How do I deposit using Swish?",
+          "answer": "Select Swish as your payment method, enter your Swish number, and approve the payment in the Swish app."
+        },
+        {
+          "question": "Is Swish deposit secure?",
+          "answer": "Yes, Swish transactions are secure and encrypted."
+        },
+        {
+          "question": "How long does it take for Swish deposits to be processed?",
+          "answer": "Swish deposits are usually processed instantly."
+        },
+        {
+          "question": "Are there any fees for Swish deposits?",
+          "answer": "We do not charge any fees for Swish deposits, but Swish may apply a small transaction fee."
+        }
+      ]
+    },
+    {
+      "paymentType": "gpay",
+      "faqs": [
+        {
+          "question": "How do I deposit using Google Pay?",
+          "answer": "Select Google Pay as your payment method, choose a linked card or bank account, and confirm the payment."
+        },
+        {
+          "question": "Is Google Pay secure?",
+          "answer": "Yes, Google Pay uses tokenization and encryption for secure transactions."
+        },
+        {
+          "question": "How long does it take for Google Pay deposits to be processed?",
+          "answer": "Google Pay deposits are usually processed instantly."
+        },
+        {
+          "question": "Are there any fees for Google Pay deposits?",
+          "answer": "We do not charge any fees for Google Pay deposits, but your bank or card provider may apply charges."
+        }
+      ]
+    },
+    {
+      "paymentType": "applepay",
+      "faqs": [
+        {
+          "question": "How do I deposit using Apple Pay?",
+          "answer": "Select Apple Pay as your payment method, authenticate with Face ID or Touch ID, and confirm the payment."
+        },
+        {
+          "question": "Is Apple Pay secure?",
+          "answer": "Yes, Apple Pay uses device-specific numbers and unique transaction codes for secure payments."
+        },
+        {
+          "question": "How long does it take for Apple Pay deposits to be processed?",
+          "answer": "Apple Pay deposits are usually processed instantly."
+        },
+        {
+          "question": "Are there any fees for Apple Pay deposits?",
+          "answer": "We do not charge any fees for Apple Pay deposits, but your card provider may apply charges."
+        }
+      ]
+    }
+  ]
+}

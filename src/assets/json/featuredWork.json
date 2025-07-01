@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Promokings",
+    "caseNumber": "01",
+    "services": "Mobile App design and Development",
+    "year": "2025",
+    "link": "/project#promokings",
+    "image": "/images/works/promokings/promokings.webp",
+    "imageClass": "",
+    "extraClass": "",
+    "showcase":true
+  },
+  {
+    "title": "Zephir Wear",
+    "caseNumber": "02",
+    "services": "Web design and Development",
+    "year": "2025",
+    "link": "/project#zephir",
+    "image": "/images/works/zephir/0_iPhone Stone Hands Mockup DKgoodart.psd_10-low.webp",
+    "imageClass": "",
+    "extraClass": "",
+     "showcase":true
+  },
+  
+  {
+    "title": "Hypercritical studio",
+    "caseNumber": "03",
+    "services": "motion design and development",
+    "year": "2023",
+    "link": "/project#hypercritical",
+    "image": "/images/works/hypercritical/HYpercritical-homedesign-1.webp",
+    "imageClass": "feature-image-3",
+    "extraClass": "feature-expla-3",
+     "showcase":true
+  },{
+    "title": "Lumina Skin",
+    "caseNumber": "04",
+    "services": "production design and costuming",
+    "year": "2020",
+    "link": "/project#lumina",
+    "image": "/images/works/lumina/lumina-cover.webp",
+    "imageClass": "feature-image-2",
+    "extraClass": "feature-expla-2",
+     "showcase":false
+  }
+]
