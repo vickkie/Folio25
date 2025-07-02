@@ -1,7 +1,8 @@
+// Preloader.js
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-const sliceColors = ["#111", "#111", "#111", "#111"];
+const sliceColors = ["var(--primary)", "var(--primary)", "var(--primary)", "var(--primary)"];
 
 const Preloader = ({ done }) => {
   const [isVisible, setIsVisible] = useState(true);
@@ -21,11 +22,16 @@ const Preloader = ({ done }) => {
       animate={{ y: done ? "-100%" : 0 }}
       transition={{ duration: 1, ease: "easeInOut" }}
       style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
         width: "100%",
+        height: "100vh",
         display: "flex",
         flexDirection: "row-reverse",
-        backgroundColor: "transparent",
+        backgroundColor: "var(--background, #fff)",
         overflow: "hidden",
+        zIndex: 9999,
       }}
     >
       {sliceColors.map((color, i) => (
@@ -39,10 +45,10 @@ const Preloader = ({ done }) => {
           }}
           style={{
             flex: 1,
-            backgroundColor: "var(--primary)",
+            backgroundColor: color,
             margin: 1,
             borderRadius: 16,
-            height: "100vh", // make it tall
+            height: "100vh",
           }}
         />
       ))}
