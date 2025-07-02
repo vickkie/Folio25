@@ -11,10 +11,21 @@ const Preloader = ({ done, logoSrc }) => {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
+    // Disable scroll
+    document.body.style.overflow = "hidden";
+
     if (done) {
-      const timeout = setTimeout(() => setIsVisible(false), 1000);
+      const timeout = setTimeout(() => {
+        setIsVisible(false);
+        document.body.style.overflow = ""; // Re-enable scroll
+      }, 1000);
       return () => clearTimeout(timeout);
     }
+
+    // Cleanup just in case
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [done]);
 
   if (!isVisible) return null;

@@ -35,7 +35,7 @@ function App() {
     const t = setTimeout(() => {
       setPreloadDone(true);
       document.body.style.overflow = "auto";
-    }, 2500);
+    }, 1400);
     return () => {
       clearTimeout(t);
       document.body.style.overflow = "auto";

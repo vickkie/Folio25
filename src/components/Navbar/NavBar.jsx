@@ -55,11 +55,12 @@ const NavBar = React.forwardRef((props, ref) => {
   return (
     <>
       <nav className="navbar">
-        <div
+        <a
           style={{ position: "relative", textAlign: "center", cursor: "pointer" }}
           onClick={() => {
             navigate("/");
           }}
+          href="/"
         >
           <img
             src="/svg/vickkie.svg"
@@ -78,7 +79,7 @@ const NavBar = React.forwardRef((props, ref) => {
           >
             Vickkie
           </h1>
-        </div>
+        </a>
 
         {deviceWidth > 867 && (
           <>
