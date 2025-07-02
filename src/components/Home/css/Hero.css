@@ -278,7 +278,7 @@ button {
   height: max-content;
 }
 .top-h2 {
-  font-size: calc(12.10938vw + 15px);
+  font-size: calc(12.10938vw + 12px);
   line-height: 1;
   letter-spacing: -0.8px;
 }
@@ -349,4 +349,30 @@ button {
   .totalTop {
     gap: 1rem;
   }
+}
+
+.d-flex {
+  display: flex;
+}
+.align-bottom {
+  align-items: end;
+}
+.align-center {
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .visual-me {
+    margin-bottom: 1rem;
+    margin-left: 0.5rem !important;
+  }
+  .blob {
+    filter: blur(198px);
+    height: 20vw;
+  }
+}
+.visual-me {
+  height: calc(var(--hc-xxxl) * 1.4);
+  margin-left: 2rem;
+  margin-right: 1rem;
 }

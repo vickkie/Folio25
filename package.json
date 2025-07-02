@@ -29,7 +29,7 @@
     "firebase": "^10.14.1",
     "formik": "^2.4.6",
     "framer-motion": "^12.23.0",
-    "gsap": "^3.12.5",
+    "gsap": "^3.13.0",
     "intl-tel-input": "^24.5.0",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.440.0",

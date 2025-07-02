@@ -1,7 +1,8 @@
 import React from "react";
 import "../Home/css/Hero.css";
-import AvatarSection from "./Fragments/Avatar";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
+import SvgIcon from "./Fragments/Svg";
 
 const Hero = () => {
   const navigate = useNavigate();
@@ -12,12 +13,16 @@ const Hero = () => {
         <div className="leftGrid">
           <div className="leftGridInner flexhero c-title">
             <div className="c-title">
-              <div className="totalTop">
+              <div className="totalTop margin-20">
                 <div className="top-creative">
                   <span className="top-h2">Creative</span>
                 </div>
                 <div className="bottom-creative">
-                  <span className="top-h2 sluntcode margin-20">Visual</span>
+                  <span className="top-h2 sluntcode  d-flex align-center">
+                    {" "}
+                    <SvgIcon />
+                  </span>
+
                   <span className="top-h2 mt-12">Developer</span>
                 </div>
               </div>
