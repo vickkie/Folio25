@@ -102,7 +102,7 @@ const Footer = () => {
         ])}
 
         {renderSectionContent("resources", [
-          { label: "Insights", link: "/insights" },
+          { label: "Blogs", link: "/insights" },
           { label: "Cookie policy", link: "/cookies" },
           { label: "Privacy policy", link: "/privacy" },
         ])}
