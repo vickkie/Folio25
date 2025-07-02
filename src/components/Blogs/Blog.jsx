@@ -4,7 +4,6 @@ import NavBar from "../Navbar/NavBar";
 import Footer from "../Footer/Footer";
 import BlogListing from "./BlogListing";
 import Menu from "../Menu/Menu";
-import Prefooter from "../About/Prefooter";
 
 export default function Blog() {
   useEffect(() => {
@@ -28,7 +27,6 @@ export default function Blog() {
       <NavBar />
       <Menu />
       <BlogListing />
-      <Prefooter background="var(--lightteal)" color="var(--black)" />
       <Footer />
     </div>
   );
