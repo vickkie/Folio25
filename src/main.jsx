@@ -6,8 +6,9 @@ import ClarityStats from "./components/ClarityStats";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Router>
+  // <Router>
+  <>
     <ClarityStats />
     <App />
-  </Router>
+  </>
 );

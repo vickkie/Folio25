@@ -138,6 +138,14 @@ body {
   font-family: var(--font-1);
   transition: 0.3s;
 }
+body,
+html {
+  overflow: hidden;
+}
+
+.preloader {
+  will-change: transform;
+}
 
 button {
   background-color: var(--primary);
