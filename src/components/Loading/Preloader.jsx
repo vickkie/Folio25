@@ -29,7 +29,7 @@ const Preloader = ({ done }) => {
         height: "100vh",
         display: "flex",
         flexDirection: "row-reverse",
-        backgroundColor: "var(--background, #fff)",
+        backgroundColor: "transparent",
         overflow: "hidden",
         zIndex: 9999,
       }}
