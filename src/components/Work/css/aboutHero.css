@@ -1,0 +1,69 @@
+.aboutHero {
+  min-height: 30vh;
+  margin-top: 9.324vw;
+  padding-inline: 1.5rem;
+  padding-bottom: 4.688vw;
+}
+.aboutheroinner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 3rem;
+}
+.aboutRight {
+  grid-area: aboutRight;
+}
+.worksHero {
+  font-size: 11.453vw;
+  line-height: 11.453vw;
+}
+.aboutLeft {
+  font-family: var(--font-1);
+  max-width: 500px;
+  grid-area: aboutLeft;
+}
+.belowAbouthero {
+  display: grid;
+  row-gap: 1rem;
+  margin-inline: 1.5rem;
+  border-top: solid 0.0058vw var(--dblack);
+  grid-template-areas: "tppl tppl tppl" "tpcn tpcn tpcn" "tpbl tpbl tpbl";
+}
+.inlineTxt::before {
+  display: table-cell;
+  width: 2.25ch;
+  box-sizing: border-box;
+  padding-inline-end: 0.75ch;
+  content: "•";
+}
+.inlineTxt {
+  padding: 1rem 0;
+}
+.tppl {
+  grid-area: tppl;
+  height: 10px;
+  border-right: solid 0.0058vw;
+  border-left: solid 0.0058vw var(--dblack);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.worksline {
+  height: 10px;
+  border-right: solid 0.0058vw;
+}
+.tpcn {
+  grid-area: tpcn;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.tpbl {
+  grid-area: tpbl;
+}
+.arrangeTabs {
+  justify-content: flex-end;
+}
+.belowRightHero {
+  justify-content: end;
+  display: flex;
+}

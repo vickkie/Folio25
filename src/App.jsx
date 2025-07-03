@@ -25,6 +25,7 @@ const Privacy = lazy(() => import("./components/Extras/Privacy"));
 const NotFound = lazy(() => import("./components/Extras/404"));
 const Dashboard = lazy(() => import("./components/Dashboard/Dashboard"));
 const Profile = lazy(() => import("./components/Dashboard/Components/Profile/Profile"));
+const Work = lazy(() => import("./components/Work/Work"));
 
 function App() {
   const [preloadDone, setPreloadDone] = useState(false);
@@ -70,6 +71,8 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/work" element={<Work />} />
+                <Route path="/projects" element={<Work />} />
                 <Route path="/logout" element={<Logout />} />
                 <Route path="/insights" element={<Blogs />} />
                 <Route path="/insights/:id" element={<BlogPost />} />

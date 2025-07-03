@@ -4,7 +4,7 @@ import "./css/blogpost.css";
 import NavBar from '../Navbar/NavBar';
 import Menu from '../Menu/Menu';
 import Footer from '../Footer/Footer';
-import Prefooter from '../About/Prefooter';
+
 import Lenis from '@studio-freight/lenis';
 
 type SectionType = {
@@ -101,7 +101,6 @@ export default function BlogPost() {
       <div className="readMore">
          <Link to={`/insights`} className="blog-card-link">Read more</Link>
       </div>
-      <Prefooter background="var(--primary)" color="var(--white)" />
       <Footer />
     </>
   );

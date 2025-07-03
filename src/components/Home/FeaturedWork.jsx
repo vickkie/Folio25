@@ -28,6 +28,7 @@ export const FeaturedWork = () => {
       const fadeBlack = "rgb(255, 255, 255)";
       const fadeMain = "rgb(20, 207, 147)";
       const fadeWhite = "rgb(0, 0, 0)";
+      console.log("reaced here");
 
       const tl = gsap.timeline({ paused: true });
 

@@ -28,6 +28,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "d";
+  src: url("/fonts/d.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
   --hero-font: 8vw;
@@ -115,6 +121,7 @@
   --font-2: "Gilroy-SemiBold", var(--font-3);
   --font-3: "Gilroy-SemiBold";
   --font-4: "Mazius-Extraitalic";
+  --font-5: "d";
 
   /* sizes */
 
@@ -137,10 +144,6 @@ body {
   color: var(--dblack);
   font-family: var(--font-1);
   transition: 0.3s;
-}
-body,
-html {
-  overflow: hidden;
 }
 
 .preloader {

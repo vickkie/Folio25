@@ -1,14 +1,12 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import NavBar from "../Navbar/NavBar";
 import Footer from "../Footer/Footer";
-import Numbers from "./Numbers";
 import Styles from "./css/about.module.css";
-
+import Hero from "./Hero";
 import Lenis from "@studio-freight/lenis";
 
-import Story from "./Story";
-
 import Menu from "../Menu/Menu";
+import WorksGrid from "./WorksGrid";
 import { FooterCTA } from "../Home/FooterCTA";
 
 const About = () => {
@@ -34,9 +32,10 @@ const About = () => {
     <>
       <NavBar />
       <Menu />
-      <Story />
-      <Numbers />
+      <Hero />
+      <WorksGrid />
       <FooterCTA></FooterCTA>
+
       <Footer />
     </>
   );

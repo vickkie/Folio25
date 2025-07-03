@@ -119,31 +119,31 @@ export const BelowHero = () => {
 
                 <div className="work-areas-spans">
                   <span data-cursor="-medium -opaque" className="stick-fill" data-cursor-stick>
-                    FRONTEND DEVELOPMENT
+                    Frontend Development
                   </span>
                   <span data-cursor="-medium -exclusion" data-magnetic>
-                    UX/UI design
+                    UX/UI Design
                   </span>
                   <span data-cursor="-medium -opaque" className="stick-fill" data-cursor-stick>
                     Branding
                   </span>
                   <span data-cursor="-medium -exclusion" className="magnetic">
-                    Backend
+                    Backend Development
                   </span>
                   <span data-cursor="-medium -opaque" className="stick-fill" data-cursor-stick>
-                    WEB MAINTAINANCE
+                    Web Maintenance
                   </span>
                   <span data-cursor="-medium -exclusion" data-magnetic>
-                    Mobile apps
+                    Mobile Apps
                   </span>
                   <span data-cursor="-medium -opaque" className="stick-fill" data-cursor-stick>
-                    E-commerce web
+                    E-commerce Websites
                   </span>
                   <span data-cursor="-medium -exclusion" data-magnetic>
-                    WEB REBRANDING
+                    Web Animation
                   </span>
                   <span data-cursor="-medium -opaque" className="stick-fill" data-cursor-stick>
-                    IT consultancy
+                    IT Consultancy
                   </span>
                 </div>
               </div>
