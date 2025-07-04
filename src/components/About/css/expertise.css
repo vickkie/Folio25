@@ -1,0 +1,79 @@
+/* .expertiseRight {
+  display: grid;
+  grid-template-areas: "design development" "skills misc" "tools tools";
+} */
+.expertiseRight {
+  display: grid;
+  grid-template-areas:
+    "development design"
+    "frameworks misc"
+    "tools tools";
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.section {
+  background: #f9f9f9;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.design {
+  grid-area: design;
+}
+
+.development {
+  grid-area: development;
+}
+.frameworks {
+  grid-area: frameworks;
+}
+
+.misc {
+  grid-area: misc;
+}
+
+.tools {
+  grid-area: tools;
+}
+.expertiseRight li {
+  font-family: var(--font-5);
+  font-weight: 600;
+}
+.secHead {
+  display: flex;
+  height: 1rem;
+  gap: 10px;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+.secHead svg {
+  height: 1rem;
+}
+.expertiseRight ul {
+  padding-left: 1rem;
+}
+.experienceWhere {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.experienceTop {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: solid 0.0058vw var(--dblack);
+}
+@media screen and (max-width: 767px) {
+  .expertiseRight {
+    display: grid;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+    margin-left: -1rem;
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

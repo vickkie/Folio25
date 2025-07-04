@@ -96,7 +96,7 @@ const Footer = () => {
         </div>
         {renderSectionContent("forlio map", [
           { label: "About Me", link: "/about" },
-          { label: "Works", link: "/services" },
+          { label: "Works", link: "/work" },
           { label: "Contact", link: "/contact" },
           { label: "Login", link: "/login" },
         ])}

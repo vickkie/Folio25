@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="aboutHero">
         <div className="aboutheroinner">
           <div className="aboutRight">
-            <span className="worksHero">WORKS</span>
+            <span className="worksHero">ABOUT ME</span>
           </div>
           <div className="aboutLeft">
             <div className="aboutLeftExpla"></div>

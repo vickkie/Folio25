@@ -13,7 +13,6 @@
   grid-template-columns: 1fr 2fr;
   padding: 30px;
   margin: 1.3rem;
-  background: var(--white);
   border-radius: 1.2rem;
 }
 .NumbersWrapper {
@@ -33,12 +32,13 @@
 .aboutHeader {
   font-size: var(--hc-xl);
   margin-bottom: 1rem;
-  color: var(--black);
+  color: var(--dblack);
   font-family: var(--font-1);
+  letter-spacing: -3px;
 }
 .aboutExpla {
   padding: 2rem;
-  color: #333;
+  color: var(--dblack);
 }
 
 .HeroText {
@@ -64,13 +64,6 @@
     padding: 3rem 11rem 2rem !important;
   }
 }
-.th {
-  padding: 3rem 2rem 2rem;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  background: url(/images/story-bg.png);
-}
 
 @media (min-width: 768px) and (orientation: landscape) {
   .th {
@@ -87,7 +80,7 @@
 
 .numbersRow {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 @media (min-width: 1024px), (min-width: 768px) and (orientation: portrait) {
@@ -175,7 +168,5 @@
 .storyText {
   margin-top: 1rem;
   line-height: 1.8;
-  text-transform: uppercase;
-  font-size: var(--hc-base);
-  font-family: var(--font-5);
+  font-family: var(--font-1);
 }

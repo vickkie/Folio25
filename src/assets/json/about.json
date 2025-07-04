@@ -1,17 +1,76 @@
 [
   {
     "story": {
-      "title": "Our Story",
+      "title": "ABOUT",
       "type": "text",
-      "content": "Founded on a strong foundation of expertise and experience, our company is a dynamic force in both  trading and venture capital investments. Our journey began in 2017, when a team of seasoned  traders and investors came together from working under other developed companies with a shared vision: to master the complexities of the markets and deliver consistent, profitable results. Over the years, we expanded our expertise, moving beyond trading to support innovative startups and emerging businesses. By blending trading precision with entrepreneurial vision, we’ve created a unique approach to building wealth and driving growth."
-    }
+      "content": "I'm a multi-skilled creative dev blending code, design, and strategy across web and mobile.\nI've collaborated on projects spanning Kenya, the US, and the UK, helping startups and brands launch dope stuff that works and looks good. Whether it’s front-end systems, backend logic, or user journeys — I get it done.\n\nWith more than six years experience from starting building static websites to fully functional front-end,backend systems and mobile apps, am always happy to adapt new range of styles. Web development and user experience is my favourite part of the journey.\n\nAlways leveling up and ready ; but always open to new opportunities and collaborations.."
+  }
   },
   {
-    "mission": {
-      "title": "Our Mission",
+ 
+     
+  "expertise": {
+    "title": "Expertise",
       "type": "text",
-      "content": "At the heart of our mission is a dual commitment: leveraging our extensive market expertise and cutting-edge trading strategies to generate substantial profits for our investors, and fostering innovation through venture capital investments in promising startups. We believe in transparency, integrity, and strict adherence to regulatory standards, providing a safe and trustworthy environment for all our stakeholders. By bridging the worlds of trading and venture capital, we empower investors and entrepreneurs alike to achieve their goals and shape the future."
+    "design": [
+      "Graphic Design",
+      "Branding & Visual Identity",
+      "Visual Design",
+      "Web Design",
+      "UI Design"
+    ],
+    "development": [
+      "Front-end Web Development",
+      "Backend Development",
+      "Webflow Development",
+      "API integration"
+    ],
+    "frameworks":[
+"React","Mongodb","Express","React Native"
+    ],
+    "misc": [
+      "Gsap, Framer motion",
+      "Git",
+      "Webpack , Vite"
+    ],
+    "tools": {
+      "Software and Tech": {
+           "Development": ["HTML", "CSS", "React JS", "Webflow","Python", "PHP"],
+        "Design": ["Adobe Photoshop", "Adobe InDesign", "Figma", "Canva"]
+      }
     }
-  }
+  
+      }
+  },
+  {
+    "experience":{
+       "experiences": [
+  
+    {
+      "role": "Senior developer",
+      "company": "Hypercritical studio, FreeLance",
+      "year": "2023–Present"
+    },
+    {
+      "role": "Junior developer, Internship",
+      "company": "Meru County Revenue Board",
+      "year": "2022"
+    },
+    {
+      "role": "Web developer",
+      "company": "Trakexcel Agency",
+      "year": "2021–2022"
+    },
+    {
+      "role": "Mobile developer",
+      "company": "Bliss technologies",
+      "year": "2020–2022"
+    }
+  ]
+},
+"title":"Experience"
+ 
+}
+
 ]
 

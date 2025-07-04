@@ -19,14 +19,41 @@ const Story = () => {
   const story = data.find((item) => item.story)?.story;
 
   return (
-    <div className={Styles.aboutHero}>
-      {story && (
-        <>
-          <h1 className={Styles.aboutHeader}>{story.title}</h1>
-          <p className={Styles.storyText}>{story.content}</p>
-        </>
-      )}
-    </div>
+    <>
+      <div className="belowAbouthero">
+        <div className="tppl">
+          <div className="worksline"></div>
+          <div className=""></div>
+          <div className=""></div>
+        </div>
+        <div className="tpcn">
+          <div className="belowLeftHero">
+            <span className="inlineTxt">History</span>
+          </div>
+          <div className="belowLeftCenter">
+            <span className="inlineTxt"></span>
+          </div>
+          <div className="belowRightHero">
+            <div className="arrangeTabs">
+              <span className="inlineTxt">2025</span>
+            </div>
+          </div>
+        </div>
+        <div className="tpbl"></div>
+      </div>
+
+      <div className={Styles.aboutHero}>
+        {story && (
+          <>
+            <h3 className={Styles.aboutHeader}>{story.title}</h3>
+            <div
+              dangerouslySetInnerHTML={{ __html: story.content.replace(/\n/g, "<br/>") }}
+              className={Styles.storyText}
+            />
+          </>
+        )}
+      </div>
+    </>
   );
 };
 

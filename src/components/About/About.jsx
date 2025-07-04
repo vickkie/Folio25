@@ -10,6 +10,9 @@ import Story from "./Story";
 
 import Menu from "../Menu/Menu";
 import { FooterCTA } from "../Home/FooterCTA";
+import Hero from "./Hero";
+import WhatIDo from "./WhatIDo";
+import Experience from "./Experience";
 
 const About = () => {
   useEffect(() => {
@@ -34,9 +37,12 @@ const About = () => {
     <>
       <NavBar />
       <Menu />
+      <Hero />
       <Story />
+      <WhatIDo />
+      <Experience />
       <Numbers />
-      <FooterCTA></FooterCTA>
+      <FooterCTA />
       <Footer />
     </>
   );

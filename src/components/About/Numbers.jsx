@@ -9,22 +9,17 @@ export default function Numbers() {
 
         <div className={styles.numbersRow}>
           <div className={styles.numberItem}>
-            <div className={styles.NumbersNumber}>20k +</div>
-            <div className={styles.NumbersExpla}>Platform investors</div>
+            <div className={styles.NumbersNumber}>6+</div>
+            <div className={styles.NumbersExpla}>Experience</div>
           </div>
           <div className={styles.numberItem}>
-            <div className={styles.NumbersNumber}>80% +</div>
-            <div className={styles.NumbersExpla}>Series B or beyond</div>
+            <div className={styles.NumbersNumber}>10+</div>
+            <div className={styles.NumbersExpla}>Production projects</div>
           </div>
 
           <div className={styles.numberItem}>
-            <div className={styles.NumbersNumber}>7+</div>
+            <div className={styles.NumbersNumber}>3</div>
             <div className={styles.NumbersExpla}>Juridictions</div>
-          </div>
-
-          <div className={styles.numberItem}>
-            <div className={styles.NumbersNumber}>24/7</div>
-            <div className={styles.NumbersExpla}>Customer support</div>
           </div>
         </div>
       </div>

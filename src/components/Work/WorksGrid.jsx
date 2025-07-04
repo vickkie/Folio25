@@ -31,30 +31,53 @@ const WorksGrid = () => {
   }, [visible, data.length]);
 
   return (
-    <div className="works-container">
-      <div className="grid">
-        {data.slice(0, visible).map((work) => (
-          <div className="work-card" key={work.id}>
-            <div className="yearmade">{work?.year}</div>
-            <div className="work-tile" style={{ backgroundImage: `url(${encodeURI(work?.showoffImage)})` }}></div>
-
-            <div className="explaWorkx">
-              <div className="work-title">{work?.title}</div>
-              <div className="work-subtitle">{work?.dataContent}</div>
-            </div>
-            <div className="work-tags">
-              {Array.isArray(work.task) &&
-                work.task.map((task, i) => (
-                  <span className="work-tag" key={i}>
-                    {task.trim()}
-                  </span>
-                ))}
+    <>
+      <div className="belowAbouthero">
+        <div className="tppl">
+          <div className="worksline"></div>
+          <div className=""></div>
+          <div className=""></div>
+        </div>
+        <div className="tpcn">
+          <div className="belowLeftHero">
+            <span className="inlineTxt">@2018-25</span>
+          </div>
+          <div className="belowLeftCenter">
+            <span className="inlineTxt">works [{data.length}]</span>
+          </div>
+          <div className="belowRightHero">
+            <div className="arrangeTabs">
+              <span className="inlineTxt">Final</span>
             </div>
           </div>
-        ))}
+        </div>
+        <div className="tpbl"></div>
       </div>
-      <div ref={loadMoreRef} className="load-trigger" />
-    </div>
+      <div className="works-container">
+        <div className="grid">
+          {data.slice(0, visible).map((work) => (
+            <div className="work-card" key={work.id}>
+              <div className="yearmade">{work?.year}</div>
+              <div className="work-tile" style={{ backgroundImage: `url(${encodeURI(work?.showoffImage)})` }}></div>
+
+              <div className="explaWorkx">
+                <div className="work-title">{work?.title}</div>
+                <div className="work-subtitle">{work?.dataContent}</div>
+              </div>
+              <div className="work-tags">
+                {Array.isArray(work.task) &&
+                  work.task.map((task, i) => (
+                    <span className="work-tag" key={i}>
+                      {task.trim()}
+                    </span>
+                  ))}
+              </div>
+            </div>
+          ))}
+        </div>
+        <div ref={loadMoreRef} className="load-trigger" />
+      </div>
+    </>
   );
 };
 
