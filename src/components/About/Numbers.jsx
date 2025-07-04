@@ -19,7 +19,7 @@ export default function Numbers() {
 
           <div className={styles.numberItem}>
             <div className={styles.NumbersNumber}>3</div>
-            <div className={styles.NumbersExpla}>Juridictions</div>
+            <div className={styles.NumbersExpla}>Collaborative countries</div>
           </div>
         </div>
       </div>
