@@ -1,397 +1,390 @@
  [
-    {
-    "id": 1,
-    "title": "Beginner's Guide to Investing",
-    "excerpt": "Discover the basics of investing and how to get started with a strong foundation.",
-    "heroImage": "https://i.postimg.cc/1t9rYwCs/Data-Snap-hero-en-x3.webp",
-        "additionalImages": [
- 
-    ],
-      "content": [
-    {
-      "subheading": "",
-      "text": "Investing might seem tricky at first, but it’s really just like planting a garden. You put in seeds now and see them grow\n\n.Investing can grow over time. Here’s a simple guide seem like for beginners to help you overcome a mountain to getting started on your investment journey."
-    },
-    {
-      "subheading": "What is Investing?",
-      "text": "Investing is putting your money into assets that have the potential to grow in value over time. These assets can include stocks, bonds, real estate, and even your own business. It’s similar to collecting coins or trading cards—you’re putting your money into something you believe will be worth more in the future."
-    },
-    {
-      "subheading": "Why Should You Invest?",
-      "text": "Imagine your money as a worker bee: if it’s just sitting in a bank, it rests and doesn’t grow much. But when you invest, it goes out and works hard for you. Over time, invested money can grow into something much bigger. The earlier you start, the more time your money has to grow."
-    },
-    {
-      "subheading": "Steps to Start Investing",
-      "text": "Investing is a long-term game. Your investments may have ups and downs, but time often helps them grow. Think of it as watching a tree mature—it may take years, but the end result is worth the wait."
-    },
-    {
-      "subheading": "",
-      "text": "Think about what you want to achieve by investing. Are you saving for a house, retirement, or an emergency fund? Knowing your goals helps you choose the right investment options."
-    },
-    {
-      "subheading": "",
-      "text": "To start investing, you’ll need an investment account, which you can set up with a firm or a robo-advisor. This account is your gateway to various investment options.After investing, check on your portfolio regularly. Like tending to a plant, you want to make sure your investments are growing and receiving proper care."
-    },
-    {
-      "subheading": "Conclusion: A Bright Path Ahead",
-      "text": "Starting to invest doesn’t have to be intimidating. With clear goals, solid research, and a little patience, you can grow your wealth over time. So, are you ready to plant your financial seeds and let them grow? Happy investing!."
-    }
-  ],
-    "date": "2019-10-01",
-    "isPopular": true,
-    "isRecommended": false
-  },
-  {
-    "id": 2,
-    "title": "Embracing Change in the Modern Financial Landscape",
-    "excerpt": "Learn why diversification is key to building a resilient investment portfolio.",
-    "heroImage": "https://i.postimg.cc/VvmYhkNr/filters-quality-80-format-webp.webp",
-        "additionalImages": [
-
-    ],
-     "content": [
-    {
-      "subheading": "",
-      "text": "We are living in the age of 'New Money', where wealth creation has transformed from an exclusive, generational affair into a vibrant, accessible, and fast-moving arena. No longer is wealth bound strictly to inheritance or slow-moving industries."
-    },
-    {
-      "subheading": "",
-      "text": " Today, we see tech entrepreneurs, crypto investors, online creators, and small business founders generating significant wealth, often within a decade—or even less. This democratization of financial opportunity has birthed a new money era, changing how we think about work, investment, and economic growth. Here’s a look at what defines this new era, why it’s reshaping the global financial landscape, and how you can be part of it.."
-    },
-    {
-      "subheading": "The Shift: What Defines the New Money Era?",
-      "text": "At its core, the new money era is characterized by rapid wealth creation, a focus on innovative sectors, decentralized access to financial tools, and an openness to risk that would have seemed reckless in past generations. While 'old money' was traditionally amassed through real estate, established stocks, or industrial sectors, new money is often generated through fast-moving industries like technology, entertainment, and decentralized finance (DeFi)."
-    },
-    {
-      "subheading": "Technology as a Catalyst",
-      "text": "Innovations in tech have broken down entry barriers to wealth creation. From accessible trading apps and investment platforms to the rise of cryptocurrencies and blockchain, people now have diverse opportunities to grow wealth without needing vast initial capital."
-    },
-    {
-      "subheading": " Embracing Risk and Innovation",
-      "text": "One of the hallmarks of the new money era is an open attitude toward risk, innovation, and experimentation. A generation raised on rapid technological change is more willing to take financial risks, whether through crypto trading, investing in early-stage startups, or engaging with cutting-edge tech companies."
-    },
-    {
-      "subheading": "",
-      "text": "Many new money investors understand the value of multiple income streams. Beyond traditional employment, they build income through side businesses, dividend-paying stocks, real estate crowdfunding, or royalties. This approach broadens wealth opportunities while helping to buffer market volatility."
-    },
-    {
-      "subheading": "Are you ready?",
-      "text": "As technology continues to evolve and digital markets expand, the barriers to wealth creation will keep lowering. This accessibility allows people from all backgrounds to build financial futures that were previously out of reach. However, with rapid growth comes rapid change, meaning that adaptability will be key to thriving in this new age."
-    },
-    {
-      "subheading": "",
-      "text": "The future of wealth is here, and it’s changing fast. Are you ready to be a part of it?."
-    }
-  ],
-    "date": "2023-08-20",
-    "isPopular": false,
-    "isRecommended": true
-  },
 {
-  "id": 3,
-  "title": "The Future of Sustainable Investing",
-  "excerpt": "The Future of Sustainable Investing",
-  "heroImage": "https://i.postimg.cc/VN0LrhT6/092d01ec902cf8d84066a84550a0bed6.jpg",
-  "additionalImages": [
-
-  ],
+  "id": 1,
+  "title": "Bringing Interfaces to Life with GSAP & Framer Motion",
+  "excerpt": "A modern dev's take on using GSAP and Framer Motion to create slick, performant web animations.",
+  "heroImage": "https://i.postimg.cc/c1rmBnrh/ST4l8x-Ul-AMU9-Bjqhj5-VShya-QPbc.png",
+  "additionalImages": [],
   "content": [
     {
       "subheading": "",
-      "text": "Sustainable investing is like a breath of fresh air in a crowded room. It’s about more than just making money; it’s about making the world a better place while still growing your wealth. As we look towards the future, it’s clear that this approach is becoming more popular and important than ever. But what does that really mean?"
+      "text": "Animations aren't just eye candy—they guide users, build vibes, and make interfaces feel alive. Whether it’s microinteractions, hero reveals, or page transitions, the right animation stack levels up your UX game big time."
     },
     {
-      "subheading": "What Is Sustainable Investing?",
-      "text": "So, what’s the deal with sustainable investing? At its heart, sustainable investing focuses on putting money into companies and projects that have a positive impact on society and the environment. Instead of just looking at profit, these investors consider how businesses affect the planet and the people in it. This can include anything from renewable energy to fair labor practices."
+      "subheading": "Why Animate at All?",
+      "text": "Think of motion as communication. Subtle fades tell users something loaded. A spring-in button suggests interactivity. Motion bridges the gap between action and feedback, making interfaces feel natural and responsive."
     },
     {
-      "subheading": "Growing Interest in Green Investments",
-      "text": "Have you noticed more people talking about climate change and social justice lately? It’s not just a talk—people are ready to act! More investors are turning to sustainable options, which is leading to a boom in green investments. This shift isn’t just a fad; it’s becoming the norm. As younger generations take charge of their finances, they want their money to reflect their values."
+      "subheading": "GSAP: The OG Power Tool",
+      "text": "GSAP (GreenSock Animation Platform) has been around forever and still slaps. It’s incredibly fast, works everywhere, and gives you laser-sharp control over timelines and sequences. You can stagger complex animations, scrub with scroll, or choreograph scenes with surgical precision."
     },
     {
-      "subheading": "The Role of Technology in Sustainable Investing",
-      "text": "Technology is like a supercharged engine for sustainable investing. With tools that help evaluate a company’s impact on the environment, investors can make smarter choices. Apps and platforms are now available to track how investments align with personal values. Imagine being able to see not just how much money you can make, but also how many trees your investments could help plant!"
+      "subheading": "Framer Motion: React-First & Fluid",
+      "text": "If you’re in the React/Next.js ecosystem, Framer Motion is a dream. Built for devs who love declarative code, it makes animating components as easy as dropping `initial`, `animate`, and `exit` props. You also get spring physics, variants, gestures, and layout-aware transitions—right out of the box."
     },
     {
-      "subheading": "Conclusion: A Bright Path Ahead",
-      "text": "The future of sustainable investing is looking bright. With increased interest, supportive regulations, and innovative technology, it’s an exciting time for investors wanting to make a difference. By choosing to invest sustainably, you’re not just building wealth; you’re supporting a healthier planet and a fairer society. Isn’t it thrilling to think that your investments can create a positive impact? The future has a lot in store, and it’s time to be part of the change."
+      "subheading": "When to Use What?",
+      "text": "- 🟢 **GSAP**: Use it when you need timeline choreography, SVG magic, scroll-based scenes, or you're not in a React project.\n- 🟣 **Framer Motion**: Use it for React apps, reusable animations tied to component lifecycle, page transitions in Next.js, or rapid prototyping."
+    },
+    {
+      "subheading": "Hot Take: Combine Them?",
+      "text": "Yeah, you can blend GSAP with React using refs, but it gets messy. Framer Motion handles most UI-level motion smoothly. GSAP dominates when you want to orchestrate complex narrative-like flows or parallax magic."
+    },
+    {
+      "subheading": "Code Vibe Check",
+      "text": "```jsx\n// Framer Motion example\n<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>\n  Fade me in!\n</motion.div>\n\n// GSAP example\nuseEffect(() => {\n  gsap.from(\".hero-title\", { y: 50, opacity: 0, duration: 1.2, ease: \"power4.out\" });\n}, []);\n```"
+    },
+    {
+      "subheading": "Wrap-Up",
+      "text": "Use motion intentionally. Not everything needs to bounce or fade. But the right animation, at the right time, makes your product feel thoughtful and modern. Whether you're team GSAP or Framer Motion—or both—just keep it snappy and slick."
     }
   ],
-  "date": "2023-08-20",
+  "date": "2025-04-27",
+  "isPopular": true,
+  "isRecommended": false
+}
+,
+ {
+  "id": 2,
+  "title": "Beginner’s Guide to Dev Growth: From Noob to Shipping Pro",
+  "excerpt": "Learn how to go from writing console.logs to shipping real-world products.",
+  "heroImage": "https://i.postimg.cc/3N6g4ng6/Full-Stack-Developer-Roadmap-Step-By-Step-Guidance.png",
+  "additionalImages": [],
+  "content": [
+    {
+      "subheading": "",
+      "text": "Becoming a dev isn’t about memorizing syntax — it’s about building stuff, breaking stuff, and learning why it broke. Whether you’re into frontend, backend, or full-stack chaos, this is your boot-up sequence to getting real with code."
+    },
+    {
+      "subheading": "What Even *Is* a Developer?",
+      "text": "A developer is someone who solves problems using code. Simple. Not someone who knows everything — but someone who knows how to Google well and debug under pressure. From HTML to APIs to CI/CD, your toolkit grows with what you build."
+    },
+    {
+      "subheading": "Why Should You Care?",
+      "text": "Dev skills compound. Every project you touch — even the messy ones — adds XP. It's like investing, but instead of stocks, you're investing in skills that make you employable and scalable in any tech economy."
+    },
+    {
+      "subheading": "Steps to Start Leveling Up",
+      "text": "- Build projects (even dumb ones).\n- Push to GitHub.\n- Get comfy with Git.\n- Learn to read docs — and error messages.\n- Ask good questions (StackOverflow-style).\n- Ship, iterate, refactor.\nThat’s the loop."
+    },
+    {
+      "subheading": "",
+      "text": "Start small. Todo app? Weather fetcher? Personal site? Doesn’t matter. Ship it. Break it. Then figure out how to make it not suck."
+    },
+    {
+      "subheading": "",
+      "text": "Once you’re comfy building solo, contribute to open source or collab with other devs. You’ll learn team flow: code reviews, git hygiene, sprint mentality. Real world stuff."
+    },
+    {
+      "subheading": "Conclusion: Trust the Grind",
+      "text": "There’s no shortcut. Just keep building. You’ll go from Googling 'how to center div' to architecting systems. Everyone starts at 0. Just don’t stop pushing commits."
+    }
+  ],
+  "date": "2024-12-24",
   "isPopular": true,
   "isRecommended": true
 }
 ,
 {
-    "id": 4,
-    "title": "Small Investment Ideas",
-    "excerpt": "Small Investment Ideas: How to Invest with Little Money.",
-    "heroImage": "https://i.postimg.cc/PJytnnL6/insight-desktop.png",
-        "additionalImages": [
-
-    ],
-      "content": [
+  "id": 3,
+  "title": "Mastering React Native: From Setup to App Store",
+  "excerpt": "Walkthrough of building a polished React Native app—from initial setup and navigation to performance tweaks and deployment.",
+  "heroImage": "https://i.postimg.cc/vZ92L62k/article-header-i-PEqxy-AV-2cf-Uy-Y.webp",
+  "additionalImages": [],
+  "content": [
     {
       "subheading": "",
-      "text": "While investing has historically been left up to the big guys at big banks managing big money, that’s not the only way to invest today. Investing is accessible to everyone with every size bank account. There are plenty of small investment ideas for as little as $20 or as much as $1000."
+      "text": "Building mobile apps with React Native isn’t just about writing JavaScript—it’s about *bridging web logic with native power*. Whether you’re shipping a side-project or bootstrapping a startup MVP, this guide’s your dev blueprint."
     },
     {
-      "subheading": "Everyone needs to start somewhere",
-      "text": "When it comes to money, “small” means something different to everyone, so I’ll walk you through a few small investment ideas based on your budget. Over time, even small investments can reap big returns. You may be surprised to learn just how easy it is.With the right strategy, starting small can be an advantage rather than a shackle. Read on for how to invest in stocks for beginners with little money."
+      "subheading": "1. Project Setup & Tooling",
+      "text": "Kick things off by installing Node, the React Native CLI (`npm install -g react-native-cli`), and setting up your Android Studio/Xcode emulator. Pro tip: use **Expo** when you're prototyping fast—it removes native build pain but gives you enough hook flexibility for production."
     },
     {
-      "subheading": "A Strategy for Making Small Investments",
-      "text": "Before we dive in, it’s important to know what investing is in the first place and how to get the greatest return on your investments."
+      "subheading": "2. Navigation Matters",
+      "text": "Navigation shape = UX flow. I rate **React Navigation** for most apps: it handles stacks, drawers, tabs, deep links and more. Setup looks like:\n\n```jsx\nimport { NavigationContainer } from '@react-navigation/native';\nimport { createStackNavigator } from '@react-navigation/stack';\n\nconst Stack = createStackNavigator();\n\n<NavigationContainer>\n  <Stack.Navigator>\n    <Stack.Screen name=\"Home\" component={HomeScreen} />\n    <Stack.Screen name=\"Profile\" component={ProfileScreen} />\n  </Stack.Navigator>\n</NavigationContainer>\n```"
     },
     {
-      "subheading": "",
-      "text": "Whether you’re investing with small money or big money, you will follow the same basic investing strategy. The best way to invest $1000, $500, or even $20 is the best way to invest $10,000. Investing is always investing."
+      "subheading": "3. Styling with Flex & Design Systems",
+      "text": "Styling in RN uses Flexbox by default. Build reusable stylesheets or drop in libraries like **Styled Components** or **NativeWind**. Keep spacing consistent, use theme variables, and don’t forget to optimize layouts for multiple screen sizes!"
     },
     {
-      "subheading": "Understand How Small Investments Pay Off in the Long Run",
-      "text": "You’re here, so I’m preaching to the choir, but I can’t stress enough how important it is to just start. It is better to start with small investments and add to them over time than to wait and lose out on great returns as well as the power of compounding interest."
+      "subheading": "4. Native Modules & Performance",
+      "text": "When JS just can’t cut it (animations, heavy math, hardware access), write native modules in Swift/Java or use community ones like **react-native-reanimated**. Always run `Flipper` & use React DevTools to catch performance hitches early."
     },
     {
-      "subheading": "",
-      "text": "Every day you don’t invest you are losing out on compound interest. With compound interest, when your money grows, its growth is also invested. "
+      "subheading": "5. State Management & Data Fetching",
+      "text": "Lightweight state = Context + Hooks. Complex apps? Try **Redux Toolkit**, **Jotai**, or **Zustand**. For server data, **React Query** is clutch: caching, mutating, pagination — mobile UX needs that."
     },
     {
-      "subheading": "",
-      "text": "If you really want to invest, it takes a good amount of due diligence and patience but the long-term payoff is worth it. Warren Buffett started with a small amount of money too, and he turned it into $30 billion. This goes to show that it isn’t about the money you have, it’s about the knowledge you have. "
+      "subheading": "6. Testing & Quality Assurance",
+      "text": "Use **Jest** for unit logic and **React Native Testing Library** for component tests. For end-to-end, I dig **Detox**—simulates real UX flows on simulators to catch bugs before QA."
     },
     {
-      "subheading": "Don't Wait",
-      "text": "You can start forming good habits by taking money out to invest as soon as you receive your paycheck.  "
+      "subheading": "7. Build & App Store Release",
+      "text": "Expo’s EAS handles builds remotely. Otherwise, use Xcode and Gradle to create .ipa / .apk. Keep your App Icons, splash screens, and permissions config polished. Always test builds on real devices before store submission."
     },
     {
-      "subheading": "",
-      "text": "Most often, people end up taking the exact opposite approach, waiting to see how much money they have left over before they invest. However, if you wait to see how much money you have left over before investing it, the number will almost always be a big ‘ol zero.Instead, invest your $20 straight out of your paycheck and watch it work for you. Setting aside money to invest right away, even as little as $20, can become a natural, nearly subconscious act when you do it regularly.  "
+      "subheading": "Wrap-Up: What to Build Next",
+      "text": "Once everything’s wired up, you're set to build features—offline sync, push notifications, animated onboarding, you name it. Frost your React Native cake with tools that matter for your domain: analytics, A/B tests, code-push updates… the sky’s the limit."
     }
   ],
-    "date": "2024-06-30",
-    "isPopular": true,
-    "isRecommended": true
+  "date": "2024-07-06",
+  "isPopular": false,
+  "isRecommended": true
+}
+,{
+  "id": 4,
+  "title": "The Linux Distro Dilemma: Stop Obsessing, Start Building",
+  "excerpt": "Caught in the endless loop of choosing the 'perfect' Linux distro? Here's why it's a trap—and what to focus on instead.",
+  "heroImage": "https://i.postimg.cc/gjH82mgM/what-is-distro-hopping-1.jpg",
+  "additionalImages": [
+    "https://thalskarthmaelstrom.wordpress.com/wp-content/uploads/2012/01/linux_tans_labeled-thumbnail_400.jpg"
+  ],
+  "content": [
+    {
+      "subheading": "",
+      "text": "The Linux world is a wonderland—until its a maze. One minute you’re hyped to switch from Windows/macOS, next you’re four hours deep into Reddit threads arguing Arch vs Fedora vs Pop!_OS."
+    },
+    {
+      "subheading": "Choice Overload: The Productivity Killer",
+      "text": "Paralysis by analysis is real. Every distro claims to be *lightweight*, *customizable*, or *beginner-friendly*. But truth is: you don’t need the 'best'. You need what works **now**."
+    },
+    {
+      "subheading": "The Truth: They're All Just Linux",
+      "text": "99% of Linux distros share the same core: kernel + package manager + desktop environment. Whether it’s Debian-based (like Ubuntu), Arch-based (like Manjaro), or RPM-based (Fedora), it’s still Bash, still systemd, still `sudo apt install xyz` (or its cousin)."
+    },
+    {
+      "subheading": "Dev Goals > Distro Flex",
+      "text": "You’re a dev? Cool. Pick a distro with:\n- ✅ Easy package management (apt, pacman, dnf — all solid)\n- ✅ Good community/docs\n- ✅ Software you actually need (VSCode, Docker, Git, Node, etc)\n- ✅ Stability over ego (rolling release ≠ productivity)"
+    },
+    {
+      "subheading": "The Arch Trap (and Friends)",
+      "text": "Yes, Arch is powerful. But you don’t get extra hacker points for spending weekends fixing your WiFi drivers. Unless you're deep into ricing or OS internals, go for something that just works.\n\nPS: You can *learn Linux* without compiling your own kernel."
+    },
+    {
+      "subheading": "Minimalism ≠ Efficiency",
+      "text": "Don’t fall for the 'I use i3 with no GUI tools' hype unless that workflow *genuinely* boosts your focus. Real efficiency is shipping code, not shaving 300ms off boot time."
+    },
+    {
+      "subheading": "Hot Take: Try → Commit → Tweak Later",
+      "text": "You wanna hop into Linux? Do it. Pick Ubuntu, Linux Mint, or Pop! OS. Build your setup. Code. Break things. Learn. Then once you're comfortable, *then* distro-hop with intention, not confusion."
+    },
+    {
+      "subheading": "Code Vibe Check",
+      "text": "```bash\n# Stop endlessly reinstalling distros\n# Do this instead:\nmkdir ~/projects\nnpx create-react-app my-app\ncd my-app && code .\n# That’s the real Linux glow-up\n```"
+    },
+    {
+      "subheading": "Doomed !",
+      "text": "Choosing a Linux distro is like choosing a starter Pokémon—it’s what you do with it that counts. So stop distro-hopping, start building. Master the terminal, script your workflow, and let your code do the flexing. Personally am i the pitfall. Learn from my failure."
+    }
+  ],
+  "date": "2025-04-15",
+  "isPopular": true,
+  "isRecommended": true
+}
+,
+{
+  "id": 5,
+  "title": "Impostor Syndrome as a Service (ISaaS)",
+  "excerpt": "Am I a dev? Or just really good at googling and pretending to understand webpack?",
+  "heroImage": "https://i.postimg.cc/sg7QjV15/vibecoding.jpg",
+  "additionalImages": ["https://i.postimg.cc/WbQqcDp2/maxresdefault.webp"],
+  "date": "2025-07-04",
+  "isPopular": false,
+  "isRecommended": true,
+  "content": [
+    {
+      "text": "Every time I open VS Code, I whisper to myself, *'Let’s scam them again, boys.'* Not out loud, of course. Out loud I say *'yep just cleaning up some logic here.'*"
+    },
+    {
+      "subheading": "The Stack Overflow Shuffle",
+      "text": "We've all done it. You hit a bug, you copy the error into Google, land on a Stack Overflow post from 2013, and blindly CTRL+C some guy’s answer with 17 upvotes and a warning comment underneath saying 'this causes memory leaks.' You paste it. It works. You don't ask questions. You ship it."
+    },
+    {
+      "subheading": "Daily Rituals of the Impostor Coder",
+      "text": "- Open project. Close it again.\n- Stare at Jira ticket for 12 minutes.\n- Open Stack Overflow.\n- Apologize to ChatGPT because you're about to ask it something truly stupid.\n- Type: *'how to get today’s date in JavaScript'*\n- Re-run the same build that failed 9 times hoping this time it magically works."
+    },
+    {
+      "subheading": "Meetings Are Performance Art",
+      "text": "There’s a special kind of panic when someone says *'Can you walk us through your solution?'* and all you did was mash keys until the red underline went away.\n\nSo you put on your Dev Shakespeare voice: *'Yeah so I refactored the hook to improve modularity and ensure compatibility with the store context…'* (You don’t know what that means. But neither do they.)"
+    },
+    {
+      "subheading": "Symptoms of Dev Impostor Syndrome",
+      "text": "- Googling 'how to write a good commit message' every. single. time.\n- Feeling like your pull request is being judged by ancient gods.\n- Watching a junior ask a question you also don’t know the answer to… and pretending you're 'letting them figure it out on their own'.\n- Accidentally deleting `node_modules`, reinstalling, and it works… now you’re scared to touch anything."
+    },
+    {
+      "subheading": "Coping Mechanisms",
+      "text": "- Give your bugs funny names (I once named a memory leak 'leaky boi').\n- Blame race conditions, async timing, or just the 'React lifecycle'.\n- Add `// TODO: fix this later` and hope you get hit by a reorg before anyone reads it.\n- Pair programming but you’re just there for emotional support."
+    },
+    {
+      "subheading": "It's Not Just You",
+      "text": "Even that senior dev with the 3-monitor battlestation, custom TMUX config, and Dvorak keyboard layout? Yeah. They also don’t fully understand Docker.\n\nTruth is, most of us are just duct-taping abstractions and praying nothing breaks on deploy. The difference between junior and senior often isn’t knowledge—it’s how confidently you can Google and how calm you look while everything is on fire."
+    },
+    {
+      "subheading": "The Dark Side",
+      "text": "Impostor syndrome can get heavy. That constant anxiety that you're one Slack message away from being exposed. The late-night overthinking. The *'do I even belong here?'* spiral.\n\nSo here’s a truth bomb: **if you care enough to doubt yourself, you're probably better than you think.** The real impostors don’t worry—they overpromise and crash prod on Fridays."
+    },
+    {
+      "subheading": "Conclusion",
+      "text": "So yeah, maybe you *are* faking it a little. But guess what? So is everyone else. The difference is you're faking it with empathy, grit, and low-key genius-level creativity.\n\nKeep shipping. Keep googling. Keep lying to Webpack. You’re doing amazing, king/queen 👑💻✨"
+    }
+  ]
+}
+,
+{
+  "id": 6,
+  "title": "The Tailwind vs CSS War: I Just Wanted to Style a Button",
+  "excerpt": "It started with a button. It ended in a war between utility and sanity.",
+  "heroImage": "https://i.postimg.cc/43cr2SLf/tailwind-css-vs-css.jpg",
+  "additionalImages": [],
+  "date": "2023-05-26",
+  "isPopular": true,
+  "isRecommended": false,
+  "content": [
+    {
+      "text": "It was supposed to be simple. One button. One color. One purpose. But then I typed `className=\"bg-blue-500\"`... and all hell broke loose."
+    },
+    {
+      "text": "Suddenly the Slack channel was alive. CSS purists emerged from their dark-mode VS Code caves like ninjas ready for battle. Meanwhile, the Tailwind crowd started spamming screenshots of their terminal with 100% Lighthouse scores and component folders cleaner than my conscience."
+    },
+    {
+      "subheading": "CSS Gang:",
+      "text": "\"Tailwind breaks the separation of concerns! This is inline styles 2.0! I demand BEM, SCSS, and 14 variables to define one color.\""
+    },
+    {
+      "subheading": "Tailwind Cult:",
+      "text": "\"Why write a whole stylesheet when I can just write `mt-6 mb-2 text-gray-700` and go back to touching grass?\""
+    },
+    {
+      "subheading": "Me, Regretting Everything:",
+      "text": "```jsx\n<button className=\"bg-blue-500 text-white px-4 py-2 rounded shadow-md hover:bg-blue-600\">\n  Click me and end this debate\n</button>\n```"
+    },
+    {
+      "text": "And yeah, it worked. Looked 🔥. Shipped instantly. But it also summoned the dev elder gods who asked why the button has 9 class names and no semantic soul."
+    },
+    {
+      "subheading": "Middle Ground? Lol.",
+      "text": "Some tried suggesting hybrid approaches. Like using Tailwind for layout but writing CSS modules for components. That dev is now in therapy. We don’t talk about him."
+    },
+    {
+      "subheading": "Boss Enters the Chat",
+      "text": "“Why does the button still look different on Safari?”\n\nThat’s when everyone stopped fighting and blamed Safari. Like we always do."
+    },
+    {
+      "subheading": "The Real Question",
+      "text": "Why is centering still an unpaid internship task in 2025? And why does Tailwind have *eight different ways* to do it?"
+    },
+    {
+      "subheading": "Conclusion (but not really)",
+      "text": "CSS is a love language. Tailwind is its chaotic cousin that shows up uninvited and builds the entire house. Choose your fighter. But please... stop yelling in the PR comments. Just merge the damn button."
+    }
+  ]
+}
+,
+{
+  "id": 7,
+  "title": "Embracing the Glitch: When a Bug Is a Feature",
+  "excerpt": "Why squash every bug when you can brand it as innovation? Welcome to the future of ‘happy accidents.’",
+  "heroImage": "https://i.postimg.cc/63mn7MKZ/Bug-vs-feature-png.webp",
+  "additionalImages": [],
+  "date": "2025-02-06",
+  "isPopular": false,
+  "isRecommended": true,
+  "content": [
+    {
+      "text": "Imagine shipping a crash‑on‑login, then marketing it as a ‘security lock‑out feature.’ Congratulations—you’ve just turned a show‑stopper into a talking point."
+    },
+    {
+      "subheading": "1. The Art of the Pivot",
+      "text": "When QA finds your app randomly rearranging users’ profiles, don’t panic. Call it “Dynamic UX Personalization” and watch stakeholders nod sagely."
+    },
+    {
+      "subheading": "2. Historical Precedent",
+      "text": "Remember Twitter’s 140‑character limit? What started as SMS‑era constraint became a social media signature. Bugs can be brand identity if you spin them right."
+    },
+    {
+      "subheading": "3. Naming the Glitch",
+      "text": "Every feature needs a catchy name. ‘Ghost Tap™’ sounds cooler than ‘phantom button clicks.’ Congratulations, you just monetized confusion."
+    },
+    {
+      "subheading": "4. Roadmap Rewrites",
+      "text": "Planned “Performance Improvement” sprint? Retitle it “Feature Stability Enhancements” so those random memory leaks become part of the vision."
+    },
+    {
+      "subheading": "5. Customer Delight Through Chaos",
+      "text": "What starts as a bug can become a feature if users find value in the unintended behavior. Users love surprises. That random modal that can’t be closed? It’s an ‘Easter egg.’ That intermittent logout? ‘Encourages healthy breaks.’"
+    },
+    {
+      "subheading": "Code Vibe Check",
+      "text": "```js\n// Feature flag for our “intentional bug”\nif (featureFlags.enableGhostTap) {\n  document.querySelector('button').addEventListener('click', () => {\n    // 50% chance nothing happens\n    if (Math.random() < 0.5) return;\n    actualButtonLogic();\n  });\n}\n```"
+    },
+    {
+      "subheading": "Finally : Bug or Brilliance?",
+      "text": "In a world obsessed with perfection, maybe embracing the occasional glitch is the next frontier. Pitch every anomaly, celebrate every crash, and remember—if you can’t fix it, brand it."
+    }
+  ]
 },
 {
-    "id": 5,
-    "title": "How to Invest During a Pandemic: COVID-19 in the financial Market",
-    "excerpt": "How to Invest During a Pandemic: COVID-19 in the financial Market.",
-    "heroImage": "https://i.postimg.cc/B6xSNKJf/8b1ff0203939281-66a02a4a46b4d.jpg",
-        "additionalImages": [
-     
-    ],
-      "content": [
+  "id": 8,
+  "title": "Mastering UI Design: The Craft Behind Beautiful Interfaces",
+  "excerpt": "UI design isn’t just about looks—it’s a structured process of intention, empathy, and clarity. Let's break down what really goes into designing interfaces that feel just right.",
+  "heroImage": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*WV8Eaffx2JwpDIsFJ5vzZw.jpeg",
+  "additionalImages": ["","","https://i.postimg.cc/fLzkwm09/66fe9631ec04c575339098.jpg" ,"","https://miro.medium.com/v2/resize:fit:720/format:webp/1*WV8Eaffx2JwpDIsFJ5vzZw.jpeg","","https://i.postimg.cc/Gh7fzCQw/0-BHPOn-Ycl-Csv-1k-QS.webp"],
+  "date": "2025-01-04",
+  "isPopular": true,
+  "isRecommended": true,
+  "content": [
     {
-      "subheading": "",
-      "text": "The world has never before seen a pandemic like the one we are experiencing right now. During this time there is extreme uncertainty around both the future of the economy as a whole and personal financial situations, but what if I told you that you could learn how to invest during a pandemic—or any market condition—and thrive?"
+      "text": "User Interface (UI) design is often mistaken for 'just making things look pretty.' But great UI goes far beyond aesthetics—it’s a conversation between the product and the person using it. Mastering UI means understanding function, hierarchy, behavior, accessibility, and how to balance all that with visual clarity."
     },
     {
-      "subheading": "",
-      "text": "I know you all have a lot of questions about how this Coronavirus is going to impact the market. If you aren't sure what to make of the ups and downs of the stock market, and you're even more unsure of where the economy is headed, listen up"
+      "subheading": "The Foundation: Design is Communication",
+      "text": "UI design is fundamentally about **communicating clearly**. Good design answers questions before users ask them. It guides action, reduces friction, and inspires confidence. Fonts, buttons, icons, and spacing aren’t there to be admired—they exist to help people get stuff done without needing a manual."
     },
     {
-      "subheading": "",
-      "text": "From an investing perspective, it’s good news!.With that out of the way, let’s get started."
+      "subheading": "1. Spacing & Layout: The Invisible Grid of Sanity",
+      "text": "Whitespace isn't empty—it's the oxygen of design. Mastering layout means understanding rhythm and consistency. Use an 8pt spacing system. Align components to grids. Respect padding like your life depends on it.\n\nPro tip: When everything looks *almost* good, misaligned by 1px, it’s probably your grid fighting for its life. Fix it before the chaos spreads."
     },
     {
-      "subheading": "How COVID-19 is Impacting the Market?",
-      "text": "There’s no doubt about it, COVID-19 has already wreaked havoc on the world and will continue to do so for a while. It not only affects our health and way of life, but also the economy and the financial market."
+      "subheading": "2. Typography: Speaking With Style (and Hierarchy)",
+      "text": "Fonts speak louder than text. Use font size, weight, and line height to define hierarchy. Don’t use 10 different typefaces—two is usually plenty. Always test on mobile.\n\nOh, and never blindly trust Figma defaults. You’ll end up with 18px body text at 140% line height and wonder why everything feels floaty."
     },
     {
-      "subheading":"",
-      "text": "Experts in investing, business analysts, and everyday investors like you have been talking about a potential stock market crash for a while. The market is cyclical, riding ups and downs, and after years of experiencing growth, a crash seemed imminent."
+      "subheading": "3. Color Systems: More Than Just Pretty Hues",
+      "text": "A proper UI color system includes:\n- **Primary**: Main action color\n- **Secondary**: Supporting elements\n- **Background/Surface**: Layers & depth\n- **Error/Success/Warning**: Feedback signals\n- **Text Colors**: High, medium, and low contrast\n\nBuild with contrast in mind. Accessibility isn’t optional—it’s a legal and moral must. Also: color-blind users exist, so don’t make success = green only."
     },
     {
-      "subheading":"",
-      "text": "The market dropped around 30% initially and has been pretty volatile ever since. What does this mean?. As the pandemic hit, businesses closed and unemployment soared causing fear, which in turn caused a major exit. People sold stock and prices fell across the board. Then, as the government made decisions to help stimulate and bolster the economy, the market rebounded."
+      "subheading": "4. Components: The Lego Bricks of Your UI",
+      "text": "Buttons, cards, modals, inputs… they’re not just styled HTML—they’re tiny systems. Consistent paddings, interactions, states (hover/focus/disabled), and reusability are key.\n\nIf your button requires 6 props and still breaks in dark mode, you might be doing too much."
     },
     {
-      "subheading": "Look for Resilient Sectors",
-      "text": "Some industries tend to perform better than others during a health crisis or lockdowns. These sectors are often “pandemic-proof,” showing strength despite economic turbulence."
+      "subheading": "5. Motion & Interaction: Make It Feel Real",
+      "text": "Good motion reinforces structure. Use animations to hint what’s happening: a modal fading in signals ‘new context.’ A button scaling slightly on tap gives feedback. Avoid overusing fancy transitions—users aren’t there to be wowed, they’re there to complete tasks.\n\nAnd yes, easing matters. ‘Ease-out’ usually feels better than ‘linear.’ Nobody wants UI that animates like a PowerPoint slide from 2003."
     },
     {
-      "subheading": "Long-Term Goals is the way",
-      "text": "The pandemic fast-tracked digital transformation, increasing demand for remote work technology, e-commerce, and cybersecurity. Companies that help people work, shop, and connect online tend to do well in such times"
+      "subheading": "Midway Check-In: Why Am I Still Fixing Padding?",
+      "text": "At this point, you’ve crafted a type scale, defined tokens, set up component variants, and yet… you’ve spent the last hour nudging a dropdown 4px up because it 'feels off.'\n\nWelcome to UI design. Where 90% of your time is tweaking things no user will notice, but your *soul* knows they’re wrong. Trust the force."
     },
     {
-      "subheading": "",
-      "text": "While the pandemic has caused significant market volatility, it has also created unique opportunities for investors willing to take calculated risks. History shows that market downturns can lead to substantial long-term gains for those who invest strategically during such times. By recognizing the potential for recovery, investors can capitalize on undervalued assets and emerging market trends."
+      "subheading": "6. Accessibility: The MVP of Good UI",
+      "text": "Use semantic HTML. Ensure keyboard navigation works. Add ARIA labels. Check contrast ratios. Don’t trap users in modals. \n\nAccessibility is not a checklist—it’s core to usable design. If your interface only works for sighted, mouse-using, neurotypical users… you’ve failed a huge part of your audience."
     },
     {
-      "subheading": "",
-      "text": "While investing in these conditions doesn’t guarantee gains, they provide relative stability during a pandemic and could be more resistant to market downturns."
+      "subheading": "7. Developer Handoff: The Real Boss Fight",
+      "text": "You’ve created a gorgeous, component-based design system. Then handoff happens.\n\nThe dev: 'This hover state isn’t in the spec.'\nYou: 'It was in the prototype.'\nThe dev: 'What prototype?'\n\nSolution? Build a living style guide. Collaborate early. And yes, expect the occasional pixel betrayal. It builds character."
+    },
+    {
+      "subheading": "Code Vibe Check",
+      "text": "```tsx\n// A highly reusable button component\nexport function Button({ children, variant = 'primary' }) {\n  const base = 'inline-flex items-center justify-center px-4 py-2 rounded text-sm font-medium transition';\n  const variants = {\n    primary: 'bg-blue-600 text-white hover:bg-blue-700',\n    secondary: 'bg-gray-200 text-gray-800 hover:bg-gray-300',\n    ghost: 'bg-transparent text-blue-600 hover:bg-blue-50'\n  };\n\n  return <button className={`${base} ${variants[variant]}`}>{children}</button>;\n}\n```"
+    },
+    {
+      "subheading": "Final Thoughts: Design Is Never Done",
+      "text": "UI design is iterative. It’s about balance—between creativity and structure, freedom and systemization. You’ll never get it perfect. But you can make it *feel* right.\n\nSo tweak, test, and obsess over details. Then go outside, touch grass, and come back with fresh eyes. Because even the best UI gets stale without real user feedback and evolution."
     }
-  ],
-    "date": "2020-04-30",
-    "isPopular": true,
-    "isRecommended": true
-},
-{
-    "id": 6,
-    "title": "Increasing Interest Rates for Our Investors",
-    "excerpt": "We Are Increasing Interest Rates for Our Investors: A Commitment to Growth and Stability",
-    "heroImage": "https://i.postimg.cc/8PVSt5YT/65c656b83133a4eaa397836284484018.jpg",
-    "additionalImages": [
+  ]
+}
 
-    ],
-      "content": [
-    {
-      "subheading": "",
-      "text": "In the ever-evolving landscape of finance, the decision to adjust interest rates is never taken lightly. Today, we are excited to announce an increase in interest rates for our valued investors. This strategic move reflects our unwavering commitment to enhancing your investment returns and adapting to changing economic conditions."
-    },
-    {
-      "subheading": "Understanding the Rationale Behind the Increase",
-      "text": "So, what’s the deal with sustainable investing? At its heart, sustainable investing focuses on putting money into companies and projects that have a positive impact on society and the environment. Instead of just looking at profit, these investors consider how businesses affect the planet and the people in it. This can include anything from renewable energy to fair labor practices."
-    },
-    {
-      "subheading": "",
-      "text": "As inflationary pressures and economic growth indicators rise, it becomes crucial for us to ensure that our investment offerings remain competitive and attractive. By increasing interest rates, we aim to align our returns with market conditions, ultimately benefiting our investors"
-    },
-    {
-      "subheading": "",
-      "text": "We understand that investor confidence is paramount. By adjusting our rates upward, we demonstrate our commitment to providing a robust investment environment. This move underscores our belief in the long-term growth potential of our offerings."
-    },
-    {
-      "subheading": "What This Means for You",
-      "text": "As we implement this increase in interest rates, we encourage our investors to reassess their investment strategies. This is an opportune moment to evaluate your portfolio, consider new investment avenues, and align your financial goals with the current economic landscape."
-    },
-    {
-      "subheading": "",
-      "text": "With higher rates, it may be time to consider reallocating assets to take advantage of increased yields. This can include exploring opportunities in fixed income, equities, or alternative investments that benefit from a rising rate environment."
-    },
-    {
-      "subheading": "Conclusion: A Positive Step Forward",
-      "text": "The increase in interest rates represents a significant and positive development for our investors. It reinforces our dedication to creating an environment where your investments can thrive, even amidst changing economic landscapes."
-    },
-    {
-      "subheading": "",
-      "text": "As we move forward, we remain committed to transparency, communication, and supporting your investment journey. Thank you for being a valued member of our investment community. Together, we will navigate the evolving market and seize the opportunities that lie ahead."
-    }
-  ],
-    "date": "2024-03-16",
-    "isPopular": true,
-    "isRecommended": true
-  },
-{
-    "id": 7,
-    "title": "Using What We Invest In",
-    "excerpt": ". Incentive alignment is a big aspect of fund's thesis",
-    "heroImage": "https://i.postimg.cc/ncpyXsQB/dc5j2uj-bd04086d-6a1a-4c61-9911-bd10c79a2e2c-1.png",
-    "additionalImages": [
 
-    ],
-      "content": [
-    {
-      "subheading": "",
-      "text": "Skin in the game and incentive alignment are becoming increasingly important across businesses and institutions. You want governments, politicians, and executives to be held accountable for their actions. You want CEOs who believe in and use their own products, whether it be biotech CEOs taking their vaccines, or car company CEOs driving their cars. You want software companies to use their own software internally. And you want investors who will actually use and believe in their investments."
-    },
-    {
-      "subheading": "",
-      "text":"Conversely, you also want customers who will be able to invest and have stake in the companies and products they use. Incentive alignment is a big aspect of this fund's thesis, in a world where leadership is often not held accountable and systems are opaque. Technology has enabled many aspects of fundraising to be automated and simplified. Having an extended network of investors and LPs that are also users and brand champions is a big net positive for new ventures. It cultivates loyalty and network effects through a community-driven approach. We invest in a variety of companies and projects opening up these capabilities to more people."
-    },
-    {
-      "subheading": "",
-      "text": "Crypto is certainly a big part of this, but we expect general standards of transparency to increase across many different types of institutions and businesses. More data is being open-sourced and the expectation for that transparency and incentive alignment is increasing day to day."
-    },
-    {
-      "subheading": "",
-      "text": "We understand that investor confidence is paramount. By adjusting our rates upward, we demonstrate our commitment to providing a robust investment environment. This move underscores our belief in the long-term growth potential of our offerings."
-    },
-    {
-      "subheading": "What This Means for You",
-      "text": "We are seeing more equity crowdfunding rounds being raised, where companies want a broader audience with skin in the game. Almost every round we participate in now, we see a much wider cap table of smaller investors and angels (often previous founders themselves). Many of them will provide value through their networks and be incentivized to do so. Decentralized Autonomous Organizations (DAOs) are enabling new techniques to bring the opportunity of ownership to more users around the world. We are seeing situations where early users and top contributors of products are given retroactive rewards (1, 2) for their participation in a growing network. It's a very thoughtful approach to meritocratic incentives (i.e. support and contribute to something early, get compensated) and has brought huge amounts of loyalty to projects that have done it right."
-    },
-    {
-      "subheading": "",
-      "text": "With trust at all-time lows across much of society, it's important to align these incentives from the ground up and prioritize transparency along the way. This approach previously would have been cumbersome, time consuming, and costly, but smart contracts will enable and automate this type of structure to be organized simply and on a global scale."
-    },
-    {
-      "subheading": "",
-      "text": "We are currently users in 27 of 32 of our active investments (84%). Most funds cannot say this. As customers, this usage often involves actively deploying significant capital in fintech platforms or crypto protocols, helping increase their AUM and network value. The main things we aren't using are the few SaaS/enterprise investments we have. For these, we've almost always been able to help with business development or hiring in some way. We like to actually get our hands dirty with products and drive growth not just through financing, but active usage and contribution."
-    },
-    {
-      "subheading": "Conclusion: active investmenting",
-      "text": " It not only helps us give useful feedback to founders, but it brings us closer to the team and helps raise our conviction levels for subsequent financing. It's been something that every founder we've talked to greatly appreciates – to have proud investors that are also active users, ambassadors, and community members."
-    }
-   
-  ],
-    "date": "2024-07-26",
-    "isPopular": true,
-    "isRecommended": false
-  },
-{
-    "id": 8,
-    "title": "Memetic Markets: Crypto Fund Update – Q3 2020",
-    "excerpt": "Whatever your perspective on DeFi, it is certainly bringing excitement and speculation into the industry",
-    "heroImage": "https://i.postimg.cc/gcyRWKLV/digital-brain-lorant-zsolt-1.jpg",
-    "additionalImages": [
-"https://i.postimg.cc/dQzdPtBy/btcmine.jpg"
-    ],
-      "content": [
-    {
-      "subheading": "",
-      "text": "As promised, here is our Crypto Fund update, general outlook, new allocations and upcoming project launches. We recently wrote our Q3 2020 update for the Venture Fund, which you can read here: Q3 Update."
-    },
-    {
-      "subheading": "",
-      "text":"Over the last few months, sentiment has shifted in crypto. Whatever your perspective on DeFi, it is certainly bringing excitement and speculation into the industry. Networks are being launched in new ways, liquidity and participation are being bootstrapped, and the massive adoption of decentralized exchanges is fueling the ability for widespread accessibility. Perhaps most importantly in bigger picture terms, the overarching macroeconomic setup almost seems too good to be true."
-    },
-    {
-      "subheading": "",
-      "text": "As we've mentioned in previous updates, we have been accumulating new Bitcoin and Ethereum positions since the 2018 bear market lows, along with adding more positions in the recent March madness asset selloff."
-    },
-    {
-      "subheading": "",
-      "text": "In 2018, the crypto bear market was feeling 'Mandelbrotian' and having fractal qualities. We believe there is a psychological herd-like repetition that seems to occur in these cycles–and especially so in markets like crypto that are less regulated and less tarnished by government manipulation and centralized monetary policy. As Raoul Pal puts it, market cycles in traditional markets used to be quicker and occur more often, but were also more predictable before the current level of central planning existed."
-    },
-    {
-      "subheading": "",
-      "text": "With weighted risk, this thesis allowed us to correctly predict that Bitcoin was bottoming around $3,000-$3,500 in 2018 when selling began to dry up, which represented an ~85% correction off the all-time high. Prior price corrections had eerily similar statistics, which was the part that had Mandelbrot-like aspects."
-    },
-    {
-      "subheading": "",
-      "text": "The 2020 crypto market shares similar aspects but is now moving in the other direction–and now with an undeniable layer of increased memetic and social activity. Memes rule the space and in the current stage of the cycle where retail traders around the world are primarily driving price action and sentiment, having strong memes, narratives, and social signal matters. This even goes for stocks now, where Robinhood retail traders are driving record activity in stocks like Tesla ('number go up?')"
-    },
-    {
-      "subheading": "",
-      "text": "We are currently users in 27 of 32 of our active investments (84%). Most funds cannot say this. As customers, this usage often involves actively deploying significant capital in fintech platforms or crypto protocols, helping increase their AUM and network value. The main things we aren't using are the few SaaS/enterprise investments we have. For these, we've almost always been able to help with business development or hiring in some way. We like to actually get our hands dirty with products and drive growth not just through financing, but active usage and contribution."
-    },
-    {
-      "subheading": "",
-      "text": "In order to capture the most value in early crypto networks, thinking like a retail trader helps in many ways, as the zeitgeist of the entire space is geared towards individual action and empowerment, and democratizing opportunities to more types of investors. Given our background as traders for many years prior to launching this fund, we deeply understand retail traders–but we also don't allow the common euphoria scenarios to cloud sell-side judgement. We are still here for strong, realized returns, whether denominated in BTC, ETH, or USD depending on the situation."
-    },
-    {
-      "subheading": "",
-      "text": "In the DeFi space, we've been fortunate enough to capitalize on a few positions relatively early–although it is still a learning process day to day and obviously higher risk due to rapid iteration. The autonomy of our platform is being mostly proprietary with a core, tight-knit LP base allows us to execute rapidly and make these calls."
-    },
-    {
-      "subheading": "",
-      "text": "At some point in the cycle, we still believe Bitcoin will suck the air (liquidity) out of the room and dominance will eventually flip–but not ultimately until liquidity continues to expand and contract in and out of other crypto assets for months (~9-12?). Once substantial new money enters the space, Bitcoin will begin capturing the broader upside–whether from corporations seeking an inflation hedge for their treasuries or the ever-mystical institutional investors finally entering at large (although some already have indirectly via Grayscale). This type of institutional and corporate capital will primarily enter via Bitcoin due to its deep liquidity, history, and proven antifragility–and not into other coins."
-    },
-    {
-      "subheading": "",
-      "text": "When previous $20,000 Bitcoin highs are finally broken, we believe it's off to the races. After Paul Tudor Jones and others came out as Bitcoin bulls, hedge funds are becoming more comfortable allocating capital towards Bitcoin without feeling like 'the first' (reputational risk). Despite DeFi mania, we still view Bitcoin as being a core bull case that should certainly not be forgotten in a haze, as it often unapologetically takes back control as cycles progress. We simply see many other upside opportunities in the interim, along with potential projects that may have staying power (none of which even compete with Bitcoin's use-case, nor do we want them to)."
-    },
-    {
-      "subheading": "",
-      "text": "We first invested in Ocean Protocol in 2018 and more recently added to our position in April. After initially struggling post-launch due to bear market woes, the team persisted and price is now ~+4,500% off lows as of writing this. We believe there is substantially more upside, new listing potentials, US expansion, and the team is more focused than ever."
-    },
-    {
-      "subheading": "",
-      "text": "Origin Protocol. This project had a successful launch in 2019 and traction continues to grow for their decentralized marketplace. Price is up substantially from the strategic round where we participated in 2018. We are still vesting tokens well into 2021 and continue to monitor progress and development."
-    },
-    {
-      "subheading": "Conclusion: We believe all of this and more",
-      "text": " As previous investments we made continue to launch and show progress, we will be providing more updates and milestones."
-    },
-    {
-      "subheading": "",
-      "text": "We continue to hybridize and evolve our unique dual approach in combining Crypto and Venture investing. We believe VCs should evolve towards these new networks and fundraising mechanisms, learn to manage liquid assets (and learn what an order book is), learn to use decentralized exchanges, participate in transparent open-source networks, and become key stakeholders in protocols, in parallel to investing in traditional equity rounds."
-    }
-   
-  ],
-    "date": "2020-04-22",
-    "isPopular": true,
-    "isRecommended": true
-  }
+
 ]

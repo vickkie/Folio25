@@ -4,8 +4,11 @@ import "./css/blogpost.css";
 import NavBar from '../Navbar/NavBar';
 import Menu from '../Menu/Menu';
 import Footer from '../Footer/Footer';
-
+import ReactMarkdown from 'react-markdown';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Lenis from '@studio-freight/lenis';
+import Loading from '../Loading/Loading';
 
 type SectionType = {
   subheading?: string;
@@ -54,25 +57,44 @@ export default function BlogPost() {
   }, [id]);
 
   if (!blogPost) {
-    return <p>Loading...</p>;
+    //@ts-expect-error
+    return <Loading/>
   }
 
-  const renderContentWithImages = (content: SectionType[], additionalImages: string[]) => {
-    return content.map((section, index) => (
-      <React.Fragment key={index}>
-        {section.subheading && <h2 className="article__subheading">{section.subheading}</h2>}
-        <p>{section.text}</p>
-        {index < additionalImages.length && (
-          <img
-            src={additionalImages[index]}
-            alt={`Additional image ${index + 1}`}
-            className="blog-additional-image"
-          />
-        )}
-      </React.Fragment>
-    ));
-  };
 
+
+  const renderContentWithImages = (content: SectionType[], additionalImages: string[]) => {
+  return content.map((section, index) => (
+    <React.Fragment key={index}>
+      {section.subheading && <h2 className="article__subheading">{section.subheading}</h2>}
+      <ReactMarkdown
+        children={section.text}
+        components={{
+          //@ts-ignore
+          code({ node, inline, className, children, ...props }) {
+            const match = /language-(\w+)/.exec(className || '');
+            return !inline && match ? (
+              <SyntaxHighlighter style={atomDark} language={match[1]} PreTag="pre" {...props}>
+                {String(children).replace(/\n$/, '')}
+              </SyntaxHighlighter>
+            ) : (
+              <code className={className} {...props}>
+                {children}
+              </code>
+            );
+          },
+        }}
+      />
+      {index < additionalImages.length && (
+        <img
+          src={additionalImages[index]}
+          alt=""
+          className="blog-additional-image"
+        />
+      )}
+    </React.Fragment>
+  ));
+};
   return (
     <>
       <NavBar />
@@ -99,7 +121,7 @@ export default function BlogPost() {
         </article>
       </div>
       <div className="readMore">
-         <Link to={`/insights`} className="blog-card-link">Read more</Link>
+         <Link to={`/blogs`} className="blog-card-link">Read more</Link>
       </div>
       <Footer />
     </>

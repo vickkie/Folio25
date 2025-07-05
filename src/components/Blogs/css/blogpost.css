@@ -1,5 +1,6 @@
 .blog-post-container {
   margin: 0 auto;
+
   /* padding: 2rem; */
 }
 .back-link {
@@ -22,12 +23,12 @@
 .blog-post-content {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #444;
+  color: var(--dblack);
 }
 .blog-post-content p {
   margin-bottom: 1.5rem;
   line-height: 1.8;
-  font-family: var(--font-1);
+  font-family: var(--font-5);
 }
 .blog-hero-image {
   width: 100%;
@@ -52,6 +53,7 @@ article {
   padding: min(6.25vw, 120px) 0;
   position: relative;
   z-index: 2;
+  user-select: text;
 }
 @media (min-width: 1060px) {
   .news-1 {
@@ -93,7 +95,9 @@ article {
 }
 .article .article__title {
   color: var(--primary);
-  font-weight: 400;
+  font-family: var(--font-5);
+  font-weight: 600;
+
   line-height: 1.1em;
   margin: 0 auto 2rem;
   max-width: min(62.1875vw, 1194px);
@@ -131,6 +135,8 @@ article {
   font-size: var(--hc-lg);
   padding: 15px 0;
   line-height: 1.4;
+  font-family: var(--font-5);
+  font-weight: 600;
 }
 .readMore {
   min-height: 30vh;

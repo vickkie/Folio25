@@ -29,8 +29,9 @@ export default function BlogListing() {
   return (
     <div className="blog-container">
       <div className="blogHero">
-        <h1 className="blog-title">Insights</h1>
-        <h2 className="blog-subTitle">See patterns that others don't</h2>
+ <h1 className="blog-title">Unfiltered Thoughts</h1>
+<h2 className="blog-subTitle">Where code meets chaos & clarity</h2>
+
       </div>
 
       <div className="blogSorting">
@@ -48,7 +49,7 @@ export default function BlogListing() {
               <h2 className="blog-card-title">{post.title}</h2>
               <p className="blog-card-date">Published on: {new Date(post.date).toLocaleDateString()}</p>
               <p className="blog-card-excerpt">{post.excerpt}</p>
-              <Link to={`/insights/${post.id}`} className="blog-card-link">Learn More</Link>
+              <Link to={`/insights/${post.id}`} className="blog-card-link">Read Story</Link>
             </div>
           </div>
         ))}
