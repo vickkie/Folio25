@@ -178,10 +178,10 @@ const ContactPage = () => {
                     </div>
                     <div className="submitContact">
                       <div className="startButton">
-                        <div className="button-wrapper">
+                        <div className="button-wrapperx">
                           <button type="submit" className="btn-link btn-link-cta -xxl" disabled={isSubmitting}>
-                            <span className="btn-border"></span>
-                            <span className="btn-ripple">
+                            <span className="btn-borderx"></span>
+                            <span className="btn-ripplex">
                               <span></span>
                             </span>
                             <span className="btn-title">

@@ -26,6 +26,7 @@ section {
 }
 .contact-page-form.contact-form input {
   margin-bottom: 5px;
+  border-bottom: solid 0.0058vw var(--dblack);
 }
 .contact-page-form.contact-form textarea {
   height: 110px;
@@ -60,7 +61,8 @@ section {
 }
 
 .contact-page-form input {
-  background: #f9f9f9 none repeat scroll 0 0;
+  border-bottom: solid 0.0058vw var(--dblack);
+  /* background: #f9f9f9 none repeat scroll 0 0; */
   border: 1px solid #f9f9f9;
   margin-bottom: 20px;
   padding: 12px 16px;
@@ -102,11 +104,7 @@ section {
   margin-top: 20px;
   font-size: 16px;
 }
-.single-input-fieldsbtn input[type="submit"]:hover {
-  background: #071c34;
-  transition: all 0.4s ease-in-out 0s;
-  border-color: #071c34;
-}
+
 .single-input-field h4 {
   color: #464646;
   text-transform: capitalize;
@@ -223,7 +221,7 @@ section {
   cursor: pointer;
   font-size: 1rem;
   text-align: center;
-  transition: background-color 0.3s ease;
+  /* transition: background-color 0.3s ease; */
 }
 .emailHeader {
   color: white;

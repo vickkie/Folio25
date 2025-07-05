@@ -93,7 +93,7 @@ h1 {
   grid-template-columns: 45% 55%;
 }
 .loginImage {
-  background-image: url(https://ik.imagekit.io/ae76otrg0/images/abstract1.webp) !important;
+  background-image: url(/images/fond.jpg) !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
