@@ -121,7 +121,7 @@ export default function BlogPost() {
         </article>
       </div>
       <div className="readMore">
-         <Link to={`/blogs`} className="blog-card-link">Read more</Link>
+         <Link to={`/blogs`} className="blog-card-link">Read thoughts</Link>
       </div>
       <Footer />
     </>

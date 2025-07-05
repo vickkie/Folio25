@@ -75,6 +75,7 @@ function App() {
                 <Route path="/projects" element={<Work />} />
                 <Route path="/logout" element={<Logout />} />
                 <Route path="/insights" element={<Blogs />} />
+                <Route path="/blogs" element={<Blogs />} />
                 <Route path="/insights/:id" element={<BlogPost />} />
                 <Route path="/forgot-password" element={<ForgotPassword />} />
                 <Route path="/reset" element={<ResetPassword />} />
