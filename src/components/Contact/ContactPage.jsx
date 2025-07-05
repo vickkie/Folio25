@@ -68,35 +68,7 @@ const ContactPage = () => {
     <section className="contact-page-sec">
       <div className="contact-container">
         {/* Newsletter Subscription Form */}
-        <div className="custom-row contactDetails">
-          <div className="ourNewsLetters">
-            <Formik
-              initialValues={{ email: "" }}
-              validationSchema={subscriptionSchema}
-              onSubmit={() => {
-                handleSubscribe();
-              }}
-            >
-              {({ isSubmitting, errors, touched }) => (
-                <Form className="fieldsHolder">
-                  <div className="emailHolderinner">
-                    <div className="emailHeader">Our newsletter</div>
-                    <Field
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-                      className="emailLetter"
-                      style={{ border: getBorderColor("email", touched, errors) }}
-                    />
-                    <button type="submit" className="emailSubmit" disabled={isSubmitting}>
-                      Subscribe
-                    </button>
-                  </div>
-                </Form>
-              )}
-            </Formik>
-          </div>
-        </div>
+        <div className="custom-row contactDetails"></div>
 
         {/* Contact Form */}
         <div className="custom-row contactForm">

@@ -36,9 +36,11 @@ const Contact = () => {
       <Menu />
 
       <Hero />
-      <div className="contactSubbody">
+      {/* <div className="contactSubbody">
+
         <ContactPage />
-      </div>
+      </div> */}
+      <FooterCTA />
       <Footer />
     </div>
   );
