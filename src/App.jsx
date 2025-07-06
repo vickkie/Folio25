@@ -9,6 +9,7 @@ import { AuthProvider } from "./components/contexts/AuthContext";
 import ProtectedRoutes from "./components/contexts/ProtectedRoutes";
 import Loading from "./components/Loading/Loading";
 import Preloader from "./components/Loading/Preloader";
+import ProjectPage from "./components/Work/projects/ProjectPage";
 
 // Lazy-loaded pages
 const Home = lazy(() => import("./components/Home/Home"));
@@ -72,6 +73,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/work" element={<Work />} />
+                <Route path="/projects/:slug" element={<ProjectPage />} />
                 <Route path="/projects" element={<Work />} />
                 <Route path="/logout" element={<Logout />} />
                 <Route path="/insights" element={<Blogs />} />

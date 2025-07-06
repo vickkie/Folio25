@@ -56,23 +56,25 @@ const WorksGrid = () => {
       <div className="works-container">
         <div className="grid">
           {data.slice(0, visible).map((work) => (
-            <div className="work-card" key={work.id}>
-              <div className="yearmade">{work?.year}</div>
-              <div className="work-tile" style={{ backgroundImage: `url(${encodeURI(work?.showoffImage)})` }}></div>
+            <a href={`projects/${work.id}`}>
+              <div className="work-card" key={work.id}>
+                <div className="yearmade">{work?.year}</div>
+                <div className="work-tile" style={{ backgroundImage: `url(${encodeURI(work?.showoffImage)})` }}></div>
 
-              <div className="explaWorkx">
-                <div className="work-title">{work?.title}</div>
-                <div className="work-subtitle">{work?.dataContent}</div>
+                <div className="explaWorkx">
+                  <div className="work-title">{work?.title}</div>
+                  <div className="work-subtitle">{work?.dataContent}</div>
+                </div>
+                <div className="work-tags">
+                  {Array.isArray(work.task) &&
+                    work.task.map((task, i) => (
+                      <span className="work-tag" key={i}>
+                        {task.trim()}
+                      </span>
+                    ))}
+                </div>
               </div>
-              <div className="work-tags">
-                {Array.isArray(work.task) &&
-                  work.task.map((task, i) => (
-                    <span className="work-tag" key={i}>
-                      {task.trim()}
-                    </span>
-                  ))}
-              </div>
-            </div>
+            </a>
           ))}
         </div>
         <div ref={loadMoreRef} className="load-trigger" />
