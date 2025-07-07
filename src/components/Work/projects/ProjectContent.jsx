@@ -1,7 +1,7 @@
 import React from "react";
 import useGsapMagic from "../../hooks/useGsapMagic";
 
-function ProjectContent({ pageData, nextPage }) {
+function ProjectContent({ pageData, nextPage, nextPageData }) {
   let mediaAttr;
 
   if (window.innerWidth < 768) {
@@ -28,6 +28,11 @@ function ProjectContent({ pageData, nextPage }) {
     zoomSelectors: [".projectImage2-inner img", ".otherImage-inner img"],
   });
 
+  const services = pageData?.task || [];
+
+  const left = services.length < 3 ? services : services.slice(0, Math.ceil(services.length / 2));
+  const right = services.length < 3 ? [] : services.slice(Math.ceil(services.length / 2));
+
   function MediaComponent({ src, type, alt }) {
     return (
       <div className="otherImage">
@@ -42,6 +47,9 @@ function ProjectContent({ pageData, nextPage }) {
         </div>
       </div>
     );
+  }
+  function isVideo(src = "") {
+    return src.match(/\.(mp4|webm|ogg)$/i);
   }
 
   return (
@@ -61,6 +69,7 @@ function ProjectContent({ pageData, nextPage }) {
       </div>
       <section className="projectHeroWrapper">
         <div className="projectHero">
+          <div className="projectYear2">{pageData.year}</div>
           <div className="preview__img">
             {projectPreview.endsWith(".mp4") || projectPreview.endsWith(".webm") ? (
               <>
@@ -92,24 +101,11 @@ function ProjectContent({ pageData, nextPage }) {
         <div className="gradient-me"></div>
       </section>
       <section className="projectDetails">
-        <div className="projectMetadata">
-          <div className="projectclient">
-            <div className="metaDataheader">CLIENT</div>
-            <div className="lowercase">{pageData?.client}</div>
-          </div>
-          <div className="projecttask">
-            <div className="metaDataheader">EXPERTISE</div>
-            <div className="lowercase">{pageData?.task}</div>
-          </div>
-          <div className="projectyear">
-            <div className="metaDataheader">YEAR</div>
-            <div>{pageData.year}</div>
-          </div>
-        </div>
+        <div className="projectMetadata"></div>
         <div className="projectHighlights">
           <div className="highlightRight">
+            <div className="highlight-title">Project Highlights</div>
             <div className="highlight">
-              <div className="highlight-title">Highlights</div>
               <div className="highlight-content">
                 {pageData.highlights.map((highlight, index) => (
                   <div key={index} className="highlight">
@@ -128,9 +124,14 @@ function ProjectContent({ pageData, nextPage }) {
                   <div className="font5 aim-content-inner" dangerouslySetInnerHTML={{ __html: pageData.aim }}></div>
                 </div>
                 <div className="highlightc">
-                  <div>
-                    <a href={pageData.link} className="highlight-linkk" target="_blank" rel="noopener noreferrer">
-                      <div className="highlight-link">Visit</div>
+                  <div className="highlight-link-outer">
+                    <a
+                      href={pageData?.link || ""}
+                      className="highlight-linkk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div className="highlight-link">Visit Website</div>
                       <div>
                         <svg
                           class="new-tab"
@@ -148,8 +149,6 @@ function ProjectContent({ pageData, nextPage }) {
                         </svg>
                       </div>
                     </a>
-
-                    {pageData ? pageData.link && <div className="highlight-link">Visit</div> : ""}
                   </div>
                 </div>
               </div>
@@ -168,19 +167,45 @@ function ProjectContent({ pageData, nextPage }) {
           </div>
         </div>
 
-        <div className="projectImage2">
-          <div className="projectImage2-left">
+        <div className="services-wrapper">
+          {" "}
+          <div className="services-heading highlight-title">Project Services</div>{" "}
+          <div className="services-columns">
+            {" "}
+            <ul className="services-list">
+              {" "}
+              {left.map((item, idx) => (
+                <li key={idx} className="service-item">
+                  {item}
+                </li>
+              ))}{" "}
+            </ul>{" "}
+            {right.length > 0 && (
+              <ul className="services-list">
+                {" "}
+                {right.map((item, idx) => (
+                  <li key={idx} className="service-item">
+                    {item}
+                  </li>
+                ))}{" "}
+              </ul>
+            )}{" "}
+          </div>{" "}
+        </div>
+
+        <div className="projectImage2 ">
+          <div className="projectImage2-left ">
             <div className="projectImage2-inner">
               {media2.endsWith(".mp4") || media2.endsWith(".webm") ? (
                 <video muted={true} loop={true} autoPlay={true} playsInline={true}>
                   <source src={media2} type={media2.endsWith(".mp4") ? "video/mp4" : "video/webm"} />
                 </video>
               ) : (
-                <img src={media2} alt={pageData.title} />
+                <img className="b1rem" src={media2} alt={pageData.title} />
               )}
             </div>
           </div>
-          <div className="projectImage2-right">
+          <div className="projectImage2-right b1rem">
             <div className="projectImage2-inner">
               {media3.endsWith(".mp4") || media3.endsWith(".webm") ? (
                 <video muted={true} loop={true} autoPlay={true} playsInline={true}>
@@ -194,19 +219,11 @@ function ProjectContent({ pageData, nextPage }) {
         </div>
         <div className="projectSolution">
           <div className="solutionLeft">
-            <div>Solution</div>
-          </div>
-          <div className="solutionCenter">
-            {/* Render the dynamic HTML content */}
-            <div className="font5" dangerouslySetInnerHTML={{ __html: pageData.solution }} />
-
-            {/* Render the SVG separately */}
+            <div className="highlight-title">Solution</div>
           </div>
 
           <div className="solutionRight">
-            <div className="deco-svg">
-              <img src="/svg/asterisk-w.svg" alt="" />
-            </div>
+            <div className="font5" dangerouslySetInnerHTML={{ __html: pageData.solution }} />
           </div>
         </div>
         <div className="remainingImages">
@@ -237,38 +254,47 @@ function ProjectContent({ pageData, nextPage }) {
             })}
         </div>
       </section>
-      <section className="thirtyworks">
-        <a
-          href={`/projects/${nextPage}`}
-          onClick={() =>
-            setTimeout(() => {
-              location.reload();
-              document.documentElement.scrollTop = 0;
-            }, 300)
-          }
-          className="thirty-wrapper"
-        >
-          <div className="below-line" style={{ width: "100%" }}>
-            <span></span>
+      <div className="project_next__wrapper">
+        <div className="project_next__inner">
+          {/* CURRENT */}
+          <div className="project_current__img">
+            {isVideo(pageData?.previewImage || pageData?.showoffImage) ? (
+              <video
+                src={pageData?.previewImage || pageData?.showoffImage}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="project-media"
+              />
+            ) : (
+              <div
+                className="project-media"
+                style={{
+                  backgroundImage: `url(${pageData?.previewImage || pageData?.showoffImage})`,
+                }}
+              />
+            )}
+            <div className="project_x__title">
+              <span className="project_x__title-inner">Current</span>
+            </div>
           </div>
-          <div className="top-line" style={{ width: "100%" }}>
-            <span></span>
+
+          {/* NEXT */}
+          <div className="project_next__img">
+            <a href={`/projects/${nextPage}`}>
+              {isVideo(nextPageData) ? (
+                <video src={nextPageData} autoPlay loop muted playsInline className="project-media" />
+              ) : (
+                <div className="project-media" style={{ backgroundImage: `url(${nextPageData})` }} />
+              )}
+              <div className="project_x__title">
+                <span className="project_x__title-inner">Next</span>
+              </div>
+            </a>
           </div>
-          <div className="thirty-left">
-            <svg role="button">
-              <use xlinkHref="/svg/sprite.svg#sharp-arrow"></use>
-            </svg>
-          </div>
-          <div className="thirty-center">
-            Next <span className="gt-italic">Project</span>
-          </div>
-          <div className="thirty-right">
-            <svg role="button">
-              <use xlinkHref="/svg/sprite.svg#sharp-arrow"></use>
-            </svg>
-          </div>
-        </a>
-      </section>
+        </div>
+      </div>
     </>
   );
 }

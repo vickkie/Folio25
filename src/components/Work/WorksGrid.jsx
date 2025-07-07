@@ -56,10 +56,14 @@ const WorksGrid = () => {
       <div className="works-container">
         <div className="grid">
           {data.slice(0, visible).map((work) => (
-            <a href={`projects/${work.id}`}>
+            <a href={`${work.id}`}>
               <div className="work-card" key={work.id}>
                 <div className="yearmade">{work?.year}</div>
-                <div className="work-tile" style={{ backgroundImage: `url(${encodeURI(work?.showoffImage)})` }}></div>
+                <div
+                  className="work-tile"
+                  style={{ backgroundImage: `url(${encodeURI(work?.showoffImage || work?.previewImage)})` }}
+                ></div>
+                {console.log(work?.showoffImage)}
 
                 <div className="explaWorkx">
                   <div className="work-title">{work?.title}</div>

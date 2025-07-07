@@ -68,7 +68,6 @@
     display: grid;
     grid-template-areas:
       "solutionLeft"
-      " solutionCenter"
       " solutionRight" !important;
     grid-template-columns: 1fr !important;
     justify-content: space-between;
@@ -122,6 +121,7 @@
     "gradient";
   grid-template-rows: min-content 1fr;
   /* margin-top: 8vh; */
+  position: relative;
 }
 .projectHero {
   grid-area: content;
@@ -192,6 +192,7 @@
     "projectMetadata projectMetadata"
     "projectHighlights  projectHighlights"
     "projectImage1 projectImage1"
+    "services-wrapper services-wrapper"
     "projectAim projectAim"
     "projectImage2 projectImage2"
     "projectSolution projectSolution"
@@ -201,14 +202,14 @@
 .projectSolution {
   grid-area: projectSolution;
   display: grid;
-  grid-template-columns: 30% 50% 20%;
+  grid-template-columns: 30% 70%;
   min-height: 15.5rem;
   min-height: 15.5rem;
   color: var(--color-bg);
   font-family: var(--font-1);
   text-align: left;
   justify-content: space-between;
-  grid-template-areas: "solutionLeft solutionCenter solutionRight";
+  grid-template-areas: "solutionLeft  solutionRight";
   font-size: var(--hc-md);
   padding: 3rem 0;
 }
@@ -217,6 +218,10 @@
   display: grid;
   grid-area: solutionLeft;
   justify-content: center;
+}
+.solutionRight {
+  font-size: var(--hc-base);
+  line-height: 2;
 }
 
 .projectAbout {
@@ -290,7 +295,7 @@
   -webkit-mask-image: url("/svg/3b.svg");
   mask-size: contain;
   mask-repeat: no-repeat;
-  max-width: 90vw;
+  max-width: 660px;
 }
 .projectImage1 {
   grid-area: projectImage1;
@@ -300,7 +305,7 @@
 }
 .projectImage1-inner img {
   position: relative;
-  max-width: 100vw;
+  /* max-width: 100vw; */
 }
 .projectImage2 {
   column-gap: 1rem;
@@ -315,17 +320,22 @@
   overflow: hidden;
   justify-content: left;
   display: grid;
+  overflow: hidden;
+  border-radius: 1rem;
 }
 .projectImage2-left {
   grid-area: projectImage2-left;
   overflow: hidden;
   justify-content: right;
   display: grid;
+  overflow: hidden;
+  border-radius: 1rem;
 }
 .projectImage2-inner img,
 .projectImage2-inner video {
   max-height: 100svh;
   max-height: 100vh;
+  border-radius: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -344,6 +354,11 @@
   .projectImage1-inner video {
     max-width: calc(100vw - 2rem);
   }
+  .services-wrapper {
+    margin: 2rem 0 !important;
+    grid-template-columns: 1fr !important;
+    grid-template-areas: "services-heading" "services-columns" !important;
+  }
 }
 
 .remainingImages {
@@ -358,6 +373,8 @@
 .otherImage-inner {
   display: grid;
   justify-content: center;
+  border-radius: 2rem;
+  overflow: hidden;
 }
 .otherImage-inner img,
 .otherImage-inner video {
@@ -457,6 +474,8 @@
 .highlight-title {
   font-size: var(--hc-lg);
   font-weight: 900;
+  text-transform: uppercase;
+  font-family: var(--font-5);
 }
 .highlight-content {
   font-size: var(--hc-md);
@@ -464,7 +483,7 @@
 .highlight {
   font-family: var(--font-5);
   border-top: 1px dashed #c1c1c1;
-  /* padding: 0.5rem 0; */
+  padding: 0.5rem 0;
   font-size: var(--hc-base);
 }
 .font5 {
@@ -486,7 +505,8 @@
 }
 .highlight-linkk {
   display: flex;
-  width: 100px;
+  justify-content: center;
+  width: 200px;
   flex-direction: row;
   gap: 10px;
   padding: 0.5rem 1rem;
@@ -497,4 +517,159 @@
 }
 .aim-outer {
   padding: 0.5rem 0;
+}
+.aim-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.b1rem {
+  border-radius: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .projectHighlights {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "highlightLeft "
+      " highlightRight";
+    margin: 0 2.3rem;
+    gap: 4rem;
+    grid-area: projectHighlights;
+  }
+  .projectHeroWrapper {
+    padding: 1.5rem 0.5rem 1rem;
+  }
+}
+.projectYear2 {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  font-size: var(--hc-lg);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: var(--font-5);
+  border-radius: 3rem;
+  background-color: var(--white);
+  color: var(--black);
+  padding: 0.5rem 1rem;
+  z-index: 2;
+  border: solid 0.0058vw var(--dblack);
+}
+
+.services-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "services-heading services-columns";
+  gap: 2rem;
+  padding: 2rem;
+  margin: 2rem 3rem;
+  background: var(--color-bg);
+  flex-wrap: wrap;
+  grid-area: services-wrapper;
+}
+
+.services-heading {
+  grid-area: services-heading;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  flex: 0 0 200px;
+}
+
+.services-columns {
+  grid-area: services-columns;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  min-width: 180px;
+}
+
+.service-item {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--black);
+  border-bottom: 1px dashed var(--dblack);
+  padding-bottom: 0.4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.service-item:hover {
+  color: #1a73e8;
+}
+.project_next__wrapper {
+  height: calc(56.25vw - 78.75px);
+  max-height: calc(100dvh - 180px);
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.project_next__inner {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  padding: 3rem;
+  padding: 3rem;
+}
+.project_current__img,
+.project_next__img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.project_x__title {
+  backdrop-filter: contrast(0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg);
+  border-radius: 1rem;
+  position: absolute;
+  top: 0;
+}
+.project_x__title-inner {
+  font-size: var(--hc-xxl);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: var(--font-3);
+  color: var(--primary);
+}
+.project-media {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+.project_current__img,
+.project_next__img {
+  position: relative;
+  overflow: hidden;
+}
+.project_current__img video,
+.project_next__img video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }

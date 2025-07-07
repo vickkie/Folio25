@@ -37,7 +37,7 @@ const ProjectPage = () => {
   const [currentPageData, setCurrentPageData] = useState(null);
   const [dataState, setDataState] = useState("LOADING");
   const [nextSlug, setNextSlug] = useState(null);
-
+  const [nextPageData, setNextPageData] = useState(null);
   useEffect(() => {
     const page = pagesData.find((p) => p.id === slug);
 
@@ -49,8 +49,10 @@ const ProjectPage = () => {
       const currentIndex = pagesData.findIndex((p) => p.id === slug);
       const nextIndex = (currentIndex + 1) % pagesData.length;
       const nextPage = pagesData[nextIndex];
+      const nextPageData = pagesData[nextIndex];
 
       setNextSlug(nextPage.id);
+      setNextPageData(nextPageData?.previewImage);
     } else {
       setDataState("ERROR");
     }
@@ -66,7 +68,7 @@ const ProjectPage = () => {
         <NavBar />
         <Menu />
         {dataState === "SUCCESS" && currentPageData && (
-          <ProjectContent pageData={currentPageData} nextPage={nextSlug} />
+          <ProjectContent pageData={currentPageData} nextPage={nextSlug} nextPageData={nextPageData} />
         )}
 
         {dataState === "ERROR" && (
