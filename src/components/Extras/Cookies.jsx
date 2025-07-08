@@ -38,9 +38,8 @@ export default function Privacy() {
         </div>
         <div className="policyDetails">
           <div className="policySuperheader">
-            This Cookies Policy ("Cookies Policy") describes cookies and other technologies that TradingView, Inc.
-            ("TradingView", "we", "us" or "our") uses on its website ("Site") and the choices that users have. This
-            Cookies Policy is a part of TradingView’s Privacy Policy.
+            This Cookies Policy ("Cookies Policy") describes cookies and other technologies that I uses on its website
+            ("Site") and the choices that users have. This Cookies Policy is a part of Privacy Policy.
           </div>
           <div className="subSection2">
             When you first visit the Site, you will be asked to consent to the use of cookies in accordance with this
@@ -50,9 +49,7 @@ export default function Privacy() {
           <div className="subSection2midHeader">What is a cookie?</div>
           <div className="subSection2">
             A 'cookie' is a piece of information that is sent to your browser by a website you visit. The Site uses
-            first party cookies (those set by a website that is being visited by the user at the time. For example,
-            cookies via www.tradingview.com) as well as third-party cookies (set by a different domain), as described
-            below.
+            first party cookies (those set by a website that is being visited by the user at the time. )
           </div>
           <div className="subSection2">
             Cookies can be stored on your computer for various periods of time. They can be in a form of either "session
@@ -66,7 +63,7 @@ export default function Privacy() {
             The data collected through cookies may include information about the IP (Internet Protocol) address of your
             device, browser type, language, operating system, the state or country from which you have accessed the
             Site, the date and the time of your visit(s), the number of links you click on this Site, the functions you
-            use, the searches you request, and the data you have saved while on this Site. TradingView may use the
+            use, the searches you request, and the data you have saved while on this Site. This website may use the
             information collected for a variety of necessary, legitimate purposes, including user authentication, user
             interface customization, security, research and analysis to improve the functionality of our Site, and
             advertising (for more information on how we use your data, please read our Privacy Policy).
@@ -107,11 +104,9 @@ export default function Privacy() {
             of a page view, and a description of the page on which the web beacon resides. These beacons do not carry
             any personal data and are only used to track the effectiveness of this Site and to show advertisements based
             on user interests. We use web beacons in connection with Google Analytics and advertising services as well
-            as our Snowplow Tracker. The information generated relating to our Site is used for various necessary and
-            legitimate purposes, including the creation of reports on the use of this site as well as the development,
-            testing, and improvement of services. Google will store information of users’ actions on the TradingView
-            Site and it will be collected by Google services. For more information on Google’s use of data for marketing
-            and analytics purposes
+            as our Google analytics Tracker. The information generated relating to our Site is used for various
+            necessary and legitimate purposes, including the creation of reports on the use of this site as well as the
+            development, testing, and improvement of services.
           </div>
           <div className="subSection2midHeader">Changes</div>
           <div className="subSection2">
