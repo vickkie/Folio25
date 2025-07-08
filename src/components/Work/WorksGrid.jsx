@@ -56,7 +56,7 @@ const WorksGrid = () => {
       <div className="works-container">
         <div className="grid">
           {data.slice(0, visible).map((work) => (
-            <a href={`${work.id}`}>
+            <a href={`/projects/${work.id}`}>
               <div className="work-card" key={work.id}>
                 <div className="yearmade">{work?.year}</div>
                 <div
