@@ -38,7 +38,7 @@ export default function Privacy() {
         </div>
         <div className="policyDetails">
           <div className="policySuperheader">
-            This Cookies Policy ("Cookies Policy") describes cookies and other technologies that I uses on its website
+            This Cookies Policy ("Cookies Policy") describes cookies and other technologies that I use on its website
             ("Site") and the choices that users have. This Cookies Policy is a part of Privacy Policy.
           </div>
           <div className="subSection2">

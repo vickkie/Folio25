@@ -335,13 +335,13 @@ export default function Privacy() {
           <div className="subSection2">
             We use Transport Layer Security (TLS) encryption technology in order to protect certain information that you
             submit to us. This technology protects you from having your information intercepted by anyone while it is
-            being transmitted to TradingView or payment processor. While on a secure page, such as our order form, the
-            "lock" icon in the browser window is displayed, confirming that a secure and encrypted connection has been
-            established with the Website. We work hard to ensure that our Service is secure and that we meet industry
-            standards. We also use other safeguards, such as firewalls, authentication systems (i.e. passwords, and
-            personal identification numbers), and access control mechanisms to control unauthorized access to systems
-            and data. If you have chosen to create an account, you are responsible for doing everything you reasonably
-            can to keep your access details secret. You must not share these details with anyone else.
+            being transmitted to payment processor. While on a secure page, such as our order form, the "lock" icon in
+            the browser window is displayed, confirming that a secure and encrypted connection has been established with
+            the Website. We work hard to ensure that our Service is secure and that we meet industry standards. We also
+            use other safeguards, such as firewalls, authentication systems (i.e. passwords, and personal identification
+            numbers), and access control mechanisms to control unauthorized access to systems and data. If you have
+            chosen to create an account, you are responsible for doing everything you reasonably can to keep your access
+            details secret. You must not share these details with anyone else.
           </div>
 
           <div className="subSection2midHeader">Governing law</div>
