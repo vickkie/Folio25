@@ -15,6 +15,17 @@
   background-color: var(--color-bg);
 }
 @media screen and (max-width: 768px) {
+  .project_next__inner {
+    padding: 1rem 0.5rem !important;
+    flex-direction: column;
+    height: 150px !important;
+  }
+  .project_next__wrapper {
+    height: 150px !important;
+  }
+  .project_current__img {
+    display: none;
+  }
   .right-deco,
   .left-deco {
     display: none;
@@ -652,7 +663,17 @@
   font-weight: 900;
   text-transform: uppercase;
   font-family: var(--font-3);
-  color: var(--primary);
+  color: var(--dblack);
+  background-blend-mode: difference;
+  background: var(--white);
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 14px;
+  line-height: var(--hc-xxl);
+  border: solid 0.0058vw var(--black);
 }
 .project-media {
   width: 100%;
