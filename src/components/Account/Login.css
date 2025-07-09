@@ -93,7 +93,7 @@ h1 {
   grid-template-columns: 45% 55%;
 }
 .loginImage {
-  background-image: url(/images/fond.jpg) !important;
+  background-image: url(https://ik.imagekit.io/ofxz9xm8i/bridge.webp) !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,7 +101,7 @@ h1 {
   position: relative;
 }
 .loginImage2 {
-  background-image: url(https://ik.imagekit.io/ae76otrg0/images/image.avif) !important;
+  background-image: url(/images/fond.jpg) !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
