@@ -12,19 +12,18 @@
         "previewImage": "/images/works/lumina-web/wow-bg.avif",
         "solution": " Throughout our partnership, As the developer responsible for designing Lumina's product branding and website, I addressed these challenges by implementing a comprehensive solution. Through extensive market research and collaboration with Lumina's team, I developed a cohesive brand identity that resonated with the target audience and differentiated Lumina from competitors. This involved creating visually appealing packaging designs that conveyed the premium quality and efficacy of Lumina's skincare products.",
       "dataContent":"Natural products for natural skin.",
-      "highlights":[
-  "Revamped Lumina’s brand identity to boost recognition in a crowded skincare market.",
-  "Crafted a unified digital experience across Lumina's app and web platforms.",
-  "Designed and developed a scalable design system to support evolving product needs.",
-  "Transformed low engagement into high conversion through refined UX strategies.",
-  "Collaborated closely with stakeholders to align digital design with brand values of empathy and self-discovery.",
-  "Created premium packaging that communicates natural ingredients and high efficacy.",
-  "Led art direction to emphasize a clean, emotional, and skin-positive visual style.",
-  "Conducted user research to shape a brand that resonates with modern skincare consumers.",
-  "Delivered mobile-first UI designs optimized for performance and beauty.",
-  "Bridged the gap between branding and tech, from product visuals to interactive user flows."
-]
+  "highlights": [
+    "Revamped Lumina’s brand identity to boost recognition in a crowded skincare market.",
+    "Crafted a unified digital experience across Lumina's app and web platforms.",
+    "Designed and developed a scalable design system to support evolving product needs.",
+    "Transformed low engagement into high conversion through refined UX strategies.",
+    "Created premium packaging that communicates natural ingredients and high efficacy.",
+    "Led art direction to emphasize a clean, emotional, and skin-positive visual style.",
+    "Conducted user research to shape a brand that resonates with modern skincare consumers.",
+    "Bridged the gap between branding and tech, from product visuals to interactive user flows."
+  ]
 ,
+"link":"https://theluminaskincare.com/",
         "title": "Lumina",
         "year": "2018",
         "showoffImage":"/images/works/lumina/lumina-cover.webp",
@@ -57,13 +56,17 @@
     {
         "Analysis": "Crafting a captivating portfolio as a UX/UI designer presented a unique challenge. I needed a platform that not only showcased my design prowess but also effectively communicated my artistic vision and directorial leadership.",
         "aim": "As a programmer and UX/UI designer, I recognized the importance of showcasing my skills and projects effectively to potential clients and employers.<br /><br /> However, creating a portfolio that truly reflected my expertise and creativity posed a significant challenge. I needed a platform that not only highlighted my technical abilities but also conveyed my design sensibilities and problem-solving approach in a compelling manner.",
-        "highlights":[
-            "Enhanced user engagement and streamlined user experience.",
-            "Developed a comprehensive design system for consistency and efficiency.",
-            "Improved onboarding process with custom illustrations.",
-            "Optimized website interface for improved navigation and visual appeal.",
-            "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
-        ],
+        "highlights": [
+    "Built a personal portfolio from scratch to reflect both design and development skills.",
+    "Showcased a curated archive of diverse work across UI, UX, and frontend builds.",
+    "Designed with a user-first mindset to ensure intuitive navigation and strong flow.",
+    "Integrated storytelling elements to communicate problem-solving and creative thinking.",
+    "Developed a responsive, visually compelling interface to elevate personal brand.",
+    "Iterated the layout and content based on peer/user feedback for max clarity and impact.",
+    "Balanced technical depth with artistic direction to appeal to both clients and recruiters.",
+    "Crafted a design system to ensure consistency across case studies and future projects.",
+    "Delivered a polished digital self-portrait that stands out in the creative tech space."
+  ],
         "client": "Personal portfolio",
         "content": "Archive of my works and skills ;)",
         "id": "uzitrake",
@@ -94,13 +97,17 @@
     "content": "Kizik's mission was to transform the footwear industry by introducing innovative technology that simplified the process of wearing shoes. The company aimed to enhance everyday life by eliminating the need for traditional shoe fastenings, such as laces, and replacing them with a more convenient and user-friendly alternative. Kizik's technology represented a significant advancement in footwear design and usability, offering users a seamless and enjoyable experience with every step.",
     "solution": "To bring Kizik's vision to life, we focused on designing and developing a website that effectively communicated the benefits and features of their revolutionary footwear technology. Our solution centered on creating a user-friendly interface that showcased Kizik's products and their unique selling points. We prioritized simplicity and accessibility, ensuring that users could easily navigate the website and explore Kizik's range of shoes. Additionally, we incorporated engaging visual elements and interactive features to captivate visitors and highlight the convenience and comfort of Kizik's footwear. Through iterative design and development, we refined the website to align with Kizik's brand identity and resonate with its target audience, ultimately delivering a seamless and compelling online experience.",
     "Analysis": "Working on Kizik's website was an opportunity to contribute to the transformation of the footwear industry and enhance the lives of users worldwide. By leveraging innovative technology and user-centered design principles, we helped Kizik communicate its mission and showcase its products effectively to a global audience. The project underscored the importance of simplicity, convenience, and joy in everyday experiences, reflecting Kizik's commitment to making every day easier and more enjoyable for everyone.",
-    "highlights":[
-        "Enhanced user engagement and streamlined user experience.",
-        "Developed a comprehensive design system for consistency and efficiency.",
-        "Improved onboarding process with custom illustrations.",
-        "Optimized website interface for improved navigation and visual appeal.",
-        "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
-    ],
+  "highlights": [
+    "Crafted a seamless UX to reflect Kizik’s hands-free, no-laces footwear experience.",
+    "Designed a performance-optimized, visually engaging website for global accessibility.",
+    "Integrated interactive product storytelling to highlight innovation in footwear tech.",
+    "Developed a scalable design system supporting Kizik’s growth and branding goals.",
+    "Enhanced user engagement through intuitive navigation and responsive design.",
+    "Refined the customer journey from landing to checkout with conversion-focused flows.",
+    "Used motion and visual cues to communicate simplicity, comfort, and convenience.",
+    "Ensured accessibility across devices to reach diverse audiences with ease.",
+    "Delivered a bold digital experience that mirrors the ease and joy of Kizik shoes."
+  ],
    
     
     "previewImage": "/images/works/kizik/kizik-banner.webm"
@@ -119,13 +126,17 @@
         
         "previewImage": "/images/works/golfer/DSC00717.webp",
         "solution": "Initial Design Phase:<br><br>Brand Identity and Messaging : The website emphasizes Robin Golf's commitment to providing high-quality golf equipment accessible to a wide range of players. It positions Robin Golf as a brand that combines affordability with performance, appealing to both professionals and beginners<br><br>Visual Appeal and User Experience (UX): The design focuses on creating a visually appealing and intuitive interface. This includes responsive design elements to ensure the website is accessible across various devices, enhancing the overall user experience.<br><br>Development and Optimization <br><br> Headless Architecture: Initially, the website was built with a headless architecture, separating the front-end presentation layer from the back-end content management system (CMS). This approach allows for greater flexibility and scalability but requires careful integration with the CMS for ease of content updates.<br><br>Enhancements and Integrations: To address challenges with content updates and improve the website's effectiveness, Future Holidays refined the headless architecture. They introduced helpful apps and integrated Google Analytics to track user behavior and optimize conversion rates. Additionally, they implemented email capture lightboxes and automated product restock flows to boost sales",
-        "highlights":[
-            "Enhanced user engagement and streamlined user experience.",
-            "Developed a comprehensive design system for consistency and efficiency.",
-            "Improved onboarding process with custom illustrations.",
-            "Optimized website interface for improved navigation and visual appeal.",
-            "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
-        ],
+       "highlights": [
+    "Developed a headless architecture for flexible front-end performance.",
+    "Integrated Google Analytics and behavior tracking to optimize conversions.",
+    "Designed a responsive, device-friendly UI that elevates brand credibility.",
+    "Improved sales funnel through strategic UX, lightboxes, and restock flows.",
+    "Enhanced content update flow by refining CMS integration and tooling.",
+    "Created a visually immersive shopping experience for all player levels.",
+    "Positioned Robin Golf as an accessible-yet-premium brand in the golf market.",
+    "Boosted user engagement through smart UX decisions and data-driven tweaks.",
+    "Delivered a scalable, optimized platform that balances performance and design."
+  ],
         "title": "Robin-golf",
         "year": "2019",
         "link":"https://www.robingolf.com",
@@ -137,13 +148,17 @@
         "aim": "Personalization was a central theme, emphasizing the importance of catering to individual needs and preferences. The integration of the Spoiled Brain AI for personalized product recommendations is a significant feature, demonstrating the use of advanced technology to enhance user engagement and satisfaction",
         "content": "Make your skin age inappropriate. ",
         "Analysis":"Spoiled child skincare product  aims to challenge conventional anti-aging narratives by introducing the term ' age control' and providing products that promise fewer wrinkles and signs of aging by combining cutting-edge technology with a focus on personalization and sustainability.",
-        "highlights":[
-            "Enhanced user engagement and streamlined user experience.",
-            "Developed a comprehensive design system for consistency and efficiency.",
-            "Improved onboarding process with custom illustrations.",
-            "Optimized website interface for improved navigation and visual appeal.",
-            "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
-        ],
+      "highlights": [
+    "Integrated Spoiled Brain AI for smart, personalized product recommendations.",
+    "Designed vibrant, capsule-focused product pages to enhance visual storytelling.",
+    "Built a custom eCommerce experience tailored to the beauty/skincare space.",
+    "Leveraged User-Generated Content (UGC) to boost community and authenticity.",
+    "Crafted a bold, tongue-in-cheek brand identity through UX and visual design.",
+    "Created a detailed content strategy to educate and entertain users simultaneously.",
+    "Prioritized performance and accessibility for a seamless shopping experience.",
+    "Implemented a scalable design system to future-proof the brand’s digital growth.",
+    "Elevated user engagement through thematic consistency and sleek navigation."
+  ],
         "id": "spoiled-child",
         "media": "/images/works/general/3c498d10-387e-412b-87dd-2092ee9e.avif || videos/spoiled-child.webm || /images/works/general/e49b10f2-fefd-4b83-9430-d6ea4857.webp || /images/works/spoiled-child/spoiledchild.com.webp  || /images/works/spoiled-child/whospoiled.webp",
         "mediaLarge": "/images/works/general/3c498d10-387e-412b-87dd-2092ee9e.avif || videos/spoiled-child.webm || /images/works/general/e49b10f2-fefd-4b83-9430-d6ea4857.webp || /images/works/spoiled-child/spoiledchild.com.webp  || /images/works/spoiled-child/whospoiled.webp",
@@ -184,29 +199,44 @@
        "task":["Art dircetion ","UI DESIGN ", "BRANDING","web development","DEVELOPMENT",  "ANALYTICS"]
 },
 {
-    "aim": "My aim with the J.Stimler project was to collaborate with the brand to revolutionize the fashion industry by leveraging sustainable fabrics and innovative designs. We aimed to create a high-quality, environmentally friendly website that reflected J.Stimler's commitment to transparency, ethical practices, and sustainability throughout its supply chain.",
-    "content": "Crafted with purpose, J.Stimler's collection is a testament to the power of sustainable fashion. Each piece is designed to not only look good but also do good, contributing to a more conscious and responsible fashion ecosystem.",
-    "analysis": "J.Stimler stands out in the fashion industry by blending environmental responsibility with high-end aesthetics. By focusing on organic materials and fair trade practices, the brand offers a compelling alternative to fast fashion, appealing to consumers who value ethics and sustainability in their wardrobe choices. The approach to designing and developing J.Stimler's website was rooted in a deep understanding of the brand's ethos. We collaborated closely with J.Stimler to ensure that the website reflected their values and communicated their message effectively. Through thoughtful design and meticulous attention to detail, we created a platform that not only showcased J.Stimler's collections but also educated consumers about the importance of sustainable fashion. The website serves as a digital storefront for J.Stimler, inviting users to explore their eco-friendly designs and learn more about their commitment to sustainability.",
-    "highlights":[
-        "Enhanced user engagement and streamlined user experience.",
-        "Developed a comprehensive design system for consistency and efficiency.",
-        "Improved onboarding process with custom illustrations.",
-        "Optimized website interface for improved navigation and visual appeal.",
-        "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
-    ],
-    "id": "promokings",
-    "solution": "I approached the design and development of the Promokings shopping app with a deep commitment to sustainability and ethical production.  The Mobile app serves as a digital storefront for Promokings online ordering, inviting users to explore their eco-friendly designs and learn more about their commitment to sustainability.",
-    "dataContent":"Shopping experience shappened.",
-    "media": "/images/works/promokings/wireframe22.webp || /images/works/promokings/wireframe-p2.webp || /images/works/promokings/wireframe22.webp",
-    "mediaLarge": "/images/works/promokings/wireframe23.webp || /images/works/promokings/wireframe-p.webp || /images/works/promokings/wireframe22.webp",
-   
-    
-    "previewImage": "/images/works/promokings/promokings.webp",
-    "title": "promokings",
-    "year": "2023",
-    "link":"https://github.com/vickkie/Promokings",
-    "showoffImage":"/images/works/promokings/promokings.webp",
-       "task":["UI DESIGN ", "App development","Marketing", "Mobile App", "iOS", "Android"]
+  "aim": "The goal with the Promokings project was to design and develop a sleek, mobile-first shopping experience tailored for modern users. The focus was on creating a clean, fast, and intuitive app that allows users to explore, order, and engage with streetwear-inspired fashion effortlessly, while enabling the team behind Promokings to manage products and orders seamlessly.",
+  
+  "content": "Promokings is a mobile shopping app built for streetwear lovers who value both style and simplicity. It delivers a curated collection of trendy apparel through an experience that feels fast, responsive, and delightfully smooth. Whether you're browsing the latest drops or placing an order, the app is engineered to give users total ease and confidence in every interaction.",
+  
+  "analysis": "Promokings fills the gap between hype and usability. Most fashion apps feel bloated or clunky—this one doesn’t. We stripped back the noise and focused on essential, high-performing features. The interface is lightweight yet bold, matching the brand’s street-savvy energy. Users can easily navigate categories, preview items, and complete purchases in just a few taps. From onboarding to checkout, every screen was optimized for clarity, speed, and minimal cognitive load. On the backend, we implemented streamlined product management and order tracking to support the team in scaling operations without friction.",
+  
+  "highlights": [
+    "Built a mobile-first shopping app with seamless ordering and navigation.",
+    "Focused on clean UI and fast performance for on-the-go fashion consumers.",
+    "Streamlined the product browsing, cart, and checkout flows for efficiency.",
+    "Designed intuitive onboarding and user flows to improve retention.",
+    "Implemented product and order management tools for store admins.",
+    "Created a visually bold interface that reflects the brand’s streetwear identity.",
+    "Improved overall user engagement through UX-driven design decisions.",
+    "Delivered an end-to-end digital storefront in app form—ready to scale."
+  ],
+  
+  "solution": "I designed and developed the Promokings shopping app to deliver a minimalist yet powerful retail experience. From slick animations to intuitive user flows, the app reflects the fast-moving, fashion-forward vibe of its audience. Paired with a simple backend setup, the Promokings team can now focus on scaling while users enjoy shopping with ease.",
+  
+  "dataContent": "Shopping experience sharpened.",
+  
+  "id": "promokings",
+  
+  "media": "/images/works/promokings/wireframe22.webp || /images/works/promokings/wireframe-p2.webp || /images/works/promokings/wireframe22.webp",
+  
+  "mediaLarge": "/images/works/promokings/wireframe23.webp || /images/works/promokings/wireframe-p.webp || /images/works/promokings/wireframe22.webp",
+  
+  "previewImage": "/images/works/promokings/promokings.webp",
+  
+  "title": "promokings",
+  
+  "year": "2023",
+  
+  "link": "https://github.com/vickkie/Promokings",
+  
+  "showoffImage": "/images/works/promokings/promokings.webp",
+  
+  "task": ["UI DESIGN", "App development", "Marketing", "Mobile App", "iOS", "Android"]
 },
 {
  
@@ -218,13 +248,17 @@
 
     
     "id": "zephir",
-    "highlights":[
-        "Enhanced user engagement and streamlined user experience.",
-        "Developed a comprehensive design system for consistency and efficiency.",
-        "Improved onboarding process with custom illustrations.",
-        "Optimized website interface for improved navigation and visual appeal.",
-        "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
-    ],
+    "highlights": [
+    "Redefined fashion e-commerce with a luxe, immersive shopping experience.",
+    "Built a high-performance platform with seamless navigation and fluid UI.",
+    "Integrated a custom admin dashboard with real-time control and insights.",
+    "Designed for all demographics—menswear, womenswear, kids, and pride lines.",
+    "Implemented an AI-powered recommendation engine for smart upselling.",
+    "Crafted a bold, expressive brand identity centered on individuality.",
+    "Developed a responsive design system adaptable across devices and categories.",
+    "Optimized performance and accessibility without compromising on style.",
+    "Empowered Zephir to be more than a store—a fashion-forward movement."
+  ],
        
     "solution": "I took a forward-thinking approach to Zephir's development, ensuring the platform **not only looks luxurious but operates seamlessly**. With an intuitive, high-performance UI, an AI-powered recommendation engine, and an admin dashboard providing **real-time insights and control**, Zephir redefines what a **next-gen fashion e-commerce experience** should be."
 ,
@@ -248,13 +282,17 @@
   "analysis": "Illunexus sets itself apart by offering a **360° digital marketing approach** rooted in execution, not fluff. My job was to translate that into a **website that feels light but hits heavy**. We designed each section to focus on clarity and action: bold messaging, case study highlights, and a modular layout for scalability. With an intuitive structure and optimized performance across all devices, the site acts as both a digital business card and a lead magnet for Illunexus.",
   
   "id": "illunexus",
-  "highlights":[
-    "Enhanced user engagement and streamlined user experience.",
-    "Developed a comprehensive design system for consistency and efficiency.",
-    "Improved onboarding process with custom illustrations.",
-    "Optimized website interface for improved navigation and visual appeal.",
-    "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
-],
+  "highlights": [
+    "Crafted a bold digital identity tailored for conversion and visual impact.",
+    "Engineered a modern frontend with responsive, CTA-driven architecture.",
+    "Built a modular design system for fast editing and future scalability.",
+    "Optimized UX with smooth flow, bold messaging, and clear service hierarchy.",
+    "Integrated SEO, analytics, and performance enhancements from day one.",
+    "Elevated brand perception with slick visuals and interactive storytelling.",
+    "Improved engagement metrics via fast load times and intuitive structure.",
+    "Delivered a future-proof site acting as both business card and lead funnel.",
+    "Showcased Illunexus' 360° marketing power through data-backed UI choices."
+  ],
   "solution": "I crafted the Illunexus platform using a custom frontend that emphasizes **user flow and CTA-driven navigation**. We baked in performance, responsiveness, and flexibility—while keeping editing easy for the team behind Illunexus. Built with modern web principles, the final product empowers the agency to grow while looking sharp, credible, and professional.",
   
    "media":"/images/works/illunexus/0_1_Free MacBook Pro on Stand Mockup.psd_0cc.webp || /images/works/illunexus/0_2_iPhone Mockup.psd_0x.webp || /images/works/illunexus/0_Free MacBook Pro on Chair Mockup.psd_0.webp || /images/works/illunexus/0_2_Free Front View MacBook 16 Pro Mockup.psd_0.webp || /images/works/illunexus/0_3_Free Front View MacBook 16 Pro Mockup.psd_0.webp ",

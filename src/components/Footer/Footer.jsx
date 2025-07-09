@@ -79,7 +79,7 @@ const Footer = () => {
       <div className="footer-div-1">
         <div className="footer-div-1-headline">
           <h4 className="StayUpdated">ABOUT ME</h4>
-          <div className="body-text b3 regular">
+          <div className="body-text b3 font5">
             Approaching all things design with a distinct blend of play and minimalism, seamlessly. Developing worldwide
             projects from Kenya since 2018.
           </div>
