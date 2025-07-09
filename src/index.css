@@ -160,7 +160,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--lightyellow);
+  background-color: var(--dblack);
 }
 
 /* Dashboard specific styling */

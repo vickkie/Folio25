@@ -22,7 +22,7 @@ const ForgotPassword = () => {
   return (
     <div className={styles.forgotPasswordWrapper}>
       <div className={styles.forgotPasswordContainer}>
-        <h1 className={styles.headerTop}>Password recovery</h1>
+        <h1 className={styles.headerTop}>Password reset</h1>
         {error && updateStatus !== null && <div className={styles.successMessage}>{errorMessage}</div>}
 
         {updateStatus === 200 && <div className={styles.successMessage}>{errorMessage}</div>}
