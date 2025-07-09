@@ -8,7 +8,7 @@ export default function useGsapMagic({
   splitText = false,
   splitSelector = ".splitchars",
   hoverZoom = false,
-  zoomSelectors = [".projectImage2-inner img", ".otherImage-inner img"],
+  zoomSelectors = [".projectImage2-inner img", ".otherImage-inner img", ".zoom-me"],
 }) {
   useEffect(() => {
     if (typeof window === "undefined") return;

@@ -13,7 +13,7 @@ import Menu from "../../Menu/Menu";
 import "../css/projects.css";
 
 const ProjectPage = () => {
-  const { slug } = useParams(); // <-- the dynamic part of the URL
+  const { slug } = useParams();
   const navigate = useNavigate();
 
   useEffect(() => {

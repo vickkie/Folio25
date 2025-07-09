@@ -88,12 +88,7 @@ function ProjectContent({ pageData, nextPage, nextPageData }) {
               </>
             ) : (
               <>
-                <div className="preview__img-inner" style={{ backgroundImage: `url(${projectPreview})` }}></div>
-                {/* <div className="preview__title">
-                  <span className="preview__title-inner splitchars" style={{ color: `${pageData.previewColor}` }}>
-                    {pageData.title}
-                  </span>
-                </div> */}
+                <div className="preview__img-inner zoom-me" style={{ backgroundImage: `url(${projectPreview})` }}></div>
               </>
             )}
           </div>
