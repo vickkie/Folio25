@@ -13,6 +13,7 @@ import { FooterCTA } from "../Home/FooterCTA";
 import Hero from "./Hero";
 import WhatIDo from "./WhatIDo";
 import Experience from "./Experience";
+import Extras from "./Extras";
 
 const About = () => {
   useEffect(() => {
@@ -41,6 +42,7 @@ const About = () => {
       <Story />
       <WhatIDo />
       <Experience />
+      <Extras />
       <Numbers />
       <FooterCTA />
       <Footer />

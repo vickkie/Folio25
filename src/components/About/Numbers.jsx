@@ -10,7 +10,7 @@ export default function Numbers() {
         <div className={styles.numbersRow}>
           <div className={styles.numberItem}>
             <div className={styles.NumbersNumber}>6+</div>
-            <div className={styles.NumbersExpla}>Experience</div>
+            <div className={styles.NumbersExpla}>years of experience</div>
           </div>
           <div className={styles.numberItem}>
             <div className={styles.NumbersNumber}>10+</div>
