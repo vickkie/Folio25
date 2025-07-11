@@ -7,9 +7,12 @@ const ProtectedRoutes = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (!authData || !authData.authData || authData.authData.status !== "active" || !authData.authData.TOKEN) {
+    if (!authData || !authData.authData || !authData.authData.TOKEN) {
+      console.log("authData", authData);
+      console.log("authData.authData", authData.authData);
+      console.log("authData.authData.TOKEN", authData.authData.TOKEN);
       console.log("Unauthorized or inactive user");
-      // navigate("/login");
+      navigate("/login");
     } else {
     }
   }, [authData, navigate]);
