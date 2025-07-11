@@ -23,28 +23,13 @@ const Login = () => {
   // Extract redirect info
   const redirectTo = location.state?.redirect || "/dashboard";
 
-  // fetch the maintenance status mode
-  const {
-    data: maintainanceData,
-    isLoading: statusLoading,
-    error: statusError,
-    statusCode,
-  } = useGet("sitestatus/site-status/auth");
-
   const { postData, responseData, updateStatus, isLoading, error, errorMessage } = usePost("login");
   const { setAuthData } = useContext(AuthContext);
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
   const inputRef = useRef(null);
 
-  const [maintainance, setMaintainance] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const [autoLoginAttempted, setAutoLoginAttempted] = useState(false);
-
-  useEffect(() => {
-    if (maintainanceData?.status === "offline") {
-      setMaintainance(true);
-    }
-  }, [maintainanceData]);
 
   function generateRandomSecret() {
     const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -112,19 +97,17 @@ const Login = () => {
       password: Yup.string().min(1, "At least 1 characters required").required("Required"),
     }),
     onSubmit: (values) => {
-      if (maintainanceData?.status !== "offline") {
-        // Ensure email is in lowercase before submitting
-        const processedValues = {
-          ...values,
-          email: values.email.toLowerCase(),
-        };
-        console.log(processedValues);
+      // Ensure email is in lowercase before submitting
+      const processedValues = {
+        ...values,
+        email: values.email.toLowerCase(),
+      };
+      // console.log(processedValues);
 
-        postData(processedValues);
+      postData(processedValues);
 
-        if (rememberMe) {
-          setRememberMeCookie(processedValues.email, processedValues.password);
-        }
+      if (rememberMe) {
+        setRememberMeCookie(processedValues.email, processedValues.password);
       }
     },
   });
@@ -186,95 +169,74 @@ const Login = () => {
           </h1>
         </div>
 
-        {statusLoading && <LottieLoad size={80} />}
-        {!statusLoading && maintainance && (
-          <>
-            <div className="welcome-msg">We are currently under maintainance</div>
-            <div className="welcome-msg">Thankyou for your patience</div>
-            {error && <div className="error-message">{errorMessage}</div>}
-            <MaintainanceLoad size={300} />
-          </>
-        )}
-
-        {!statusLoading && !maintainance && (
-          <>
-            <div className="welcome-msg">Welcome Back Uzi</div>
-            {error && <div className="error-message">{errorMessage}</div>}
-            <form onSubmit={formik.handleSubmit}>
-              <div className="labelHolder">
-                <div className="label">Email</div>
-                {formik.touched.email && formik.errors.email ? (
-                  <div className="error-message">{formik.errors.email}</div>
-                ) : null}
-              </div>
+        <>
+          <div className="welcome-msg">Welcome Back Uzi</div>
+          {error && <div className="error-message">{errorMessage}</div>}
+          <form onSubmit={formik.handleSubmit}>
+            <div className="labelHolder">
+              <div className="label">Email</div>
+              {formik.touched.email && formik.errors.email ? (
+                <div className="error-message">{formik.errors.email}</div>
+              ) : null}
+            </div>
+            <input
+              type="email"
+              name="email"
+              placeholder="email@gmail.com"
+              value={formik.values.email}
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              required
+              className={`inputBtn ${
+                formik.touched.email && formik.errors.email
+                  ? "input-error"
+                  : formik.touched.email && !formik.errors.email
+                  ? "input-success"
+                  : ""
+              }`}
+            />
+            <div className="labelHolder">
+              <div className="label">Password</div>
+              {formik.touched.password && formik.errors.password ? (
+                <div className="error-message">{formik.errors.password}</div>
+              ) : null}
+            </div>
+            <div className="inputContainer">
               <input
-                type="email"
-                name="email"
-                placeholder="email@gmail.com"
-                value={formik.values.email}
+                type={isPasswordVisible ? "text" : "password"}
+                name="password"
+                placeholder="at least 8 characters"
+                value={formik.values.password}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 required
-                disabled={maintainance}
                 className={`inputBtn ${
-                  formik.touched.email && formik.errors.email
+                  formik.touched.password && formik.errors.password
                     ? "input-error"
-                    : formik.touched.email && !formik.errors.email
+                    : formik.touched.password && !formik.errors.password
                     ? "input-success"
                     : ""
                 }`}
               />
-              <div className="labelHolder">
-                <div className="label">Password</div>
-                {formik.touched.password && formik.errors.password ? (
-                  <div className="error-message">{formik.errors.password}</div>
-                ) : null}
+              <div type="button" onClick={toggleEyeIcon} aria-label="password toggle" className="eyeToggle">
+                {isPasswordVisible ? <EyeIcon size={18} /> : <EyeOff size={18} />}
               </div>
-              <div className="inputContainer">
-                <input
-                  type={isPasswordVisible ? "text" : "password"}
-                  name="password"
-                  placeholder="at least 8 characters"
-                  value={formik.values.password}
-                  onChange={formik.handleChange}
-                  onBlur={formik.handleBlur}
-                  disabled={maintainance}
-                  required
-                  className={`inputBtn ${
-                    formik.touched.password && formik.errors.password
-                      ? "input-error"
-                      : formik.touched.password && !formik.errors.password
-                      ? "input-success"
-                      : ""
-                  }`}
-                />
-                <div type="button" onClick={toggleEyeIcon} aria-label="password toggle" className="eyeToggle">
-                  {isPasswordVisible ? <EyeIcon size={18} /> : <EyeOff size={18} />}
-                </div>
-              </div>
-              <div className="login-options">
-                <label>
-                  <input type="checkbox" checked={rememberMe} onChange={() => setRememberMe(!rememberMe)} />
-                  Remember Me
-                </label>
-                <Link to="/forgot-password" className="forgot-password-link">
-                  Forgot Password?
-                </Link>
-              </div>
+            </div>
+            <div className="login-options">
+              <label>
+                <input type="checkbox" checked={rememberMe} onChange={() => setRememberMe(!rememberMe)} />
+                Remember Me
+              </label>
+              <Link to="/forgot-password" className="forgot-password-link">
+                Forgot Password?
+              </Link>
+            </div>
 
-              <button
-                type="submit"
-                className="login-submit"
-                disabled={isLoading || maintainance}
-                onClick={() => {
-                  console.log("clicked");
-                }}
-              >
-                {isLoading ? "Logging in..." : "Login"}
-              </button>
-            </form>
-          </>
-        )}
+            <button type="submit" className="login-submit" disabled={isLoading}>
+              {isLoading ? "Logging in..." : "Login"}
+            </button>
+          </form>
+        </>
       </div>
     </div>
   );
