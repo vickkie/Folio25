@@ -9,7 +9,7 @@ const ProtectedRoutes = () => {
   useEffect(() => {
     if (!authData || !authData.authData || authData.authData.status !== "active" || !authData.authData.TOKEN) {
       console.log("Unauthorized or inactive user");
-      navigate("/login");
+      // navigate("/login");
     } else {
     }
   }, [authData, navigate]);
