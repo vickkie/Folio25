@@ -6,6 +6,7 @@ import usePost from "../hooks/usePost";
 import { AuthContext } from "../contexts/AuthContext";
 import "./Login.css";
 import CryptoJS from "crypto-js";
+
 import NavBar from "../Navbar/NavBar";
 import Menu from "../Menu/Menu";
 import { EyeIcon, Home } from "lucide-react";
