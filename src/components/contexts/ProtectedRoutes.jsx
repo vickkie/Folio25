@@ -3,17 +3,14 @@ import { AuthContext } from "./AuthContext";
 import { useNavigate, Outlet } from "react-router-dom";
 
 const ProtectedRoutes = () => {
-  const authData = useContext(AuthContext);
+  const { authData } = useContext(AuthContext);
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (!authData || !authData.authData || !authData.authData.TOKEN) {
-      console.log("authData", authData);
-      console.log("authData.authData", authData.authData);
-      console.log("authData.authData.TOKEN", authData.authData.TOKEN);
-      console.log("Unauthorized or inactive user");
+    if (!authData || !authData.authData || authData.authData.status !== "active" || !authData.authData.TOKEN) {
       navigate("/login");
     } else {
+      console.log("authData", authData);
     }
   }, [authData, navigate]);
 
