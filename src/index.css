@@ -152,7 +152,7 @@ body {
 
 button {
   background-color: var(--primary);
-  color: white;
+  color: var(--white);
   border: none;
   border-radius: 5px;
   padding: 10px 15px;
