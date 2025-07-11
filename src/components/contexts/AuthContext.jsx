@@ -13,6 +13,7 @@ export const AuthProvider = ({ children, clientDetails }) => {
   useEffect(() => {
     if (authData) {
       localStorage.setItem("authData", JSON.stringify(authData));
+      console.log(authData);
     }
   }, [authData]);
 
