@@ -20,7 +20,7 @@ const loginPrompts = [
 
 const TerminalShell = () => {
   const [logs, setLogs] = useState([
-    "👾 UziShellOS Command Line",
+    "👾 UziShell Terminal",
     `██████╗ ██╗   ██╗███████╗██╗     ██╗ ██████╗ `,
     `██╔══██╗██║   ██║██╔════╝██║     ██║██╔════╝ `,
     `██████╔╝██║   ██║█████╗  ██║     ██║██║  ███╗`,
