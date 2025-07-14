@@ -237,6 +237,36 @@ const Login = () => {
             <button type="submit" className="login-submit" disabled={isLoading}>
               {isLoading ? "Logging in..." : "Login"}
             </button>
+
+            <div className="signup-prompt">
+              <div className="div-divider">
+                <div className="line-or">or use</div>
+              </div>
+            </div>
+
+            <div className="terminal-list">
+              <Link to="/terminal" className="terminal-link">
+                <span className="linkColor consoel">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="icon icon-tabler icons-tabler-outline icon-tabler-terminal"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 7l5 5l-5 5" />
+                    <path d="M12 19l7 0" />
+                  </svg>
+                </span>
+                <div className="terminal-here">Terminal</div>
+              </Link>
+            </div>
           </form>
         </>
       </div>

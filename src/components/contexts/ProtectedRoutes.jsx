@@ -7,6 +7,9 @@ const ProtectedRoutes = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    if (localStorage.getItem("authData")) {
+      console.log("authData", authData);
+    }
     if (!authData || authData.status !== "active" || !authData.TOKEN) {
       console.log("Unauthorized or inactive user");
       navigate("/login");

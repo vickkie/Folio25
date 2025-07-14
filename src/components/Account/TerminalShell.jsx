@@ -19,7 +19,7 @@ const loginPrompts = [
 
 const TerminalShell = () => {
   const [logs, setLogs] = useState([
-    "👾 UziShell Command Line",
+    "👾 UziShellOS Command Line",
     `██████╗ ██╗   ██╗███████╗██╗     ██╗ ██████╗ `,
     `██╔══██╗██║   ██║██╔════╝██║     ██║██╔════╝ `,
     `██████╔╝██║   ██║█████╗  ██║     ██║██║  ███╗`,
@@ -53,6 +53,15 @@ const TerminalShell = () => {
   const currentPrompt = promptList[stepIndex];
 
   const [rootAccess, setRootAccess] = useState(false);
+  const [currentDir, setCurrentDir] = useState("~");
+
+  const fakeFileSystem = {
+    "~": ["📂 projects", "📂 src", "📂 node_modules", "📂 README.md", "📂 package.json"],
+    projects: ["uzi-ai", "nuker-app", "haxx"],
+    src: ["App.jsx", "TerminalShell.jsx", "auth"],
+    "src/auth": ["login.js", "register.js"],
+    haxx: ["virus.exe", "payload.sh"],
+  };
 
   const commands = {
     help: {
@@ -87,6 +96,32 @@ const TerminalShell = () => {
         return ["> whoami", user ? user : "> You're not logged in"];
       },
     },
+    ls: {
+      description: "List directory contents",
+      action: () => {
+        const items = fakeFileSystem[currentDir] || [];
+        if (items.length === 0) return ["> ls", "📂 (empty directory)"];
+        return ["> ls", ...items.map((i) => `- ${i}`)];
+      },
+    },
+    cd: {
+      description: "Change directory",
+      action: (_setMode, _setLogs, input = "") => {
+        const args = input.trim().split(" ");
+        if (args.length < 2) return ["> cd", "❗ Usage: cd <folder>"];
+
+        const target = args[1];
+        const base = currentDir === "~" ? "" : currentDir + "/";
+        const newPath = base + target;
+
+        if (fakeFileSystem[newPath]) {
+          setCurrentDir(newPath);
+          return ["> cd " + target, `📂 Moved to ${newPath}`];
+        }
+
+        return ["> cd " + target, `❌ Directory '${target}' not found`];
+      },
+    },
 
     sudo: {
       description: "Try sudo access",
@@ -105,6 +140,13 @@ const TerminalShell = () => {
         }
 
         return ["> sudo", "🛡️  Access Denied. You're not root... yet 👀"];
+      },
+    },
+    mkdir: {
+      description: "Create a directory",
+      action: (setState) => {
+        setState("idle");
+        return ["> mkdir", "you dont have permission to create a directory"];
       },
     },
 
@@ -242,26 +284,33 @@ const TerminalShell = () => {
       },
     },
     neofetch: {
-      description: "Display system info in a stylish way",
+      description: "Display system info with sexy Arch logo 🔷",
       action: () => {
-        const uptime = `${Math.floor(Math.random() * 5)}h ${Math.floor(Math.random() * 60)}m`;
-        const usedMem = (Math.random() * 4 + 2).toFixed(1); // 2GB - 6GB
-        const totalMem = 18;
+        const uptime = `${Math.floor(Math.random() * 10)}h ${Math.floor(Math.random() * 60)}m`;
+        const usedMem = (Math.random() * 6 + 4).toFixed(1); // 4–10GB
+        const totalMem = 16;
 
         return [
           "> neofetch",
-          "                 `.-/+osyhhhhyyso+:.`                 uzi@uzi-shell",
-          "              .+hMMMMMMMMMMMMMMMMMMMd/`              --------------------",
-          "            `oNMMMMMMMMMMMMMMMMMMMMMMMN+             OS: UziShellOS 1.0",
-          "           :mMMMMMMMMMMMMMMMMMMMMMMMMMMm.            Host: 🧠 Virtual Superbrain",
-          "          +MMMMMMMMMMMMMMMMMMMMMMMMMMMMM/            Kernel: 🤖 ReactJS v18",
-          "         /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+            Uptime: " + uptime,
-          "         yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs            Packages: 666 (npm)",
-          "         sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs            Terminal: WebTerminal",
-          "         .NMMMMMMMMMMMMMMMMMMMMMMMMMMMMm`            Shell: zsh (uzi-mod)",
-          "          /NMMMMMMMMMMMMMMMMMMMMMMMMMMN+             CPU: 💻 QuantumCore i9",
-          "           .dMMMMMMMMMMMMMMMMMMMMMMMMd-              Memory: " + usedMem + "GiB / " + totalMem + "GiB",
-          "             -+shmMMMMMMMMMMMMMMmhs+:.               GPU: Imaginary RTX",
+          "                      -`                        uzi@uzi-arch",
+          "                     .o+`                       -----------------------",
+          "                    `ooo/                       OS: UziShellOS (Arch Base)",
+          "                   `+oooo:                      Host: 🧠 Virtual HaxxCore",
+          "                  `+oooooo:                     Kernel: ReactJS v18.2 + Vite",
+          "                  -+oooooo+:                    Uptime: " + uptime,
+          "                `/:-:++oooo+:`                  Packages: 777 (npm), 42 (custom)",
+          "               `/++++/+++++++:`                 Shell: cyberzsh (uzi mod)",
+          "              `/++++++++++++++:                Terminal: WebTermUX",
+          "             `/+++ooooooooooooo/`              CPU: i9 NeuralCore 13900K",
+          "            ./ooosssso++osssssso+`             GPU: RTX Vanta v2.1 (Virtual)",
+          "           .oossssso-````/ossssss+`            Memory: " + usedMem + "GiB / " + totalMem + "GiB",
+          "          -osssssso.      :ssssssso.           DE: UziMate 1.0",
+          "         :osssssss/        osssso+++.          WM: HaxWM (custom build)",
+          "        /ossssssss/        +ssssooo/-          Theme: Synthwave Matrix",
+          "      `/ossssso+/:-        -:/+osssso/.        Icons: cyberpunk-icons [GTK2/3]",
+          "     `+sso+:-`                 `.-/+oso:       Font: JetBrainsMono Nerd 14",
+          "    `++:.                           `-/+/      Resolution: 1920x1080",
+          "    .`                                        ",
         ];
       },
     },
@@ -302,13 +351,41 @@ const TerminalShell = () => {
     },
 
     rm: {
-      description: "Delete everything",
-      action: () => [
-        "> rm -rf /",
-        "🔥 Warning: Deleting everything...",
-        "💣 BOOM. System files nuked.",
-        "Just kidding. Your files are safe 😅",
-      ],
+      description: "Delete everything (fake, chill)",
+      action: async (_setMode, setLogs) => {
+        const output = [];
+
+        const log = (line) => {
+          output.push(line);
+          setLogs((prev) => [...prev, line]);
+        };
+
+        log("> rm -rf /");
+        await new Promise((r) => setTimeout(r, 500));
+        log("🔥 Warning: Deleting everything...");
+
+        const fakeFiles = [
+          "Deleting /etc/passwd...",
+          "Deleting /usr/bin/bash...",
+          "Deleting /home/uzi/codebase...",
+          "Deleting /opt/memes/collection.zip...",
+          "Deleting /var/log/this_joke.log...",
+          "Deleting /System32 (even though you're on Linux?)...",
+          "Deleting your browser history 😳...",
+          "Deleting your terminal...",
+        ];
+
+        for (let i = 0; i < fakeFiles.length; i++) {
+          await new Promise((r) => setTimeout(r, 400));
+          log(`🗑️  ${fakeFiles[i]}`);
+        }
+
+        await new Promise((r) => setTimeout(r, 600));
+        log("💣 BOOM. System files nuked.");
+        await new Promise((r) => setTimeout(r, 800));
+        log("😅 Just kidding. Your files are safe.");
+        return null; // prevent double logging
+      },
     },
   };
 
@@ -418,9 +495,9 @@ const TerminalShell = () => {
   return (
     <div className="terminal-box bg-black text-green-400 font-mono p-4 h-screen overflow-y-auto">
       {logs.map((line, i) => (
-        <div className="terminal" key={i}>
+        <pre key={i} className="whitespace-pre">
           {line}
-        </div>
+        </pre>
       ))}
 
       <form onSubmit={handleInputSubmit} className="flex mt-2">
