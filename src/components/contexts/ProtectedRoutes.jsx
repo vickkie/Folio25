@@ -3,24 +3,20 @@ import { AuthContext } from "./AuthContext";
 import { useNavigate, Outlet } from "react-router-dom";
 
 const ProtectedRoutes = () => {
-  const { authData } = useContext(AuthContext);
   const navigate = useNavigate();
+  const authData = localStorage.getItem("authData");
+  const storedAuthData = JSON.parse(authData);
 
   useEffect(() => {
-    if (localStorage.getItem("authData")) {
-      console.log("authData", authData);
-    }
-    if (!authData || authData.status !== "active" || !authData.TOKEN) {
-      console.log("Unauthorized or inactive user");
+    if (!storedAuthData || storedAuthData.status !== "active" || !storedAuthData.TOKEN) {
       navigate("/login");
-      console.log(authData);
     } else {
       console.log("welcome");
     }
-  }, [authData, navigate]);
+  }, [storedAuthData, navigate]);
 
   // Render the children components if authenticated
-  return authData && authData.status === "active" ? <Outlet /> : null;
+  return storedAuthData && storedAuthData.status === "active" ? <Outlet /> : null;
 };
 
 export default ProtectedRoutes;

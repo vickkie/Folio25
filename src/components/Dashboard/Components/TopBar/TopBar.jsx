@@ -29,11 +29,14 @@ export default function TopBar({ isExpanded, setIsExpanded }) {
     return () => window.removeEventListener("resize", checkScreenSize);
   }, [setIsExpanded]);
 
+  const [loaded, setLoaded] = useState(false);
+
   useEffect(() => {
     const storedAuthData = localStorage.getItem("authData");
     if (storedAuthData) {
       setAuthData(JSON.parse(storedAuthData));
     }
+    setLoaded(true); // tell React we're done loading
   }, []);
 
   useEffect(() => {
@@ -43,10 +46,11 @@ export default function TopBar({ isExpanded, setIsExpanded }) {
   }, [authData]);
 
   useEffect(() => {
-    if (!authData) {
+    if (loaded && !authData) {
+      console.log("no authData");
       navigate("/login");
     }
-  }, [authData, navigate]);
+  }, [loaded, authData, navigate]);
 
   const handleLogout = () => {
     navigate("/logout");
