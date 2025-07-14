@@ -1,21 +1,45 @@
-import React, { createContext, useState, useEffect } from "react";
+import React, { createContext, useState, useEffect, useContext } from "react";
 
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children, clientDetails }) => {
-  const [authData, setAuthData] = useState(() => {
-    // Load from localStorage or use initial client details
-    const storedAuthData = localStorage.getItem("authData");
-    return storedAuthData ? JSON.parse(storedAuthData) : { client: clientDetails };
-  });
+  const [authData, setAuthData] = useState(null);
 
-  // Store authData in localStorage whenever it changes
+  // Load authData from localStorage on mount
+  useEffect(() => {
+    try {
+      const storedAuthData = localStorage.getItem("authData");
+      if (storedAuthData) {
+        setAuthData(JSON.parse(storedAuthData));
+      } else {
+        setAuthData({ client: clientDetails });
+      }
+    } catch (err) {
+      console.error("Failed to parse authData from localStorage:", err);
+      setAuthData({ client: clientDetails });
+    }
+  }, [clientDetails]);
+
+  // Sync to localStorage whenever authData changes
   useEffect(() => {
     if (authData) {
-      localStorage.setItem("authData", JSON.stringify(authData));
-      console.log(authData);
+      try {
+        console.log("Saving authData:", authData);
+        localStorage.setItem("authData", JSON.stringify(authData));
+      } catch (err) {
+        console.error("Failed to save authData to localStorage:", err);
+      }
     }
   }, [authData]);
 
-  return <AuthContext.Provider value={{ authData, setAuthData }}>{children}</AuthContext.Provider>;
+  // Logout handler
+  const logout = () => {
+    // localStorage.removeItem("authData");
+    // setAuthData(null);
+  };
+
+  return <AuthContext.Provider value={{ authData, setAuthData, logout }}>{children}</AuthContext.Provider>;
 };
+
+// Custom hook
+export const useAuth = () => useContext(AuthContext);

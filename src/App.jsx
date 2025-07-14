@@ -27,6 +27,7 @@ const NotFound = lazy(() => import("./components/Extras/404"));
 const Dashboard = lazy(() => import("./components/Dashboard/Dashboard"));
 const Profile = lazy(() => import("./components/Dashboard/Components/Profile/Profile"));
 const Work = lazy(() => import("./components/Work/Work"));
+const TerminalShell = lazy(() => import("./components/Account/TerminalShell"));
 
 function App() {
   const [preloadDone, setPreloadDone] = useState(false);
@@ -83,7 +84,7 @@ function App() {
                 <Route path="/reset" element={<ResetPassword />} />
                 <Route path="/cookies" element={<Cookies />} />
                 <Route path="/privacy" element={<Privacy />} />
-
+                <Route path="/terminal" element={<TerminalShell />} />
                 <Route element={<ProtectedRoutes />}>
                   <Route path="/dashboard" element={<Dashboard />} />
                   <Route path="/profile" element={<Profile />} />

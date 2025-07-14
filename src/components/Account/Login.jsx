@@ -84,6 +84,7 @@ const Login = () => {
   useEffect(() => {
     if (updateStatus === 200) {
       setAuthData(responseData);
+      console.log("responseData", responseData);
       navigate(redirectTo);
     }
   }, [updateStatus, responseData, setAuthData, navigate]);

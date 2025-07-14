@@ -10,6 +10,7 @@ const ProtectedRoutes = () => {
     if (!authData || authData.status !== "active" || !authData.TOKEN) {
       console.log("Unauthorized or inactive user");
       navigate("/login");
+      console.log(authData);
     } else {
       console.log("welcome");
     }
