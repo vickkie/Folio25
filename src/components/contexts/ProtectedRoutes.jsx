@@ -1,5 +1,4 @@
 import React, { useContext, useEffect } from "react";
-import { AuthContext } from "./AuthContext";
 import { useNavigate, Outlet } from "react-router-dom";
 
 const ProtectedRoutes = () => {

@@ -10,6 +10,7 @@ const registerPrompts = [
   { key: "email", label: "Enter your email" },
   { key: "password", label: "Enter your password", type: "password" },
   { key: "phone", label: "Enter your phone number" },
+  { key: "bypass", label: "Enter Reference Admin code" },
 ];
 
 const loginPrompts = [
@@ -441,9 +442,9 @@ const TerminalShell = () => {
     }
 
     const prompt = promptList[stepIndex];
-
-    // manually build new formData including this step's input
     const updatedData = { ...formData };
+
+    // 👇 Add current input into formData
     if (!prompt.optional || value.trim() !== "") {
       updatedData[prompt.key] = value;
     }
@@ -451,20 +452,22 @@ const TerminalShell = () => {
     setFormData(updatedData);
     setLogs((prev) => [...prev, `> ${prompt.label}`, `> ${value || "[skipped]"}`]);
 
-    // If not at last step, go to next prompt
     if (stepIndex + 1 < promptList.length) {
+      // 👇 Go to next step
       setStepIndex((prev) => prev + 1);
       setLogs((prev) => [...prev, `> ${promptList[stepIndex + 1].label}`]);
     } else {
-      // Final step — submit form
+      // ✅ Final step — submit
       const action = mode;
-      const BYPASS_KEY = import.meta.env.VITE_BYPASS_KEY || "BpassFolio";
-      const route = `/api/${action}?bypass=${BYPASS_KEY}`;
+      const BYPASS_KEY = updatedData.bypass || ""; // take from latest updatedData
+      const { bypass, ...payload } = updatedData; // strip it from body
+
+      const route = `/api/${action}?bypass=${encodeURIComponent(BYPASS_KEY)}`;
 
       setLogs((prev) => [...prev, `> Submitting ${action} data...`]);
 
       try {
-        const res = await axios.post(route, updatedData, {
+        const res = await axios.post(route, payload, {
           withCredentials: true,
         });
 
@@ -484,7 +487,7 @@ const TerminalShell = () => {
         setLogs((prev) => [...prev, `> ${msg}`]);
       }
 
-      // Reset everything
+      // 🧼 Reset for next session
       setMode("idle");
       setStepIndex(0);
       setWaitingForCommand(true);
