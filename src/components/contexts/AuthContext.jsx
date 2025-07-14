@@ -6,19 +6,19 @@ export const AuthProvider = ({ children, clientDetails }) => {
   const [authData, setAuthData] = useState(null);
 
   // Load authData from localStorage on mount
-  useEffect(() => {
-    try {
-      const storedAuthData = localStorage.getItem("authData");
-      if (storedAuthData) {
-        setAuthData(JSON.parse(storedAuthData));
-      } else {
-        setAuthData({ client: clientDetails });
-      }
-    } catch (err) {
-      console.error("Failed to parse authData from localStorage:", err);
-      setAuthData({ client: clientDetails });
-    }
-  }, [clientDetails]);
+  // useEffect(() => {
+  //   try {
+  //     const storedAuthData = localStorage.getItem("authData");
+  //     if (storedAuthData) {
+  //       setAuthData(JSON.parse(storedAuthData));
+  //     } else {
+  //       setAuthData({ client: clientDetails });
+  //     }
+  //   } catch (err) {
+  //     console.error("Failed to parse authData from localStorage:", err);
+  //     setAuthData({ client: clientDetails });
+  //   }
+  // }, [clientDetails]);
 
   // Sync to localStorage whenever authData changes
   useEffect(() => {

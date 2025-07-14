@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useContext } from "react";
 import axios from "axios";
 import { useNavigate, useLocation } from "react-router-dom";
+import "./terminal.css";
 import { AuthContext } from "../contexts/AuthContext";
 const registerPrompts = [
   { key: "username", label: "Enter your username" },
@@ -18,7 +19,13 @@ const loginPrompts = [
 
 const TerminalShell = () => {
   const [logs, setLogs] = useState([
-    "👾 UziShell Booting...",
+    "👾 UziShell Command Line",
+    `██████╗ ██╗   ██╗███████╗██╗     ██╗ ██████╗ `,
+    `██╔══██╗██║   ██║██╔════╝██║     ██║██╔════╝ `,
+    `██████╔╝██║   ██║█████╗  ██║     ██║██║  ███╗`,
+    `██╔═══╝ ██║   ██║██╔══╝  ██║     ██║██║   ██║`,
+    `██║     ╚██████╔╝███████╗███████╗██║╚██████╔╝`,
+    `╚═╝      ╚═════╝ ╚══════╝╚══════╝╚═╝ ╚═════╝ `,
     "Type `register` or `login` to begin. Type `help` for commands.",
   ]);
 
@@ -44,6 +51,8 @@ const TerminalShell = () => {
 
   const promptList = mode === "register" ? registerPrompts : loginPrompts;
   const currentPrompt = promptList[stepIndex];
+
+  const [rootAccess, setRootAccess] = useState(false);
 
   const commands = {
     help: {
@@ -78,6 +87,27 @@ const TerminalShell = () => {
         return ["> whoami", user ? user : "> You're not logged in"];
       },
     },
+
+    sudo: {
+      description: "Try sudo access",
+      action: (_setMode, _setLogs, input = "") => {
+        const args = input.trim().toLowerCase();
+        console.log("sudo args:", args);
+
+        if (args === "sudo uzi --power") {
+          setRootAccess(true);
+          return [
+            "> sudo uzi --power",
+            "🧠 Root access granted...",
+            "✨ Welcome, Superuser Uzi Trake",
+            "Type `format`, `inject`, or `shutdown` to proceed.",
+          ];
+        }
+
+        return ["> sudo", "🛡️  Access Denied. You're not root... yet 👀"];
+      },
+    },
+
     exit: {
       description: "Exit to main shell",
       action: (setState) => {
@@ -89,31 +119,234 @@ const TerminalShell = () => {
       description: "Test custom command",
       action: () => ["> 🧪 This is a custom command!"],
     },
-    sudo: {
-      description: "Gain dev access",
-      action: () => ["> 🛡️  Access Denied. You're not root... yet 👀"],
+    quote: {
+      description: "Get a random motivational quote",
+      action: () => {
+        const quotes = [
+          "🚀 'Stay hungry, stay foolish.' – Steve Jobs",
+          "🔥 'Code is like humor. When you have to explain it, it’s bad.' – Cory House",
+          "🌍 'The best way to predict the future is to invent it.' – Alan Kay",
+          "😤 'No pressure, no diamonds.' – Thomas Carlyle",
+          "💡 'Simplicity is the soul of efficiency.' – Austin Freeman",
+        ];
+        const pick = quotes[Math.floor(Math.random() * quotes.length)];
+        return ["> quote", pick];
+      },
+    },
+
+    banner: {
+      description: "Print a cool ASCII banner",
+      action: () => [
+        "> banner",
+        `██████╗ ██╗   ██╗███████╗██╗     ██╗ ██████╗ `,
+        `██╔══██╗██║   ██║██╔════╝██║     ██║██╔════╝ `,
+        `██████╔╝██║   ██║█████╗  ██║     ██║██║  ███╗`,
+        `██╔═══╝ ██║   ██║██╔══╝  ██║     ██║██║   ██║`,
+        `██║     ╚██████╔╝███████╗███████╗██║╚██████╔╝`,
+        `╚═╝      ╚═════╝ ╚══════╝╚══════╝╚═╝ ╚═════╝ `,
+        `              Welcome to UziShell 🧠`,
+      ],
+    },
+
+    date: {
+      description: "Show the current date and time",
+      action: () => ["> date", `🕒 ${new Date().toLocaleString()}`],
+    },
+
+    fortune: {
+      description: "See your developer fortune 🍀",
+      action: () => {
+        const fortunes = [
+          "👾 You will debug something on the first try today.",
+          "💻 Coffee will flow. Bugs will go.",
+          "🚫 Avoid merging without testing. Trust me.",
+          "🔮 A new framework will appear… again.",
+          "🎯 Your code will pass all tests — eventually.",
+        ];
+        return ["> fortune", fortunes[Math.floor(Math.random() * fortunes.length)]];
+      },
+    },
+
+    format: {
+      description: "Wipe the entire simulated OS (fake)",
+      action: async (_setMode, setLogs) => {
+        if (!rootAccess) {
+          return ["⛔ Permission denied. Try `sudo uzi --power`"];
+        }
+
+        const steps = [
+          "💣 Formatting virtual disk...",
+          "█░░░░░░░░░░ 10%",
+          "███░░░░░░░░ 30%",
+          "██████░░░░░ 60%",
+          "███████████ 100%",
+          "✔ Format complete. Everything is gone. Or is it? 👀",
+        ];
+
+        setLogs((prev) => [...prev, "> format"]);
+        for (let step of steps) {
+          await new Promise((res) => setTimeout(res, 600));
+          setLogs((prev) => [...prev, step]);
+        }
+
+        return null;
+      },
+    },
+
+    inject: {
+      description: "Inject a payload (just for kicks)",
+      action: () => {
+        if (!rootAccess) return ["> inject", "⚠️  Access denied. Root access needed."];
+        return [
+          "> inject",
+          "🧬 Injecting payload into system...",
+          "🦠 Virus uploaded successfully.",
+          "💀 Target IP: 1.1.1.1",
+          "🔥 Status: SYSTEM OVERRIDE INITIATED",
+        ];
+      },
+    },
+
+    shutdown: {
+      description: "Shutdown the system",
+      action: () => {
+        if (!rootAccess) return ["> shutdown", "⚠️ You must be root to shutdown the system."];
+
+        flashTerminal(); // simulate red flash
+
+        setTimeout(() => {
+          const shell = document.querySelector(".terminal-box");
+          if (shell) {
+            shell.innerHTML = `
+          <div class="h-screen bg-black text-green-400 flex items-center justify-center text-xl">
+            🧠 SYSTEM HALTED. <br /> Press F5 to restart.
+          </div>`;
+          }
+        }, 10000);
+
+        return [
+          "> shutdown",
+          "🛑 SYSTEM SHUTDOWN IN 3...",
+          "2...",
+          "1...",
+          "💤 Goodbye, Trake...",
+          "💀 Shell terminated.",
+        ];
+      },
+    },
+    reboot: {
+      description: "Restart the terminal ",
+      action: () => {
+        window.location.reload();
+        return ["> rebooting..."];
+      },
+    },
+    neofetch: {
+      description: "Display system info in a stylish way",
+      action: () => {
+        const uptime = `${Math.floor(Math.random() * 5)}h ${Math.floor(Math.random() * 60)}m`;
+        const usedMem = (Math.random() * 4 + 2).toFixed(1); // 2GB - 6GB
+        const totalMem = 18;
+
+        return [
+          "> neofetch",
+          "                 `.-/+osyhhhhyyso+:.`                 uzi@uzi-shell",
+          "              .+hMMMMMMMMMMMMMMMMMMMd/`              --------------------",
+          "            `oNMMMMMMMMMMMMMMMMMMMMMMMN+             OS: UziShellOS 1.0",
+          "           :mMMMMMMMMMMMMMMMMMMMMMMMMMMm.            Host: 🧠 Virtual Superbrain",
+          "          +MMMMMMMMMMMMMMMMMMMMMMMMMMMMM/            Kernel: 🤖 ReactJS v18",
+          "         /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+            Uptime: " + uptime,
+          "         yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs            Packages: 666 (npm)",
+          "         sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs            Terminal: WebTerminal",
+          "         .NMMMMMMMMMMMMMMMMMMMMMMMMMMMMm`            Shell: zsh (uzi-mod)",
+          "          /NMMMMMMMMMMMMMMMMMMMMMMMMMMN+             CPU: 💻 QuantumCore i9",
+          "           .dMMMMMMMMMMMMMMMMMMMMMMMMd-              Memory: " + usedMem + "GiB / " + totalMem + "GiB",
+          "             -+shmMMMMMMMMMMMMMMmhs+:.               GPU: Imaginary RTX",
+        ];
+      },
+    },
+
+    install: {
+      description: "Install package on server",
+      action: async (_setMode, setLogs, input = "") => {
+        if (!rootAccess) {
+          return ["⛔ Permission denied. Try `sudo uzi --power`"];
+        }
+
+        const parts = input.trim().split(" ");
+        const pkg = parts[1];
+
+        if (!pkg) {
+          return ["> install", "❓ Specify a package to install. Example: `install matrix-driver`"];
+        }
+
+        const steps = [
+          `📦 Fetching package: ${pkg}...`,
+          `🔧 Resolving dependencies...`,
+          `📁 Installing ${pkg}@1.0.0`,
+          `🔩 Linking binaries...`,
+          `🧪 Running post-install hooks...`,
+          `✅ ${pkg} installed successfully!`,
+          `⚠️  Warning: You've unlocked unstable dev powers.`,
+        ];
+
+        setLogs((prev) => [...prev, `> install ${pkg}`]);
+
+        for (let step of steps) {
+          await new Promise((res) => setTimeout(res, 600));
+          setLogs((prev) => [...prev, step]);
+        }
+
+        return null;
+      },
+    },
+
+    rm: {
+      description: "Delete everything",
+      action: () => [
+        "> rm -rf /",
+        "🔥 Warning: Deleting everything...",
+        "💣 BOOM. System files nuked.",
+        "Just kidding. Your files are safe 😅",
+      ],
     },
   };
 
+  // Fake alert effect
+  const flashTerminal = () => {
+    const terms = document.querySelectorAll(".terminal");
+    if (!terms) return;
+    terms.forEach((term) => {
+      term.classList.add("alert");
+      setTimeout(() => term.classList.remove("alert"), 10000);
+    });
+  };
   const handleCommand = async (cmd) => {
     const trimmed = cmd.trim().toLowerCase();
-    const command = commands[trimmed];
+    const base = trimmed.split(" ")[0];
+    const command = commands[base];
 
     if (command) {
-      const output = command.action((newMode) => {
-        setMode(newMode);
-        setFormData({});
-        setStepIndex(0);
-        setWaitingForCommand(newMode === "idle");
-      });
-
-      if (trimmed === "clear") {
+      if (base === "clear") {
         setLogs([]);
-      } else {
-        setLogs((prev) => [...prev, `> ${trimmed}`, ...(Array.isArray(output) ? output : [output])]);
-        if (["register", "login"].includes(trimmed)) {
-          setWaitingForCommand(false);
-        }
+        return;
+      }
+
+      const result = await command.action(
+        (newMode) => {
+          setMode(newMode);
+          setFormData({});
+          setStepIndex(0);
+          setWaitingForCommand(newMode === "idle");
+        },
+        setLogs,
+        trimmed // <-- pass lowercase trimmed input here
+      );
+
+      if (result && Array.isArray(result)) {
+        setLogs((prev) => [...prev, `> ${cmd}`, ...result]);
+      } else if (typeof result === "string") {
+        setLogs((prev) => [...prev, `> ${cmd}`, result]);
       }
     } else {
       setLogs((prev) => [...prev, `> ${cmd}`, "> Unknown command. Try `help`"]);
@@ -183,18 +416,20 @@ const TerminalShell = () => {
   };
 
   return (
-    <div className="bg-black text-green-400 font-mono p-4 h-screen overflow-y-auto">
+    <div className="terminal-box bg-black text-green-400 font-mono p-4 h-screen overflow-y-auto">
       {logs.map((line, i) => (
-        <div key={i}>{line}</div>
+        <div className="terminal" key={i}>
+          {line}
+        </div>
       ))}
 
       <form onSubmit={handleInputSubmit} className="flex mt-2">
-        <span className="mr-2">&gt;</span>
+        <span className="terminal mr-2">{rootAccess ? "#" : ">"}</span>
         <input
           type={currentPrompt?.type || "text"}
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="bg-black text-green-400 border-none outline-none w-full"
+          className="terminal bg-black text-green-400 border-none outline-none w-full"
           autoFocus
         />
       </form>
