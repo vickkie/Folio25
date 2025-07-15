@@ -85,6 +85,7 @@ function App() {
                 <Route path="/cookies" element={<Cookies />} />
                 <Route path="/privacy" element={<Privacy />} />
                 <Route path="/terminal" element={<TerminalShell />} />
+                <Route path="/shell" element={<TerminalShell />} />
                 <Route element={<ProtectedRoutes />}>
                   <Route path="/dashboard" element={<Dashboard />} />
                   <Route path="/profile" element={<Profile />} />
