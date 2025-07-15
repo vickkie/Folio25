@@ -79,12 +79,13 @@ const Login = () => {
   }, [postData, autoLoginAttempted]);
 
   useEffect(() => {
+    console.log("updateStatus", updateStatus);
     if (updateStatus === 200) {
       setAuthData(responseData);
       console.log("responseData", responseData);
       navigate(redirectTo);
     }
-  }, [updateStatus, responseData, setAuthData, navigate]);
+  }, [updateStatus, responseData, navigate]);
 
   const formik = useFormik({
     initialValues: {
