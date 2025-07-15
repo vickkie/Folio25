@@ -13,9 +13,6 @@ import { EyeIcon, Home } from "lucide-react";
 import { EyeOff } from "lucide-react";
 import { useRef } from "react";
 import toast, { Toaster } from "react-hot-toast";
-import useGet from "../hooks/useGet";
-import MaintainanceLoad from "../Loading/Maintainance";
-import LottieLoad from "../Loading/LottieLoad";
 
 const Login = () => {
   const navigate = useNavigate();

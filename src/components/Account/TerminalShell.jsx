@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef, useContext } from "react";
 import axios from "axios";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./terminal.css";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_PORT;
+
 import { AuthContext } from "../contexts/AuthContext";
 const registerPrompts = [
   { key: "username", label: "Enter your username" },
@@ -459,10 +461,13 @@ const TerminalShell = () => {
     } else {
       // ✅ Final step — submit
       const action = mode;
-      const BYPASS_KEY = updatedData.bypass || ""; // take from latest updatedData
-      const { bypass, ...payload } = updatedData; // strip it from body
+      const BYPASS_KEY = updatedData.bypass || "";
+      const { bypass, ...payload } = updatedData;
 
-      const route = `/api/${action}?bypass=${encodeURIComponent(BYPASS_KEY)}`;
+      const isRegister = action === "register";
+      const route = isRegister
+        ? `${BACKEND_URL}/api/register?bypass=${encodeURIComponent(BYPASS_KEY)}`
+        : `${BACKEND_URL}/api/login`;
 
       setLogs((prev) => [...prev, `> Submitting ${action} data...`]);
 
@@ -473,6 +478,7 @@ const TerminalShell = () => {
 
         if (res.status === 200 || res.status === 201) {
           setAuthData(res.data);
+          console.log(res.data, "res.data");
           navigate(redirectTo);
         }
 
