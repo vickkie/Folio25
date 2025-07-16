@@ -29,7 +29,7 @@ export default function Logout() {
     sessionStorage.clear();
 
     // Redirect
-    navigate("/login");
+    navigate("/login", { state: { message: "Logged out successfully." } });
   };
 
   return null;

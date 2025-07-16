@@ -22,6 +22,7 @@ const Login = () => {
 
   // Extract redirect info
   const redirectTo = location.state?.redirect || "/dashboard";
+  const message = location.state?.message || "";
 
   const { postData, responseData, updateStatus, isLoading, error, errorMessage } = usePost("login");
   const { setAuthData } = useContext(AuthContext);
@@ -43,8 +44,14 @@ const Login = () => {
         navigate("/dashboard");
       })
       .catch(() => {
-        console.log("Refresh token expired or missing");
-        navigate("/login");
+        // console.log("Refresh token expired or missing");
+        if (location.pathname !== "/login") {
+          navigate("/login", {
+            state: {
+              message: "Session expired, please login again",
+            },
+          });
+        }
       });
     // }
   }, []);
@@ -88,7 +95,7 @@ const Login = () => {
 
   useEffect(() => {
     if (error) {
-      console.log(errorMessage, responseData);
+      // console.log(errorMessage, responseData);
       const message = typeof errorMessage === "string" ? errorMessage : "An error occurred. Please try again.";
       toast.error(message, { duration: 6000 });
     }
@@ -137,6 +144,7 @@ const Login = () => {
         <>
           <div className="welcome-msg">Welcome Back Uzi</div>
           {error && <div className="error-message">{errorMessage}</div>}
+          {message && <div className="error-message">{message}</div>}
           <form onSubmit={formik.handleSubmit}>
             <div className="labelHolder">
               <div className="label">Email</div>
