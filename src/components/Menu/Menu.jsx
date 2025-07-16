@@ -74,10 +74,10 @@ const Menu = () => {
               <Link to="/about">ABOUT</Link>
             </div>
             <div className="menu-item-wrapper">
-              <Link to="/work">Work</Link>
+              <Link to="/work">WORK</Link>
             </div>
             <div className="menu-item-wrapper">
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">CONTACT</Link>
             </div>
           </div>
 
@@ -94,7 +94,7 @@ const Menu = () => {
 
           <div className="navbar-menu-grid2">
             <div className="menu-item-wrapper">
-              <a href="/insights">Insights</a>
+              <a href="/insights">INSIGHTS</a>
             </div>
           </div>
         </div>
