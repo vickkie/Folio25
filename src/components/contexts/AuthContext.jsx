@@ -6,25 +6,24 @@ export const AuthProvider = ({ children, clientDetails }) => {
   const [authData, setAuthData] = useState(null);
 
   // Load authData from localStorage on mount
-  // useEffect(() => {
-  //   try {
-  //     const storedAuthData = localStorage.getItem("authData");
-  //     if (storedAuthData) {
-  //       setAuthData(JSON.parse(storedAuthData));
-  //     } else {
-  //       // setAuthData({ client: clientDetails });
-  //     }
-  //   } catch (err) {
-  //     console.error("Failed to parse authData from localStorage:", err);
-  //     setAuthData({ client: clientDetails });
-  //   }
-  // }, []);
+  useEffect(() => {
+    try {
+      const storedAuthData = localStorage.getItem("authData");
+      if (storedAuthData) {
+        setAuthData(JSON.parse(storedAuthData));
+      } else {
+        // setAuthData({ client: clientDetails });
+      }
+    } catch (err) {
+      console.error("Failed to parse authData from localStorage:", err);
+      setAuthData({ client: clientDetails });
+    }
+  }, []);
 
   // Sync to localStorage whenever authData changes
   useEffect(() => {
     if (authData) {
       try {
-        console.log("Saving authData:", authData);
         localStorage.setItem("authData", JSON.stringify(authData));
       } catch (err) {
         console.error("Failed to save authData to localStorage:", err);
@@ -32,13 +31,7 @@ export const AuthProvider = ({ children, clientDetails }) => {
     }
   }, [authData]);
 
-  // Logout handler
-  const logout = () => {
-    localStorage.removeItem("authData");
-    setAuthData(null);
-  };
-
-  return <AuthContext.Provider value={{ authData, setAuthData, logout }}>{children}</AuthContext.Provider>;
+  return <AuthContext.Provider value={{ authData, setAuthData }}>{children}</AuthContext.Provider>;
 };
 
 // Custom hook

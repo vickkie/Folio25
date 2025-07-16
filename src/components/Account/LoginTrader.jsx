@@ -176,7 +176,7 @@ const LoginTrader = () => {
                 className="login-submit"
                 disabled={isLoading || maintainance}
                 onClick={() => {
-                  console.log("clicked");
+              
                 }}
               >
                 {isLoading ? "Logging in..." : "Login"}

@@ -5,7 +5,6 @@ import * as Yup from "yup";
 import usePost from "../hooks/usePost";
 import { AuthContext } from "../contexts/AuthContext";
 import "./Login.css";
-import CryptoJS from "crypto-js";
 
 import NavBar from "../Navbar/NavBar";
 import Menu from "../Menu/Menu";
@@ -13,6 +12,9 @@ import { EyeIcon, Home } from "lucide-react";
 import { EyeOff } from "lucide-react";
 import { useRef } from "react";
 import toast, { Toaster } from "react-hot-toast";
+import axios from "axios";
+
+const BACKEND_URL = import.meta.env.VITE_BACKEND_PORT;
 
 const Login = () => {
   const navigate = useNavigate();
@@ -27,56 +29,25 @@ const Login = () => {
   const inputRef = useRef(null);
 
   const [rememberMe, setRememberMe] = useState(false);
-  const [autoLoginAttempted, setAutoLoginAttempted] = useState(false);
-
-  function generateRandomSecret() {
-    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    let result = "";
-    for (let i = 0; i < 32; i++) {
-      result += characters.charAt(Math.floor(Math.random() * characters.length));
-    }
-    return result;
-  }
-
-  const setRememberMeCookie = (email, password) => {
-    const secretKey = generateRandomSecret(); // Generating a new secret for each session
-    const encryptedEmail = CryptoJS.AES.encrypt(email, secretKey).toString();
-    const encryptedPassword = CryptoJS.AES.encrypt(password, secretKey).toString();
-
-    // Store the secret in memory (only for this session)
-    sessionStorage.setItem("encryptionSecret", secretKey);
-    document.cookie = `uzitrake=${encryptedEmail}|${encryptedPassword}; max-age=604800; path=/`;
-  };
 
   useEffect(() => {
-    if (!autoLoginAttempted) {
-      const cookies = document.cookie.split("; ").find((row) => row.startsWith("uzitrake="));
-      if (cookies) {
-        const [encryptedEmail, encryptedPassword] = cookies.split("=")[1].split("|");
+    const storedAuthData = localStorage.getItem("authData");
 
-        const secret = sessionStorage.getItem("encryptionSecret");
-        if (!secret) {
-          console.warn("Encryption secret is missing from sessionStorage.");
-          // Optionally clear the cookie here to prevent future issues
-          document.cookie = "uzitrake=; Max-Age=0; path=/";
-          return; // Stop further processing
-        }
-
-        try {
-          const decryptedEmail = CryptoJS.AES.decrypt(encryptedEmail, secret).toString(CryptoJS.enc.Utf8);
-          const decryptedPassword = CryptoJS.AES.decrypt(encryptedPassword, secret).toString(CryptoJS.enc.Utf8);
-
-          // Automatically log in with decrypted credentials
-          postData({ email: decryptedEmail, password: decryptedPassword });
-          setAutoLoginAttempted(true);
-        } catch (error) {
-          console.error("Error decrypting stored credentials:", error);
-          // Clear the invalid cookie
-          document.cookie = "rememberMe=; Max-Age=0; path=/";
-        }
-      }
-    }
-  }, [postData, autoLoginAttempted]);
+    // if (!storedAuthData) {
+    //   console.log("No local auth, trying refresh token");
+    // No local auth, try refresh token
+    axios
+      .post(`${BACKEND_URL}/api/refresh-token`, {}, { withCredentials: true })
+      .then((res) => {
+        setAuthData(res.data?.user);
+        navigate("/dashboard");
+      })
+      .catch(() => {
+        console.log("Refresh token expired or missing");
+        navigate("/login");
+      });
+    // }
+  }, []);
 
   useEffect(() => {
     if (updateStatus === 200) {
@@ -96,18 +67,13 @@ const Login = () => {
       password: Yup.string().min(1, "At least 1 characters required").required("Required"),
     }),
     onSubmit: (values) => {
-      // Ensure email is in lowercase before submitting
       const processedValues = {
         ...values,
+        rememberMe,
         email: values.email.toLowerCase(),
       };
-      // console.log(processedValues);
 
       postData(processedValues);
-
-      if (rememberMe) {
-        setRememberMeCookie(processedValues.email, processedValues.password);
-      }
     },
   });
 

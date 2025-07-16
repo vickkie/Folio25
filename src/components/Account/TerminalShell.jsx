@@ -130,7 +130,6 @@ const TerminalShell = () => {
       description: "Try sudo access",
       action: (_setMode, _setLogs, input = "") => {
         const args = input.trim().toLowerCase();
-        console.log("sudo args:", args);
 
         if (args === "sudo uzi --power") {
           setRootAccess(true);
@@ -478,7 +477,7 @@ const TerminalShell = () => {
 
         if (res.status === 200 || res.status === 201) {
           setAuthData(res.data);
-          console.log(res.data, "res.data");
+
           navigate(redirectTo);
         }
 

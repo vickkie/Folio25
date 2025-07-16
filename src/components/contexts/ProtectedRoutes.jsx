@@ -6,13 +6,20 @@ const ProtectedRoutes = () => {
   const navigate = useNavigate();
   const { authData } = useContext(AuthContext);
 
+  const storedAuthData = localStorage.getItem("authData");
+  const localAuthData = storedAuthData ? JSON.parse(storedAuthData) : null;
+
+  const userData = authData ? authData : localAuthData ? localAuthData : null;
+
   useEffect(() => {
-    if (!authData || authData.status !== "active" || !authData.TOKEN) {
+    if (!userData || userData?.status !== "active" || !userData?.TOKEN) {
+      console.log("No auth data, redirecting to login");
       navigate("/login");
+      console.log(authData, "authData");
     }
   }, [authData, navigate]);
 
-  return authData && authData.status === "active" ? <Outlet /> : null;
+  return userData && userData?.status === "active" ? <Outlet /> : null;
 };
 
 export default ProtectedRoutes;
