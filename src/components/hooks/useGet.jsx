@@ -25,6 +25,7 @@ const useGet = (endpoint, requiresAuth = false, token = null) => {
 
     return axios.get(url, {
       headers,
+      withCredentials: true,
       validateStatus: (status) => status >= 200 && status < 300,
     });
   }, [endpoint, backendUrl, isDevelopment, requiresAuth, token]);

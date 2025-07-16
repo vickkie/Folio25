@@ -79,10 +79,9 @@ const Login = () => {
   }, [postData, autoLoginAttempted]);
 
   useEffect(() => {
-    console.log("updateStatus", updateStatus);
     if (updateStatus === 200) {
       setAuthData(responseData);
-      console.log("responseData", responseData);
+
       navigate(redirectTo);
     }
   }, [updateStatus, responseData, navigate]);

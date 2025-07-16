@@ -29,12 +29,14 @@ const usePost = (endpoint, requiresAuth = false, token = null) => {
 
     return axios.post(url, data, {
       headers,
+      withCredentials: true,
       validateStatus: (status) => status >= 200 && status < 300,
     });
   };
 
   const handleSuccess = (response) => {
     setUpdateStatus(response.status);
+    console.log(response.data, "response.data");
     setResponseData(response.data);
     const message = response?.data?.message || response.message;
     setErrorMessage(message);

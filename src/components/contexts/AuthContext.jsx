@@ -12,13 +12,13 @@ export const AuthProvider = ({ children, clientDetails }) => {
   //     if (storedAuthData) {
   //       setAuthData(JSON.parse(storedAuthData));
   //     } else {
-  //       setAuthData({ client: clientDetails });
+  //       // setAuthData({ client: clientDetails });
   //     }
   //   } catch (err) {
   //     console.error("Failed to parse authData from localStorage:", err);
   //     setAuthData({ client: clientDetails });
   //   }
-  // }, [clientDetails]);
+  // }, []);
 
   // Sync to localStorage whenever authData changes
   useEffect(() => {

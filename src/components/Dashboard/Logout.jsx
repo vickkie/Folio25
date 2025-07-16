@@ -1,6 +1,7 @@
 import React, { useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../contexts/AuthContext";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_PORT;
 
 export default function Logout() {
   const navigate = useNavigate();
@@ -10,25 +11,24 @@ export default function Logout() {
     handleLogout();
   }, [navigate]);
 
-  const handleLogout = () => {
-    // Clear user data in context
+  const handleLogout = async () => {
+    try {
+      // Call backend to clear httpOnly cookie
+      const response = await fetch(`${BACKEND_URL}/api/logout`, {
+        method: "POST",
+        credentials: "include",
+      });
+      console.log(response, "response");
+    } catch (e) {
+      console.warn("Logout API failed", e);
+    }
+
+    // Clear frontend stuff
     setAuthData(null);
-
-    // Clear localStorage
     localStorage.removeItem("authData");
-
-    // Clear cookies
-    document.cookie.split(";").forEach((cookie) => {
-      const cookieName = cookie.split("=")[0].trim();
-      document.cookie = `${cookieName}=; Max-Age=-99999999; path=/`;
-    });
-    // console.log("Cookies cleared.");
-
-    // Clear session storage
     sessionStorage.clear();
-    // console.log("Session storage cleared.");
 
-    // Redirect to login page
+    // Redirect
     navigate("/login");
   };
 

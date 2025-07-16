@@ -1,21 +1,18 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate, Outlet } from "react-router-dom";
+import { AuthContext } from "../contexts/AuthContext";
 
 const ProtectedRoutes = () => {
   const navigate = useNavigate();
-  const authData = localStorage.getItem("authData");
-  const storedAuthData = JSON.parse(authData);
+  const { authData } = useContext(AuthContext);
 
   useEffect(() => {
-    if (!storedAuthData || storedAuthData.status !== "active" || !storedAuthData.TOKEN) {
+    if (!authData || authData.status !== "active" || !authData.TOKEN) {
       navigate("/login");
-    } else {
-      console.log("welcome");
     }
-  }, [storedAuthData, navigate]);
+  }, [authData, navigate]);
 
-  // Render the children components if authenticated
-  return storedAuthData && storedAuthData.status === "active" ? <Outlet /> : null;
+  return authData && authData.status === "active" ? <Outlet /> : null;
 };
 
 export default ProtectedRoutes;
