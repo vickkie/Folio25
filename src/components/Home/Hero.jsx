@@ -7,7 +7,7 @@ import SvgIcon from "./Fragments/Svg";
 const Hero = () => {
   const navigate = useNavigate();
   return (
-    <div className="hero">
+    <div className="hero" data-cursor-img="/images/giphy.gif" data-cursor="-medium">
       <div className="hero-content">
         <div className="blob"></div>
         <div className="leftGrid">

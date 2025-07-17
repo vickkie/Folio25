@@ -115,7 +115,7 @@ const Login = () => {
       >
         <Home />
       </div>
-      <div className="loginImage">
+      <div className="loginImage" data-cursor-text="Hello!">
         <div className="overlay-bg">
           <h2 className="overlayText-bg">Please sleep dude!</h2>
         </div>
@@ -142,7 +142,9 @@ const Login = () => {
         </div>
 
         <>
-          <div className="welcome-msg">Welcome Back Uzi</div>
+          <div className="welcome-msg" data-cursor="-pointer">
+            Welcome Back Uzi
+          </div>
           {error && <div className="error-message">{errorMessage}</div>}
           {message && <div className="error-message">{message}</div>}
           <form onSubmit={formik.handleSubmit}>
@@ -205,7 +207,7 @@ const Login = () => {
               </Link>
             </div>
 
-            <button type="submit" className="login-submit" disabled={isLoading}>
+            <button data-cursor="-inverse" type="submit" className="login-submit" disabled={isLoading}>
               {isLoading ? "Logging in..." : "Login"}
             </button>
 

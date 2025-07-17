@@ -11,6 +11,11 @@ import Loading from "./components/Loading/Loading";
 import Preloader from "./components/Loading/Preloader";
 import ProjectPage from "./components/Work/projects/ProjectPage";
 
+import MouseFollower from "mouse-follower";
+import "./components/css/mouse-follow.css";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 // Lazy-loaded pages
 const Home = lazy(() => import("./components/Home/Home"));
 const About = lazy(() => import("./components/About/About"));
@@ -42,6 +47,15 @@ function App() {
     return () => {
       clearTimeout(t);
       document.body.style.overflow = "auto";
+    };
+  }, []);
+
+  MouseFollower.registerGSAP(gsap);
+  // MouseFollower.registerScrollTrigger(ScrollTrigger);
+  useEffect(() => {
+    const cursor = new MouseFollower();
+    return () => {
+      cursor.destroy();
     };
   }, []);
 
