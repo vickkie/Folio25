@@ -309,6 +309,45 @@
   
   "link": "https://illunexus.vercel.app",  "dataContent":"status-quo business tools",
    "task":["UI DESIGN ", "BRANDING","DEVELOPMENT","SEO","MARKETING","ANALYTICS","CONTENT STRATEGY"]
+},
+{
+  "aim": "The main development goal with the Illunexus project was to build a sleek, conversion-optimized digital identity for a modern marketing agency. We wanted to create a platform that not only communicated Illunexus’ wide array of services but also positioned them as a bold leader in the digital marketing space through sharp UI, interactive content, and a future-proof tech stack.",
+  
+  "content": "Illunexus is the brainchild of bold marketers and growth hackers—built to **elevate brands digitally through powerful, data-backed strategies**. From SEO and CPA campaigns to social media dominance and email automation, Illunexus is engineered to be the **go-to digital partner** for businesses ready to scale. Our build reflects that same energy: clean, responsive, and made to perform.",
+  
+  "analysis": "Illunexus sets itself apart by offering a **360° digital marketing approach** rooted in execution, not fluff. My job was to translate that into a **website that feels light but hits heavy**. We designed each section to focus on clarity and action: bold messaging, case study highlights, and a modular layout for scalability. With an intuitive structure and optimized performance across all devices, the site acts as both a digital business card and a lead magnet for Illunexus.",
+  
+  "id": "hypercritical",
+  "highlights": [
+    "Crafted a bold digital identity tailored for conversion and visual impact.",
+    "Engineered a modern frontend with responsive, CTA-driven architecture.",
+    "Built a modular design system for fast editing and future scalability.",
+    "Optimized UX with smooth flow, bold messaging, and clear service hierarchy.",
+    "Integrated SEO, analytics, and performance enhancements from day one.",
+    "Elevated brand perception with slick visuals and interactive storytelling.",
+    "Improved engagement metrics via fast load times and intuitive structure.",
+    "Delivered a future-proof site acting as both business card and lead funnel.",
+    "Showcased Illunexus' 360° marketing power through data-backed UI choices."
+  ],
+  "solution": "I crafted the Illunexus platform using a custom frontend that emphasizes **user flow and CTA-driven navigation**. We baked in performance, responsiveness, and flexibility—while keeping editing easy for the team behind Illunexus. Built with modern web principles, the final product empowers the agency to grow while looking sharp, credible, and professional.",
+  
+   "media":"/images/works/hypercritical/Hypercritical-Macbook-Air-M2psd-0-2.webp || /images/works/hypercritical/hypercritical-menu.webp || /images/works/hypercritical/works-iphone.webp || /images/works/hypercritical/Hypercritical-ipad.webp || /images/works/hypercritical/Macbook-Air-2022.webp ",
+  
+  "mediaLarge":"/images/works/hypercritical/0-mockuppsd-02.webp || /images/works/hypercritical/hypercritical-menu.webp || /images/works/hypercritical/works-iphone.webp || /images/works/hypercritical/Hypercritical-ipad.webp || /images/works/hypercritical/Macbook-Air-2022.webp ",
+  
+
+  
+  "previewImage": "/images/works/hypercritical/Hypercritical-Macbook-Air-M2psd-0-2.webp",
+  "showoffImage":"/images/works/hypercritical/hypercritical-menu.webp",
+  
+  "title": "hypercritical",
+  
+  "client": "Illunexus Agency",
+  
+  "year": "2024",
+  
+  "link": "https://illunexus.vercel.app",  "dataContent":"status-quo business tools",
+   "task":["UI DESIGN ", "BRANDING","DEVELOPMENT","SEO","MARKETING","ANALYTICS","CONTENT STRATEGY"]
 }
 
 
