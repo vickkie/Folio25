@@ -2,33 +2,51 @@ import React, { useEffect, useRef, useState } from "react";
 import featuredWork from "../../assets/json/featuredWork.json";
 import "./css/featuredWork.css";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export const FeaturedWork = () => {
   const wrapperRef = useRef(null);
-
   const [isWide, setIsWide] = useState(window.innerWidth > 697);
-
+  const [retrigger, setRetrigger] = useState(false);
   useEffect(() => {
     const handleResize = () => {
       setIsWide(window.innerWidth > 697);
     };
-
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  useEffect(() => {
-    const projects = wrapperRef.current?.querySelectorAll(".feature-inner-wrapper");
+  useGSAP(() => {
+    if (!wrapperRef.current) return;
 
+    // scroll trigger on wrapper
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: wrapperRef.current,
+        start: "top 90%",
+        end: "bottom 10%",
+        scrub: false,
+        // markers: true,
+        onEnter: () => {
+          // console.log("entered scroll zone");
+          setRetrigger(true);
+        },
+        onLeave: () => {
+          // setRetrigger(false);
+        },
+      },
+    });
+
+    const projects = wrapperRef.current.querySelectorAll(".feature-inner-wrapper");
     if (!projects) return;
-
-    const timelines = [];
 
     projects.forEach((project) => {
       const fadeBlack = "rgb(255, 255, 255)";
       const fadeMain = "rgb(20, 207, 147)";
       const fadeWhite = "rgb(0, 0, 0)";
-      console.log("reaced here");
 
       const tl = gsap.timeline({ paused: true });
 
@@ -39,29 +57,24 @@ export const FeaturedWork = () => {
         "start"
       );
 
-      const projectTexts = project.querySelectorAll(".feature-expla-info");
-      projectTexts.forEach((text) => {
+      const texts = project.querySelectorAll(".feature-expla-info");
+      texts.forEach((text) => {
         tl.fromTo(text, { color: fadeWhite }, { color: fadeBlack, duration: 0.5, ease: "none" }, "start");
       });
 
-      const onEnter = () => tl.play();
-      const onLeave = () => tl.reverse();
+      const enter = () => tl.play();
+      const leave = () => tl.reverse();
 
-      project.addEventListener("mouseenter", onEnter);
-      project.addEventListener("mouseleave", onLeave);
+      project.addEventListener("mouseenter", enter);
+      project.addEventListener("mouseleave", leave);
 
-      // Save cleanup references
-      timelines.push({ project, onEnter, onLeave });
+      // Cleanup
+      return () => {
+        project.removeEventListener("mouseenter", enter);
+        project.removeEventListener("mouseleave", leave);
+      };
     });
-
-    // Cleanup listeners when layout changes (on resize)
-    return () => {
-      timelines.forEach(({ project, onEnter, onLeave }) => {
-        project.removeEventListener("mouseenter", onEnter);
-        project.removeEventListener("mouseleave", onLeave);
-      });
-    };
-  }, [isWide, featuredWork]);
+  }, [isWide, retrigger]);
 
   const FeatureText = ({ item }) => (
     <div className="feature-expla">
@@ -80,7 +93,7 @@ export const FeaturedWork = () => {
             <div className="feature-year">{item.year}</div>
             <div className="feature-view">
               <svg role="button">
-                <use xlinkHref="/svg/sprite.svg#sharp-arrow"></use>
+                <use xlinkHref="/svg/sprite.svg#sharp-arrow" />
               </svg>
             </div>
           </div>
@@ -99,22 +112,21 @@ export const FeaturedWork = () => {
     <section className="feature-work white-section" ref={wrapperRef}>
       <div className="feature-header">
         <div className="feature-head">
-          FEATURED WO
-          <span className="slunt">R</span>K
+          FEATURED WO<span className="slunt">R</span>K
         </div>
         <div className="feature-svg">
           <svg role="button">
-            <use xlinkHref="/svg/sprite.svg#sharp-arrow"></use>
+            <use xlinkHref="/svg/sprite.svg#sharp-arrow" />
           </svg>
         </div>
       </div>
+
       <div className="feature-wrapper">
         {Array.isArray(featuredWork) &&
           featuredWork
             .filter((item) => item.showcase)
             .map((item, index) => {
               const isEven = index % 2 === 0;
-
               return (
                 <div className="feature-row" key={index}>
                   {isWide ? (
