@@ -348,7 +348,50 @@
   
   "link": "https://illunexus.vercel.app",  "dataContent":"status-quo business tools",
    "task":["UI DESIGN ", "BRANDING","DEVELOPMENT","SEO","MARKETING","ANALYTICS","CONTENT STRATEGY"]
+},
+{
+  "aim": "The goal of the Medivana project was to design & build a seamless healthcare platform that empowers users to **find trusted doctors**, browse specialties, check real-time availability, and book appointments in seconds. The idea was to simplify healthcare access via sleek UI, mobile-friendly design, and scalable architecture that can grow with new modules (e.g. telehealth, record keeping).",
+  
+  "content": "Medivana is a user-centric healthcare companion—built for people who want to manage their health without friction. Whether you’re looking for a specialist, checking who’s available, or scheduling care—Medivana makes it fast, reliable, and trustworthy. Our UI reflects clarity and trust through intuitive navigation, clean design, and empathetic touches.",
+  
+  "analysis": "What sets Medivana apart is its focus on **user trust and speed** in a domain where both are critical. In the healthcare space, delays, confusing workflows, or poor UX can seriously erode confidence. My role was to translate medical utility into an interface that feels human: clear doctor profiles, visible availability, minimal form steps. Designed responsively for mobile & desktop. Built so the system is modular — easy to add features like ratings, notifications, or patient records — while maintaining performance and accessibility.",
+  
+  "id": "medivana",
+  
+  "highlights": [
+    "Designed doctor directory with clean profiles & specialty filters.",
+    "Built appointment booking flow that minimizes friction and time-to-book.",
+    "Developed a responsive UI with mobile-first design for users on the go.",
+    "Ensured clarity and trust through thoughtful design (e.g. trust indicators, transparent availability).",
+    "Architected modular frontend to allow future scaling and feature expansion.",
+    "Optimized performance and load speeds for smoother user experience.",
+    "Focused on accessibility and usability across devices.",
+    "Incorporated real-time availability / status updates.",
+    "Set up infrastructure to support security and privacy as core considerations."
+  ],
+  
+  "solution": "I developed the Medivana platform using a modern architecture that prioritizes user flow: fast searches, minimal clicks to book, clean presentation of doctors & specialties. Emphasized performance, responsiveness, and modularity so that new features can slot in smoothly. Also baked in privacy/security from the start (doctor credentials display, secure data handling).",
+  
+  "media": "/images/works/medivana/splash2.png || /images/works/medivana/categories.webp || /images/works/medivana/signup.webp || /images/works/medivana/home.webp || /images/works/medivana/login.webp || /images/works/medivana/profile.webp || /images/works/medivana/tilted.webp",
+  
+  "mediaLarge": " /images/works/medivana/splash2.png || /images/works/medivana/categories.webp || /images/works/medivana/signup.webp || /images/works/medivana/home.webp || /images/works/medivana/login.webp || /images/works/medivana/profile.webp || /images/works/medivana/tilted.webp",
+  
+  "previewImage": "/images/works/medivana/splashscreen.webp",
+  "showoffImage": "/images/works/medivana/splashscreen.webp",
+  
+  "title": "Medivana",
+  
+  "client": "Medivana (personal / portfolio project)",
+  
+  "year": "2025",
+  
+  "link": "https://medivana.vercel.app",
+  
+  "dataContent": "on-demand health services platform",
+  
+  "task": ["UX / UI Design", "Frontend Development", "Booking Flow", "Performance Optimization"]
 }
+
 
 
 
