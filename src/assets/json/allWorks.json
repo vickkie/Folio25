@@ -1,398 +1,407 @@
 [
-    {
-        "Analysis": " Lumina, a skincare product company, faced several challenges in establishing its brand identity and online presence. The company struggled with low brand recognition, difficulty in conveying the benefits of its products, and limited customer engagement on its existing website.",
-        "aim": " This project entailed developing a robust design system and refining digital touchpoints, ensuring a seamless user experience across their app ecosystem with a design partner capable of adapting to their continuously evolving requirements.",
-        "client": "Lumina Skincare",
-        "content": "Skincare on a mission of empathy and self-discovery.",
-        "id": "lumina",
-        "media": "/images/works/lumina/lumina-cover.webp || /images/works/lumina-web/smoothskin.webp || /images/works/lumina-web/shopdsign1.webp || /images/works/lumina-web/lumina-footer.webp || /images/works/lumina-web/dddddddddd.webp || /images/works/lumina-web/smallest-mock.webp  || /images/works/lumina-web/lumina-grow-small.webp",
-        "mediaLarge": "/images/works/lumina/lumina-cover.webp || /images/works/lumina-web/smoothskin.webp || /images/works/lumina-web/shopdsign1.webp || /images/works/lumina-web/lumina-grow1.webp || /images/works/lumina-web/dddddddddd.webp || /images/works/lumina-web/small-mock.webp || /images/works/lumina-web/c060b181d5fe51.webp",
-       
-        
-        "previewImage": "/images/works/lumina-web/wow-bg.avif",
-        "solution": " Throughout our partnership, As the developer responsible for designing Lumina's product branding and website, I addressed these challenges by implementing a comprehensive solution. Through extensive market research and collaboration with Lumina's team, I developed a cohesive brand identity that resonated with the target audience and differentiated Lumina from competitors. This involved creating visually appealing packaging designs that conveyed the premium quality and efficacy of Lumina's skincare products.",
-      "dataContent":"Natural products for natural skin.",
-  "highlights": [
-    "Revamped Lumina’s brand identity to boost recognition in a crowded skincare market.",
-    "Crafted a unified digital experience across Lumina's app and web platforms.",
-    "Designed and developed a scalable design system to support evolving product needs.",
-    "Created premium packaging that communicates natural ingredients and high efficacy.",
-    "Led art direction to emphasize a clean, emotional, and skin-positive visual style.",
-    "Conducted user research to shape a brand that resonates with modern skincare consumers.",
-    "Bridged the gap between branding and tech, from product visuals to interactive user flows."
-  ]
-,
-"link":"https://theluminaskincare.com/",
-        "title": "Lumina",
-        "year": "2018",
-        "showoffImage":"/images/works/lumina/lumina-cover.webp",
-           "task":["BRANDING","DEVELOPMENT","art direction","CONTENT STRATEGY"]
-    },
-    {
-        "Analysis": "Trakexcel Agency, a leading provider of marketing and analytics solutions, aimed to revolutionize its online presence and brand image. Recognizing the importance of a captivating design that resonates with its target audience, they entrusted us with this mission. As our collaboration progressed, our focus extended to enhancing user engagement and streamlining the user experience.",
-        "highlights":[
-            "Enhanced user engagement and streamlined user experience.",
-            "Developed a comprehensive design system for consistency and efficiency.",
-            "Improved onboarding process with custom illustrations.",
-            "Optimized website interface for improved navigation and visual appeal.",
-            "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
-        ],
-        "aim": "The objective was to design and develop a website for Trakexcel agency that is exceptionally attractive and visually appealing. Every aspect of the design was crafted to captivate visitors and leave a lasting impression, ensuring that the website stands out amidst the digital landscape.",
-        "client": "Trakexcel agency",
-        "dataContent": "To build the future, forget the status-quo.",
-        "id": "trakexcel",
-        "media": "/images/works/trakexcel/Index-page-mid.webp?auto=compress,format || /images/works/trakexcel/trakexcel-mockall-mid.webp?auto=compress,format || /images/works/trakexcel/Trakexcel-iPhone-midhigh.webp || /images/works/trakexcel/localhost_trakexcel_blog.avif",
-        "mediaLarge": "/images/works/trakexcel/Index-page-mid.webp?auto=compress,format || /images/works/trakexcel/trakexcel-mockall-mid.webp?auto=compress,format || /images/works/trakexcel/Trakexcel-iPhone-midhigh.webp || /images/works/trakexcel/localhost_trakexcel_blog.avif",
-       
-        
-        "previewImage": "/images/works/trakexcel/Trakexcel-iPhone-high.webp",
-        "solution": " We undertook various initiatives to enhance Trakexcel's online presence. We began by optimizing the website's interface and user experience, focusing on improving navigation and visual appeal. Subsequently, we delved into mobile design, exploring new app directions and refining user interactions to optimize engagement.</br></br> Additionally, we revamped the onboarding process, redesigning flows and incorporating custom illustrations to communicate Trakexcel's brand story effectively. Our ultimate achievement was the development of a comprehensive design system that ensured consistency and efficiency across all design, product, and engineering endeavors.",
-        "title": "Trakexcel",
-        "year": "2020",
-        "showoffImage":"/images/works/trakexcel/Trakexcel-iPhone-midhigh.webp",
-           "task":["UI DESIGN ", "UX DESIGN", "BRANDING","DEVELOPMENT","SEO","MARKETING","ANALYTICS"]
-    },
-    {
-        "Analysis": "Crafting a captivating portfolio as a UX/UI designer presented a unique challenge. I needed a platform that not only showcased my design prowess but also effectively communicated my artistic vision and directorial leadership.",
-        "aim": "As a programmer and UX/UI designer, I recognized the importance of showcasing my skills and projects effectively to potential clients and employers.<br /><br /> However, creating a portfolio that truly reflected my expertise and creativity posed a significant challenge. I needed a platform that not only highlighted my technical abilities but also conveyed my design sensibilities and problem-solving approach in a compelling manner.",
-        "highlights": [
-    "Built a personal portfolio from scratch to reflect both design and development skills.",
-    "Showcased a curated archive of diverse work across UI, UX, and frontend builds.",
-    "Integrated storytelling elements to communicate problem-solving and creative thinking.",
-    "Developed a responsive, visually compelling interface to elevate personal brand.",
-    "Balanced technical depth with artistic direction to appeal to both clients and recruiters.",
-    "Crafted a design system to ensure consistency across case studies and future projects.",
-    "Delivered a polished digital self-portrait that stands out in the creative tech space."
-  ],
-        "client": "Personal portfolio",
-        "content": "Archive of my works and skills ;)",
-        "id": "uzitrake",
-        "media": "/images/works/portfolio/uzitrake89.webp || /images/works/portfolio/uzitrake-extrahigh-1.webp || /images/works/portfolio/uziport-multi.webp || /images/works/portfolio/background_logotype.png || /images/works/portfolio/6ffd2a192642973.65df0533da245.avif",
-        "mediaLarge": "/images/works/portfolio/uziport-multi.webp || /images/works/portfolio/uzitrake89.webp || /images/works/portfolio/uzitrake-extrahigh-1.webp ||  /images//works/portfolio/background_logotype.png || /images/works/portfolio/6ffd2a192642973.65df0533da245.avif",
-      
-        
-        "previewImage": "/images/works/general/19.jpg",
-        "solution": "To address this challenge, I approached the design and development of my portfolio with a strategic mindset, focusing on three key aspects: showcasing my technical proficiency, demonstrating my design expertise, and providing insight into my problem-solving process.<br /><br />In terms of design, I employed user-centered principles to craft an intuitive and visually engaginginterface. I carefully curated my portfolio projects, selecting a diverse range of work that showcasedmy versatility and creativity across different domains and platforms<br /><br />Throughout the development process, I iterated on the design and content based on feedback from peers, mentors, and potential users, ensuring that my portfolio effectively showcased my skills and resonated with its intended audience.",
-        "title": "Uzitrake",
-        "link":"https://vickkie.github.io",
-        "year": "2023",
-        "showoffImage":"/images/works/portfolio/uziport-multi-high.webp",
-           "task":["UI DESIGN ", "testing","portfolio","DEVELOPMENT"],
-           "dataContent":"All work no play makes jack ..."
-    },
-  
-{
+  {
+    "Analysis": " Lumina, a skincare product company, faced several challenges in establishing its brand identity and online presence. The company struggled with low brand recognition, difficulty in conveying the benefits of its products, and limited customer engagement on its existing website.",
+    "aim": " This project entailed developing a robust design system and refining digital touchpoints, ensuring a seamless user experience across their app ecosystem with a design partner capable of adapting to their continuously evolving requirements.",
+    "client": "Lumina Skincare",
+    "content": "Skincare on a mission of empathy and self-discovery.",
+    "id": "lumina",
+    "media": "/images/works/lumina/lumina-cover.webp || /images/works/lumina-web/smoothskin.webp || /images/works/lumina-web/shopdsign1.webp || /images/works/lumina-web/lumina-footer.webp || /images/works/lumina-web/dddddddddd.webp || /images/works/lumina-web/smallest-mock.webp  || /images/works/lumina-web/lumina-grow-small.webp",
+    "mediaLarge": "/images/works/lumina/lumina-cover.webp || /images/works/lumina-web/smoothskin.webp || /images/works/lumina-web/shopdsign1.webp || /images/works/lumina-web/lumina-grow1.webp || /images/works/lumina-web/dddddddddd.webp || /images/works/lumina-web/small-mock.webp || /images/works/lumina-web/c060b181d5fe51.webp",
+
+    "previewImage": "/images/works/lumina-web/wow-bg.avif",
+    "solution": " Throughout our partnership, As the developer responsible for designing Lumina's product branding and website, I addressed these challenges by implementing a comprehensive solution. Through extensive market research and collaboration with Lumina's team, I developed a cohesive brand identity that resonated with the target audience and differentiated Lumina from competitors. This involved creating visually appealing packaging designs that conveyed the premium quality and efficacy of Lumina's skincare products.",
+    "dataContent": "Natural products for natural skin.",
+    "highlights": [
+      "Revamped Lumina’s brand identity to boost recognition in a crowded skincare market.",
+      "Crafted a unified digital experience across Lumina's app and web platforms.",
+      "Designed and developed a scalable design system to support evolving product needs.",
+      "Created premium packaging that communicates natural ingredients and high efficacy.",
+      "Led art direction to emphasize a clean, emotional, and skin-positive visual style.",
+      "Conducted user research to shape a brand that resonates with modern skincare consumers.",
+      "Bridged the gap between branding and tech, from product visuals to interactive user flows."
+    ],
+    "link": "https://theluminaskincare.com/",
+    "title": "Lumina",
+    "year": "2018",
+    "showoffImage": "/images/works/lumina/lumina-cover.webp",
+    "task": ["BRANDING", "DEVELOPMENT", "art direction", "CONTENT STRATEGY"]
+  },
+  {
+    "Analysis": "Trakexcel Agency, a leading provider of marketing and analytics solutions, aimed to revolutionize its online presence and brand image. Recognizing the importance of a captivating design that resonates with its target audience, they entrusted us with this mission. As our collaboration progressed, our focus extended to enhancing user engagement and streamlining the user experience.",
+    "highlights": [
+      "Enhanced user engagement and streamlined user experience.",
+      "Developed a comprehensive design system for consistency and efficiency.",
+      "Improved onboarding process with custom illustrations.",
+      "Optimized website interface for improved navigation and visual appeal.",
+      "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
+    ],
+    "aim": "The objective was to design and develop a website for Trakexcel agency that is exceptionally attractive and visually appealing. Every aspect of the design was crafted to captivate visitors and leave a lasting impression, ensuring that the website stands out amidst the digital landscape.",
+    "client": "Trakexcel agency",
+    "dataContent": "To build the future, forget the status-quo.",
+    "id": "trakexcel",
+    "media": "/images/works/trakexcel/Index-page-mid.webp?auto=compress,format || /images/works/trakexcel/trakexcel-mockall-mid.webp?auto=compress,format || /images/works/trakexcel/Trakexcel-iPhone-midhigh.webp || /images/works/trakexcel/localhost_trakexcel_blog.avif",
+    "mediaLarge": "/images/works/trakexcel/Index-page-mid.webp?auto=compress,format || /images/works/trakexcel/trakexcel-mockall-mid.webp?auto=compress,format || /images/works/trakexcel/Trakexcel-iPhone-midhigh.webp || /images/works/trakexcel/localhost_trakexcel_blog.avif",
+
+    "previewImage": "/images/works/trakexcel/Trakexcel-iPhone-high.webp",
+    "solution": " We undertook various initiatives to enhance Trakexcel's online presence. We began by optimizing the website's interface and user experience, focusing on improving navigation and visual appeal. Subsequently, we delved into mobile design, exploring new app directions and refining user interactions to optimize engagement.</br></br> Additionally, we revamped the onboarding process, redesigning flows and incorporating custom illustrations to communicate Trakexcel's brand story effectively. Our ultimate achievement was the development of a comprehensive design system that ensured consistency and efficiency across all design, product, and engineering endeavors.",
+    "title": "Trakexcel",
+    "year": "2020",
+    "showoffImage": "/images/works/trakexcel/Trakexcel-iPhone-midhigh.webp",
+    "task": ["UI DESIGN ", "UX DESIGN", "BRANDING", "DEVELOPMENT", "SEO", "MARKETING", "ANALYTICS"]
+  },
+  {
+    "Analysis": "Crafting a captivating portfolio as a UX/UI designer presented a unique challenge. I needed a platform that not only showcased my design prowess but also effectively communicated my artistic vision and directorial leadership.",
+    "aim": "As a programmer and UX/UI designer, I recognized the importance of showcasing my skills and projects effectively to potential clients and employers.<br /><br /> However, creating a portfolio that truly reflected my expertise and creativity posed a significant challenge. I needed a platform that not only highlighted my technical abilities but also conveyed my design sensibilities and problem-solving approach in a compelling manner.",
+    "highlights": [
+      "Built a personal portfolio from scratch to reflect both design and development skills.",
+      "Showcased a curated archive of diverse work across UI, UX, and frontend builds.",
+      "Integrated storytelling elements to communicate problem-solving and creative thinking.",
+      "Developed a responsive, visually compelling interface to elevate personal brand.",
+      "Balanced technical depth with artistic direction to appeal to both clients and recruiters.",
+      "Crafted a design system to ensure consistency across case studies and future projects.",
+      "Delivered a polished digital self-portrait that stands out in the creative tech space."
+    ],
+    "client": "Personal portfolio",
+    "content": "Archive of my works and skills ;)",
+    "id": "uzitrake",
+    "media": "/images/works/portfolio/uzitrake89.webp || /images/works/portfolio/uzitrake-extrahigh-1.webp || /images/works/portfolio/uziport-multi.webp || /images/works/portfolio/background_logotype.png || /images/works/portfolio/6ffd2a192642973.65df0533da245.avif",
+    "mediaLarge": "/images/works/portfolio/uziport-multi.webp || /images/works/portfolio/uzitrake89.webp || /images/works/portfolio/uzitrake-extrahigh-1.webp ||  /images//works/portfolio/background_logotype.png || /images/works/portfolio/6ffd2a192642973.65df0533da245.avif",
+
+    "previewImage": "/images/works/general/19.jpg",
+    "solution": "To address this challenge, I approached the design and development of my portfolio with a strategic mindset, focusing on three key aspects: showcasing my technical proficiency, demonstrating my design expertise, and providing insight into my problem-solving process.<br /><br />In terms of design, I employed user-centered principles to craft an intuitive and visually engaginginterface. I carefully curated my portfolio projects, selecting a diverse range of work that showcasedmy versatility and creativity across different domains and platforms<br /><br />Throughout the development process, I iterated on the design and content based on feedback from peers, mentors, and potential users, ensuring that my portfolio effectively showcased my skills and resonated with its intended audience.",
+    "title": "Uzitrake",
+    "link": "https://vickkie.github.io",
+    "year": "2023",
+    "showoffImage": "/images/works/portfolio/uziport-multi-high.webp",
+    "task": ["UI DESIGN ", "testing", "portfolio", "DEVELOPMENT"],
+    "dataContent": "All work no play makes jack ..."
+  },
+
+  {
     "id": "kizik",
     "year": "2023",
     "title": "Kizik",
-    "showoffImage":"/images/works/kizik/kizik.webp",
+    "showoffImage": "/images/works/kizik/kizik.webp",
     "aim": "My aim was to collaborate with Kizik and revolutionize the footwear industry by designing a website that not only showcased their innovative products but also reflected their commitment to simplicity, convenience, and joy in everyday life. We recognized the opportunity to leverage our expertise in user experience design and web development to create a platform that would effectively communicate Kizik's brand message and enhance the user experience for visitors.",
-    "task": ["UX DESIGN"," Development","BRAND IDENTITY","DEVELOPMENT","SEO","ANALYTICS"],
+    "task": ["UX DESIGN", " Development", "BRAND IDENTITY", "DEVELOPMENT", "SEO", "ANALYTICS"],
     "media": "/images/works/kizik/kizik-1-work-drawer-660x425.webm || /images/works/kizik/kizik-2-work-drawer-660x425-1.webm || /images/works/kizik/kizik-3-work-drawer-660x425-1.webm || /images/works/kizik/kizik.com_en-ke(Nest Hub Max).png",
     "mediaLarge": "/images/works/kizik/kizik-1-work-drawer-660x425.webm || /images/works/kizik/kizik-2-work-drawer-660x425-1.webm || /images/works/kizik/kizik-3-work-drawer-660x425-1.webm || /images/works/kizik/kizik.com_en-ke(Nest Hub Max).png",
     "client": "Kizik",
     "content": "Kizik's mission was to transform the footwear industry by introducing innovative technology that simplified the process of wearing shoes. The company aimed to enhance everyday life by eliminating the need for traditional shoe fastenings, such as laces, and replacing them with a more convenient and user-friendly alternative. Kizik's technology represented a significant advancement in footwear design and usability, offering users a seamless and enjoyable experience with every step.",
     "solution": "To bring Kizik's vision to life, we focused on designing and developing a website that effectively communicated the benefits and features of their revolutionary footwear technology. Our solution centered on creating a user-friendly interface that showcased Kizik's products and their unique selling points. We prioritized simplicity and accessibility, ensuring that users could easily navigate the website and explore Kizik's range of shoes. Additionally, we incorporated engaging visual elements and interactive features to captivate visitors and highlight the convenience and comfort of Kizik's footwear. Through iterative design and development, we refined the website to align with Kizik's brand identity and resonate with its target audience, ultimately delivering a seamless and compelling online experience.",
     "Analysis": "Working on Kizik's website was an opportunity to contribute to the transformation of the footwear industry and enhance the lives of users worldwide. By leveraging innovative technology and user-centered design principles, we helped Kizik communicate its mission and showcase its products effectively to a global audience. The project underscored the importance of simplicity, convenience, and joy in everyday experiences, reflecting Kizik's commitment to making every day easier and more enjoyable for everyone.",
-  "highlights": [
-    "Crafted a seamless UX to reflect Kizik’s hands-free, no-laces footwear experience.",
-    "Designed a performance-optimized, visually engaging website for global accessibility.",
-    "Integrated interactive product storytelling to highlight innovation in footwear tech.",
-    "Developed a scalable design system supporting Kizik’s growth and branding goals.",
-    "Enhanced user engagement through intuitive navigation and responsive design.",
-    "Refined the customer journey from landing to checkout with conversion-focused flows.",
-    "Used motion and visual cues to communicate simplicity, comfort, and convenience.",
-    "Ensured accessibility across devices to reach diverse audiences with ease.",
-    "Delivered a bold digital experience that mirrors the ease and joy of Kizik shoes."
-  ],
-   
-    
-    "previewImage": "/images/works/kizik/kizik-banner.webm"
-    ,"link":"https://kizik.com",
-    "dataContent":"Step into the future today"
-}
-,
-    {
-        "aim": "The Robin Golf website design was a strategic blend of branding, UX/UI design, development optimization, and customer engagement strategies. From its inception through ongoing improvements, the website serves as a testament to the power of thoughtful design in enhancing brand perception and driving business outcomes.",
-        "content": "Getting into the swing of things. ",
-        "Analysis":"Robin Golf is a company that specializes in providing high-quality, stylish golf equipment aimed at making the sport more accessible and enjoyable for a wider range of players. Founded in 2020 and headquartered in Los Angeles, California, Robin Golf offers golf sets for women, men, and juniors, emphasizing design and functionality to enhance the player's experience from tee to green. ",
-        "id": "robin-golf",
-        "media": "/images/works/golfer/6dac42a8-b10a-425d-9c10-d96fc9a2.webp || /images/works/golfer/robin-golf-logo-animation.mp4 || /images/works/golfer/aa844126-d9f4-4b61-8846-2fbc8920.webp || /images/works/golfer/robin-hero.png ||  /images/works/golfer/robin-child.webp || /images/works/golfer/robingolf-cart.avif",
-        "mediaLarge": "/images/works/golfer/6dac42a8-b10a-425d-9c10-d96fc9a2.webp || /images/works/golfer/robin-golf-logo-animation.mp4 || /images/works/golfer/aa844126-d9f4-4b61-8846-2fbc8920.webp || /images/works/golfer/robin-hero.avif || /images/works/golfer/robingolf-cart.avif || /images/works/golfer/robingolf.com_products_women(Nest Hub Max).avif",
-      
-        
-        "previewImage": "/images/works/golfer/DSC00717.webp",
-        "solution": "Initial Design Phase:<br><br>Brand Identity and Messaging : The website emphasizes Robin Golf's commitment to providing high-quality golf equipment accessible to a wide range of players. It positions Robin Golf as a brand that combines affordability with performance, appealing to both professionals and beginners<br><br>Visual Appeal and User Experience (UX): The design focuses on creating a visually appealing and intuitive interface. This includes responsive design elements to ensure the website is accessible across various devices, enhancing the overall user experience.<br><br>Development and Optimization <br><br> Headless Architecture: Initially, the website was built with a headless architecture, separating the front-end presentation layer from the back-end content management system (CMS). This approach allows for greater flexibility and scalability but requires careful integration with the CMS for ease of content updates.<br><br>Enhancements and Integrations: To address challenges with content updates and improve the website's effectiveness, Future Holidays refined the headless architecture. They introduced helpful apps and integrated Google Analytics to track user behavior and optimize conversion rates. Additionally, they implemented email capture lightboxes and automated product restock flows to boost sales",
-       "highlights": [
-    "Developed a headless architecture for flexible front-end performance.",
-    "Integrated Google Analytics and behavior tracking to optimize conversions.",
-    "Designed a responsive, device-friendly UI that elevates brand credibility.",
-    "Improved sales funnel through strategic UX, lightboxes, and restock flows.",
-    "Enhanced content update flow by refining CMS integration and tooling.",
-    "Created a visually immersive shopping experience for all player levels.",
-    "Positioned Robin Golf as an accessible-yet-premium brand in the golf market.",
-    "Boosted user engagement through smart UX decisions and data-driven tweaks.",
-    "Delivered a scalable, optimized platform that balances performance and design."
-  ],
-        "title": "Robin-golf",
-        "year": "2019",
-        "link":"https://www.robingolf.com",
-        "showoffImage":"/images/works/golfer/robin-hero.png",
-           "task":["Web animation ", "web development","optimization","DEVELOPMENT","SEO","ANALYTICS"],
-           "dataContent":"Hit in style like a boss you are"
-    },
-    {
-        "aim": "Personalization was a central theme, emphasizing the importance of catering to individual needs and preferences. The integration of the Spoiled Brain AI for personalized product recommendations is a significant feature, demonstrating the use of advanced technology to enhance user engagement and satisfaction",
-        "content": "Make your skin age inappropriate. ",
-        "Analysis":"Spoiled child skincare product  aims to challenge conventional anti-aging narratives by introducing the term ' age control' and providing products that promise fewer wrinkles and signs of aging by combining cutting-edge technology with a focus on personalization and sustainability.",
-      "highlights": [
-    "Integrated Spoiled Brain AI for smart, personalized product recommendations.",
-    "Designed vibrant, capsule-focused product pages to enhance visual storytelling.",
-    "Built a custom eCommerce experience tailored to the beauty/skincare space.",
-    "Leveraged User-Generated Content (UGC) to boost community and authenticity.",
-    "Crafted a bold, tongue-in-cheek brand identity through UX and visual design.",
-    "Created a detailed content strategy to educate and entertain users simultaneously.",
-    "Prioritized performance and accessibility for a seamless shopping experience.",
-    "Implemented a scalable design system to future-proof the brand’s digital growth.",
-    "Elevated user engagement through thematic consistency and sleek navigation."
-  ],
-        "id": "spoiled-child",
-        "media": "/images/works/general/3c498d10-387e-412b-87dd-2092ee9e.avif || videos/spoiled-child.webm || /images/works/general/e49b10f2-fefd-4b83-9430-d6ea4857.webp || /images/works/spoiled-child/spoiledchild.com.webp  || /images/works/spoiled-child/whospoiled.webp",
-        "mediaLarge": "/images/works/general/3c498d10-387e-412b-87dd-2092ee9e.avif || videos/spoiled-child.webm || /images/works/general/e49b10f2-fefd-4b83-9430-d6ea4857.webp || /images/works/spoiled-child/spoiledchild.com.webp  || /images/works/spoiled-child/whospoiled.webp",
-       
-        
-        "previewImage": "/images/works/spoiled-child/sospoiled.avif",
-        "solution": "The project began with setting a collaborative creative direction. This involves understanding the brand's vision, values, and target audience to ensure the design aligns with these elements. Collaborating closely with the client allows for a shared understanding of the desired outcome, leading to a more cohesive final product.<br><br>A crucial aspect of the design process was defining product categories and creating detailed pages for each product. These pages were designed to immerse users in a colorful capsule-driven world, enhancing the shopping experience through visual appeal and thematic consistency<br><br>The website's content strategy prioritizes community involvement, showcasing User-Generated Content (UGC) to demonstrate product usage and effectiveness. This approach not only builds trust with potential customers but also fosters a sense of community among existing ones<br><br>The visual design and art direction were tailored to reflect the brand's unique personality, described as confident, tongue-in-cheek, and impactful yet simple. This approach ensures that the website stands out in the crowded beauty space, attracting attention and resonating with the target audience.<br><br>The eCommerce platform used for Spoiled Child is custom, highlighting the need for a tailored solution that meets the specific requirements of the brand and its online presence. This customization includes features such as personalized product recommendations, secure payment processing, and efficient order management",
-        "title": "spoiled-child",
-        "year": "2021",
-        "link":"https://spoiledchild.com",
-        "showoffImage":"/images/works/spoiled-child/whospoiled.webp",
-           "task":["UI DESIGN ", "BRANDING","SEO"],
-           "dataContent":"Make you skin age inappropriately"
-    },
-{
+    "highlights": [
+      "Crafted a seamless UX to reflect Kizik’s hands-free, no-laces footwear experience.",
+      "Designed a performance-optimized, visually engaging website for global accessibility.",
+      "Integrated interactive product storytelling to highlight innovation in footwear tech.",
+      "Developed a scalable design system supporting Kizik’s growth and branding goals.",
+      "Enhanced user engagement through intuitive navigation and responsive design.",
+      "Refined the customer journey from landing to checkout with conversion-focused flows.",
+      "Used motion and visual cues to communicate simplicity, comfort, and convenience.",
+      "Ensured accessibility across devices to reach diverse audiences with ease.",
+      "Delivered a bold digital experience that mirrors the ease and joy of Kizik shoes."
+    ],
+
+    "previewImage": "/images/works/kizik/kizik-banner.webm",
+    "link": "https://kizik.com",
+    "dataContent": "Step into the future today"
+  },
+  {
+    "aim": "The Robin Golf website design was a strategic blend of branding, UX/UI design, development optimization, and customer engagement strategies. From its inception through ongoing improvements, the website serves as a testament to the power of thoughtful design in enhancing brand perception and driving business outcomes.",
+    "content": "Getting into the swing of things. ",
+    "Analysis": "Robin Golf is a company that specializes in providing high-quality, stylish golf equipment aimed at making the sport more accessible and enjoyable for a wider range of players. Founded in 2020 and headquartered in Los Angeles, California, Robin Golf offers golf sets for women, men, and juniors, emphasizing design and functionality to enhance the player's experience from tee to green. ",
+    "id": "robin-golf",
+    "media": "/images/works/golfer/6dac42a8-b10a-425d-9c10-d96fc9a2.webp || /images/works/golfer/robin-golf-logo-animation.mp4 || /images/works/golfer/aa844126-d9f4-4b61-8846-2fbc8920.webp || /images/works/golfer/robin-hero.png ||  /images/works/golfer/robin-child.webp || /images/works/golfer/robingolf-cart.avif",
+    "mediaLarge": "/images/works/golfer/6dac42a8-b10a-425d-9c10-d96fc9a2.webp || /images/works/golfer/robin-golf-logo-animation.mp4 || /images/works/golfer/aa844126-d9f4-4b61-8846-2fbc8920.webp || /images/works/golfer/robin-hero.avif || /images/works/golfer/robingolf-cart.avif || /images/works/golfer/robingolf.com_products_women(Nest Hub Max).avif",
+
+    "previewImage": "/images/works/golfer/DSC00717.webp",
+    "solution": "Initial Design Phase:<br><br>Brand Identity and Messaging : The website emphasizes Robin Golf's commitment to providing high-quality golf equipment accessible to a wide range of players. It positions Robin Golf as a brand that combines affordability with performance, appealing to both professionals and beginners<br><br>Visual Appeal and User Experience (UX): The design focuses on creating a visually appealing and intuitive interface. This includes responsive design elements to ensure the website is accessible across various devices, enhancing the overall user experience.<br><br>Development and Optimization <br><br> Headless Architecture: Initially, the website was built with a headless architecture, separating the front-end presentation layer from the back-end content management system (CMS). This approach allows for greater flexibility and scalability but requires careful integration with the CMS for ease of content updates.<br><br>Enhancements and Integrations: To address challenges with content updates and improve the website's effectiveness, Future Holidays refined the headless architecture. They introduced helpful apps and integrated Google Analytics to track user behavior and optimize conversion rates. Additionally, they implemented email capture lightboxes and automated product restock flows to boost sales",
+    "highlights": [
+      "Developed a headless architecture for flexible front-end performance.",
+      "Integrated Google Analytics and behavior tracking to optimize conversions.",
+      "Designed a responsive, device-friendly UI that elevates brand credibility.",
+      "Improved sales funnel through strategic UX, lightboxes, and restock flows.",
+      "Enhanced content update flow by refining CMS integration and tooling.",
+      "Created a visually immersive shopping experience for all player levels.",
+      "Positioned Robin Golf as an accessible-yet-premium brand in the golf market.",
+      "Boosted user engagement through smart UX decisions and data-driven tweaks.",
+      "Delivered a scalable, optimized platform that balances performance and design."
+    ],
+    "title": "Robin-golf",
+    "year": "2019",
+    "link": "https://www.robingolf.com",
+    "showoffImage": "/images/works/golfer/robin-hero.png",
+    "task": ["Web animation ", "web development", "optimization", "DEVELOPMENT", "SEO", "ANALYTICS"],
+    "dataContent": "Hit in style like a boss you are"
+  },
+  {
+    "aim": "Personalization was a central theme, emphasizing the importance of catering to individual needs and preferences. The integration of the Spoiled Brain AI for personalized product recommendations is a significant feature, demonstrating the use of advanced technology to enhance user engagement and satisfaction",
+    "content": "Make your skin age inappropriate. ",
+    "Analysis": "Spoiled child skincare product  aims to challenge conventional anti-aging narratives by introducing the term ' age control' and providing products that promise fewer wrinkles and signs of aging by combining cutting-edge technology with a focus on personalization and sustainability.",
+    "highlights": [
+      "Integrated Spoiled Brain AI for smart, personalized product recommendations.",
+      "Designed vibrant, capsule-focused product pages to enhance visual storytelling.",
+      "Built a custom eCommerce experience tailored to the beauty/skincare space.",
+      "Leveraged User-Generated Content (UGC) to boost community and authenticity.",
+      "Crafted a bold, tongue-in-cheek brand identity through UX and visual design.",
+      "Created a detailed content strategy to educate and entertain users simultaneously.",
+      "Prioritized performance and accessibility for a seamless shopping experience.",
+      "Implemented a scalable design system to future-proof the brand’s digital growth.",
+      "Elevated user engagement through thematic consistency and sleek navigation."
+    ],
+    "id": "spoiled-child",
+    "media": "/images/works/general/3c498d10-387e-412b-87dd-2092ee9e.avif || videos/spoiled-child.webm || /images/works/general/e49b10f2-fefd-4b83-9430-d6ea4857.webp || /images/works/spoiled-child/spoiledchild.com.webp  || /images/works/spoiled-child/whospoiled.webp",
+    "mediaLarge": "/images/works/general/3c498d10-387e-412b-87dd-2092ee9e.avif || videos/spoiled-child.webm || /images/works/general/e49b10f2-fefd-4b83-9430-d6ea4857.webp || /images/works/spoiled-child/spoiledchild.com.webp  || /images/works/spoiled-child/whospoiled.webp",
+
+    "previewImage": "/images/works/spoiled-child/sospoiled.avif",
+    "solution": "The project began with setting a collaborative creative direction. This involves understanding the brand's vision, values, and target audience to ensure the design aligns with these elements. Collaborating closely with the client allows for a shared understanding of the desired outcome, leading to a more cohesive final product.<br><br>A crucial aspect of the design process was defining product categories and creating detailed pages for each product. These pages were designed to immerse users in a colorful capsule-driven world, enhancing the shopping experience through visual appeal and thematic consistency<br><br>The website's content strategy prioritizes community involvement, showcasing User-Generated Content (UGC) to demonstrate product usage and effectiveness. This approach not only builds trust with potential customers but also fosters a sense of community among existing ones<br><br>The visual design and art direction were tailored to reflect the brand's unique personality, described as confident, tongue-in-cheek, and impactful yet simple. This approach ensures that the website stands out in the crowded beauty space, attracting attention and resonating with the target audience.<br><br>The eCommerce platform used for Spoiled Child is custom, highlighting the need for a tailored solution that meets the specific requirements of the brand and its online presence. This customization includes features such as personalized product recommendations, secure payment processing, and efficient order management",
+    "title": "spoiled-child",
+    "year": "2021",
+    "link": "https://spoiledchild.com",
+    "showoffImage": "/images/works/spoiled-child/whospoiled.webp",
+    "task": ["UI DESIGN ", "BRANDING", "SEO"],
+    "dataContent": "Make you skin age inappropriately"
+  },
+  {
     "aim": "As a senior developer in charge our aim with the J.Stimler project was to collaborate with the brand to revolutionize the fashion industry by leveraging sustainable fabrics and innovative designs. We aimed to create a high-quality, environmentally friendly website that reflected J.Stimler's commitment to transparency, ethical practices, and sustainability throughout its supply chain.",
     "content": "Crafted with purpose, J.Stimler's collection is a testament to the power of sustainable fashion. Each piece is designed to not only look good but also do good, contributing to a more conscious and responsible fashion ecosystem.",
     "analysis": "J.Stimler stands out in the fashion industry by blending environmental responsibility with high-end aesthetics. By focusing on organic materials and fair trade practices, the brand offers a compelling alternative to fast fashion, appealing to consumers who value ethics and sustainability in their wardrobe choices. The approach to designing and developing J.Stimler's website was rooted in a deep understanding of the brand's ethos. We collaborated closely with J.Stimler to ensure that the website reflected their values and communicated their message effectively. Through thoughtful design and meticulous attention to detail, we created a platform that not only showcased J.Stimler's collections but also educated consumers about the importance of sustainable fashion. The website serves as a digital storefront for J.Stimler, inviting users to explore their eco-friendly designs and learn more about their commitment to sustainability.",
-    "highlights":[
-        "Enhanced user engagement and streamlined user experience.",
-        "Developed a comprehensive design system for consistency and efficiency.",
-        "Improved onboarding process with custom illustrations.",
-        "Optimized website interface for improved navigation and visual appeal.",
-        "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
+    "highlights": [
+      "Enhanced user engagement and streamlined user experience.",
+      "Developed a comprehensive design system for consistency and efficiency.",
+      "Improved onboarding process with custom illustrations.",
+      "Optimized website interface for improved navigation and visual appeal.",
+      "Delivered a visually appealing and user-friendly website that stands out in the digital landscape."
     ],
     "id": "jstimler",
     "solution": " The design and development of the J.Stimler website with a deep commitment to sustainability and ethical production. We collaborated closely with J.Stimler to ensure that every aspect of the website reflected their values and communicated their message effectively. Through thoughtful design and meticulous attention to detail, we created a platform that not only showcased J.Stimler's collections but also educated consumers about the importance of sustainable fashion. The website serves as a digital storefront for J.Stimler, inviting users to explore their eco-friendly designs and learn more about their commitment to sustainability.",
     "media": "/images/works/jstimler/Fabrics-J-Stimler.webp || /images/works/jstimler/65785ac5cfa2c998014571-1.webp || /images/works/jstimler/motion22.mp4",
     "mediaLarge": "/images/works/jstimler/Fabrics-J-Stimler.webp || /images/works/jstimler/65785ac5cfa2c998014571-1.webp || /images/works/jstimler/motion22.mp4",
- 
-    
+
     "previewImage": "/images/works/jstimler/jstimler-banner.avif",
     "title": "jstimler",
-    "dataContent":"Cultural design rabbit hole",
+    "dataContent": "Cultural design rabbit hole",
     "year": "2023",
-    "link":"https://jstimler.co.uk",
-    "showoffImage":"/images/works/jstimler/71R8WtiGV1L._AC_SX679_.jpg",
-       "task":["Art dircetion ","UI DESIGN ", "BRANDING","web development","DEVELOPMENT",  "ANALYTICS"]
-},
-{
-  "aim": "The goal with the Promokings project was to design and develop a sleek, mobile-first shopping experience tailored for modern users. The focus was on creating a clean, fast, and intuitive app that allows users to explore, order, and engage with streetwear-inspired fashion effortlessly, while enabling the team behind Promokings to manage products and orders seamlessly.",
-  
-  "content": "Promokings is a mobile shopping app built for streetwear lovers who value both style and simplicity. It delivers a curated collection of trendy apparel through an experience that feels fast, responsive, and delightfully smooth. Whether you're browsing the latest drops or placing an order, the app is engineered to give users total ease and confidence in every interaction.",
-  
-  "analysis": "Promokings fills the gap between hype and usability. Most fashion apps feel bloated or clunky—this one doesn’t. We stripped back the noise and focused on essential, high-performing features. The interface is lightweight yet bold, matching the brand’s street-savvy energy. Users can easily navigate categories, preview items, and complete purchases in just a few taps. From onboarding to checkout, every screen was optimized for clarity, speed, and minimal cognitive load. On the backend, we implemented streamlined product management and order tracking to support the team in scaling operations without friction.",
-  
-  "highlights": [
-    "Built a mobile-first shopping app with seamless ordering and navigation.",
-    "Focused on clean UI and fast performance for on-the-go fashion consumers.",
-    "Streamlined the product browsing, cart, and checkout flows for efficiency.",
-    "Designed intuitive onboarding and user flows to improve retention.",
-    "Implemented product and order management tools for store admins.",
-    "Created a visually bold interface that reflects the brand’s streetwear identity.",
-    "Improved overall user engagement through UX-driven design decisions.",
-    "Delivered an end-to-end digital storefront in app form—ready to scale."
-  ],
-  
-  "solution": "I designed and developed the Promokings shopping app to deliver a minimalist yet powerful retail experience. From slick animations to intuitive user flows, the app reflects the fast-moving, fashion-forward vibe of its audience. Paired with a simple backend setup, the Promokings team can now focus on scaling while users enjoy shopping with ease.",
-  
-  "dataContent": "Shopping experience sharpened.",
-  
-  "id": "promokings",
-  
-  "media": "/images/works/promokings/wireframe22.webp || /images/works/promokings/wireframe-p2.webp || /images/works/promokings/wireframe22.webp",
-  
-  "mediaLarge": "/images/works/promokings/wireframe23.webp || /images/works/promokings/wireframe-p.webp || /images/works/promokings/wireframe22.webp",
-  
-  "previewImage": "/images/works/promokings/promokings.webp",
-  
-  "title": "promokings",
-  
-  "year": "2023",
-  
-  "link": "https://github.com/vickkie/Promokings",
-  
-  "showoffImage": "/images/works/promokings/promokings.webp",
-  
-  "task": ["UI DESIGN", "App development", "Marketing", "Mobile App", "iOS", "Android"]
-},
-{
- 
+    "link": "https://jstimler.co.uk",
+    "showoffImage": "/images/works/jstimler/71R8WtiGV1L._AC_SX679_.jpg",
+    "task": ["Art dircetion ", "UI DESIGN ", "BRANDING", "web development", "DEVELOPMENT", "ANALYTICS"]
+  },
+  {
+    "aim": "The goal with the Promokings project was to design and develop a sleek, mobile-first shopping experience tailored for modern users. The focus was on creating a clean, fast, and intuitive app that allows users to explore, order, and engage with streetwear-inspired fashion effortlessly, while enabling the team behind Promokings to manage products and orders seamlessly.",
+
+    "content": "Promokings is a mobile shopping app built for streetwear lovers who value both style and simplicity. It delivers a curated collection of trendy apparel through an experience that feels fast, responsive, and delightfully smooth. Whether you're browsing the latest drops or placing an order, the app is engineered to give users total ease and confidence in every interaction.",
+
+    "analysis": "Promokings fills the gap between hype and usability. Most fashion apps feel bloated or clunky—this one doesn’t. We stripped back the noise and focused on essential, high-performing features. The interface is lightweight yet bold, matching the brand’s street-savvy energy. Users can easily navigate categories, preview items, and complete purchases in just a few taps. From onboarding to checkout, every screen was optimized for clarity, speed, and minimal cognitive load. On the backend, we implemented streamlined product management and order tracking to support the team in scaling operations without friction.",
+
+    "highlights": [
+      "Built a mobile-first shopping app with seamless ordering and navigation.",
+      "Focused on clean UI and fast performance for on-the-go fashion consumers.",
+      "Streamlined the product browsing, cart, and checkout flows for efficiency.",
+      "Designed intuitive onboarding and user flows to improve retention.",
+      "Implemented product and order management tools for store admins.",
+      "Created a visually bold interface that reflects the brand’s streetwear identity.",
+      "Improved overall user engagement through UX-driven design decisions.",
+      "Delivered an end-to-end digital storefront in app form—ready to scale."
+    ],
+
+    "solution": "I designed and developed the Promokings shopping app to deliver a minimalist yet powerful retail experience. From slick animations to intuitive user flows, the app reflects the fast-moving, fashion-forward vibe of its audience. Paired with a simple backend setup, the Promokings team can now focus on scaling while users enjoy shopping with ease.",
+
+    "dataContent": "Shopping experience sharpened.",
+
+    "id": "promokings",
+
+    "media": "/images/works/promokings/wireframe22.webp || /images/works/promokings/wireframe-p2.webp || /images/works/promokings/wireframe22.webp",
+
+    "mediaLarge": "/images/works/promokings/wireframe23.webp || /images/works/promokings/wireframe-p.webp || /images/works/promokings/wireframe22.webp",
+
+    "previewImage": "/images/works/promokings/promokings.webp",
+
+    "title": "promokings",
+
+    "year": "2023",
+
+    "link": "https://github.com/vickkie/Promokings",
+
+    "showoffImage": "/images/works/promokings/promokings.webp",
+
+    "task": ["UI DESIGN", "App development", "Marketing", "Mobile App", "iOS", "Android"]
+  },
+  {
     "aim": "The goal with the Zephir project was to redefine high-end fashion e-commerce store by merging cutting-edge digital experiences with bold, statement-making apparel. From premium menswear and womenswear to children’s fashion and pride-inspired collections, Zephir was designed to exude exclusivity and style while providing seamless control through an advanced admin dashboard",
-    
+
     "content": "Zephir is where bold fashion meets timeless sophistication. Every piece in our collection is crafted to **exude confidence and individuality**, ensuring that wearers don’t just follow trends—they set them. Whether it’s meticulously tailored menswear, effortlessly chic womenswear, or expressive pride apparel, Zephir stands as a beacon of **luxury, identity, and self-expression**.",
-    
+
     "analysis": "Zephir distinguishes itself by offering a curated selection of **high-quality, statement-making apparel**. The brand isn’t just about selling fashion—it’s about **empowering self-expression through design**. By crafting pieces that blend avant-garde aesthetics with premium materials, Zephir attracts a clientele that values both quality and confidence. To match this, i meticulously developed a platform that captures Zephir’s **bold, fashion-forward energy**. The site features an **immersive shopping experience**, fluid navigation, and a robust admin dashboard that offers full control over inventory, orders, and customer engagement. Zephir isn't just a retail store—it's a movement in modern fashion.",
 
-    
     "id": "zephir",
     "highlights": [
-    "Redefined fashion e-commerce with a luxe, immersive shopping experience.",
-    "Built a high-performance platform with seamless navigation and fluid UI.",
-    "Integrated a custom admin dashboard with real-time control and insights.",
-    "Designed for all demographics—menswear, womenswear, kids, and pride lines.",
-    "Implemented an AI-powered recommendation engine for smart upselling.",
-    "Crafted a bold, expressive brand identity centered on individuality.",
-    "Developed a responsive design system adaptable across devices and categories.",
-    "Optimized performance and accessibility without compromising on style.",
-    "Empowered Zephir to be more than a store—a fashion-forward movement."
-  ],
-       
-    "solution": "I took a forward-thinking approach to Zephir's development, ensuring the platform **not only looks luxurious but operates seamlessly**. With an intuitive, high-performance UI, an AI-powered recommendation engine, and an admin dashboard providing **real-time insights and control**, Zephir redefines what a **next-gen fashion e-commerce experience** should be."
-,
+      "Redefined fashion e-commerce with a luxe, immersive shopping experience.",
+      "Built a high-performance platform with seamless navigation and fluid UI.",
+      "Integrated a custom admin dashboard with real-time control and insights.",
+      "Designed for all demographics—menswear, womenswear, kids, and pride lines.",
+      "Implemented an AI-powered recommendation engine for smart upselling.",
+      "Crafted a bold, expressive brand identity centered on individuality.",
+      "Developed a responsive design system adaptable across devices and categories.",
+      "Optimized performance and accessibility without compromising on style.",
+      "Empowered Zephir to be more than a store—a fashion-forward movement."
+    ],
+
+    "solution": "I took a forward-thinking approach to Zephir's development, ensuring the platform **not only looks luxurious but operates seamlessly**. With an intuitive, high-performance UI, an AI-powered recommendation engine, and an admin dashboard providing **real-time insights and control**, Zephir redefines what a **next-gen fashion e-commerce experience** should be.",
     "media": "/images/works/zephir/0_Free MacBook on Dresser Mockup.psd_0fr2.webp || /images/works/zephir/0_Free iPhone based on Rock Mockup.psd_021.webp || /images/works/zephir/1_iPhone 16 Pro Mockup DKgoodart.psd_02.webp || /images/works/zephir/0_Free MacBook Pro On The Cabinet Mockup.psd_013.webp || /images/works/zephir/0_0_Isometric Smartphone Free Mockup.psd_01.webp || /images/works/zephir/0_Free MacBook Pro on Settee Mockup.psd_01.webp",
     "mediaLarge": "/images/works/zephir/0_Free MacBook on Dresser Mockup.psd_0fr2.webp || /images/works/zephir/0_Free iPhone based on Rock Mockup.psd_021.webp || /images/works/zephir/1_iPhone 16 Pro Mockup DKgoodart.psd_0.webp || /images/works/zephir/0_Free MacBook Pro On The Cabinet Mockup.psd_013.webp || /images/works/zephir/0_0_Isometric Smartphone Free Mockup.psd_01.webp || /images/works/zephir/0_Free MacBook Pro on Settee Mockup.psd_01.webp",
-    
-    
+
     "previewImage": "/images/works/zephir/banner_w2.webp",
     "title": "zephir",
     "client": "Zephir Store",
     "year": "2025",
-    "link":"https://zephir.vercel.app","dataContent":"Statement-making apparel",
-   "task":["UI DESIGN ", "BRANDING","DEVELOPMENT"],
-   "showoffImage":"/images/works/zephir/0_iPhone Stone Hands Mockup DKgoodart.psd_10-low.webp"
-},
-{
-  "aim": "The main development goal with the Illunexus project was to build a sleek, conversion-optimized digital identity for a modern marketing agency. We wanted to create a platform that not only communicated Illunexus’ wide array of services but also positioned them as a bold leader in the digital marketing space through sharp UI, interactive content, and a future-proof tech stack.",
-  
-  "content": "Illunexus is the brainchild of bold marketers and growth hackers—built to **elevate brands digitally through powerful, data-backed strategies**. From SEO and CPA campaigns to social media dominance and email automation, Illunexus is engineered to be the **go-to digital partner** for businesses ready to scale. Our build reflects that same energy: clean, responsive, and made to perform.",
-  
-  "analysis": "Illunexus sets itself apart by offering a **360° digital marketing approach** rooted in execution, not fluff. My job was to translate that into a **website that feels light but hits heavy**. We designed each section to focus on clarity and action: bold messaging, case study highlights, and a modular layout for scalability. With an intuitive structure and optimized performance across all devices, the site acts as both a digital business card and a lead magnet for Illunexus.",
-  
-  "id": "illunexus",
-  "highlights": [
-    "Crafted a bold digital identity tailored for conversion and visual impact.",
-    "Engineered a modern frontend with responsive, CTA-driven architecture.",
-    "Built a modular design system for fast editing and future scalability.",
-    "Optimized UX with smooth flow, bold messaging, and clear service hierarchy.",
-    "Integrated SEO, analytics, and performance enhancements from day one.",
-    "Elevated brand perception with slick visuals and interactive storytelling.",
-    "Improved engagement metrics via fast load times and intuitive structure.",
-    "Delivered a future-proof site acting as both business card and lead funnel.",
-    "Showcased Illunexus' 360° marketing power through data-backed UI choices."
-  ],
-  "solution": "I crafted the Illunexus platform using a custom frontend that emphasizes **user flow and CTA-driven navigation**. We baked in performance, responsiveness, and flexibility—while keeping editing easy for the team behind Illunexus. Built with modern web principles, the final product empowers the agency to grow while looking sharp, credible, and professional.",
-  
-   "media":"/images/works/illunexus/0_1_Free MacBook Pro on Stand Mockup.psd_0cc.webp || /images/works/illunexus/0_2_iPhone Mockup.psd_0x.webp || /images/works/illunexus/0_Free MacBook Pro on Chair Mockup.psd_0.webp || /images/works/illunexus/0_2_Free Front View MacBook 16 Pro Mockup.psd_0.webp || /images/works/illunexus/0_3_Free Front View MacBook 16 Pro Mockup.psd_0.webp ",
-  
-  "mediaLarge":"/images/works/illunexus/0_1_Free MacBook Pro on Stand Mockup.psd_0cc.webp || /images/works/illunexus/0_2_iPhone Mockup.psd_0x.webp || /images/works/illunexus/0_Free MacBook Pro on Chair Mockup.psd_0.webp || /images/works/illunexus/0_2_Free Front View MacBook 16 Pro Mockup.psd_0.webp || /images/works/illunexus/0_3_Free Front View MacBook 16 Pro Mockup.psd_0.webp ",
-  
+    "link": "https://zephir.vercel.app",
+    "dataContent": "Statement-making apparel",
+    "task": ["UI DESIGN ", "BRANDING", "DEVELOPMENT"],
+    "showoffImage": "/images/works/zephir/0_iPhone Stone Hands Mockup DKgoodart.psd_10-low.webp"
+  },
+  {
+    "aim": "The main development goal with the Illunexus project was to build a sleek, conversion-optimized digital identity for a modern marketing agency. We wanted to create a platform that not only communicated Illunexus’ wide array of services but also positioned them as a bold leader in the digital marketing space through sharp UI, interactive content, and a future-proof tech stack.",
 
-  
-  "previewImage": "/images/works/illunexus/preview-hero.webp",
-  "showoffImage":"/images/works/illunexus/0_2_Free MacBook Pro on Stand Mockup.psd_0z.webp",
-  
-  "title": "illunexus",
-  
-  "client": "Illunexus Agency",
-  
-  "year": "2024",
-  
-  "link": "https://illunexus.vercel.app",  "dataContent":"status-quo business tools",
-   "task":["UI DESIGN ", "BRANDING","DEVELOPMENT","SEO","MARKETING","ANALYTICS","CONTENT STRATEGY"]
-},
-{
-  "aim": "The main development goal with the Illunexus project was to build a sleek, conversion-optimized digital identity for a modern marketing agency. We wanted to create a platform that not only communicated Illunexus’ wide array of services but also positioned them as a bold leader in the digital marketing space through sharp UI, interactive content, and a future-proof tech stack.",
-  
-  "content": "Illunexus is the brainchild of bold marketers and growth hackers—built to **elevate brands digitally through powerful, data-backed strategies**. From SEO and CPA campaigns to social media dominance and email automation, Illunexus is engineered to be the **go-to digital partner** for businesses ready to scale. Our build reflects that same energy: clean, responsive, and made to perform.",
-  
-  "analysis": "Illunexus sets itself apart by offering a **360° digital marketing approach** rooted in execution, not fluff. My job was to translate that into a **website that feels light but hits heavy**. We designed each section to focus on clarity and action: bold messaging, case study highlights, and a modular layout for scalability. With an intuitive structure and optimized performance across all devices, the site acts as both a digital business card and a lead magnet for Illunexus.",
-  
-  "id": "hypercritical",
-  "highlights": [
-    "Crafted a bold digital identity tailored for conversion and visual impact.",
-    "Engineered a modern frontend with responsive, CTA-driven architecture.",
-    "Built a modular design system for fast editing and future scalability.",
-    "Optimized UX with smooth flow, bold messaging, and clear service hierarchy.",
-    "Integrated SEO, analytics, and performance enhancements from day one.",
-    "Elevated brand perception with slick visuals and interactive storytelling.",
-    "Improved engagement metrics via fast load times and intuitive structure.",
-    "Delivered a future-proof site acting as both business card and lead funnel.",
-    "Showcased Illunexus' 360° marketing power through data-backed UI choices."
-  ],
-  "solution": "I crafted the Illunexus platform using a custom frontend that emphasizes **user flow and CTA-driven navigation**. We baked in performance, responsiveness, and flexibility—while keeping editing easy for the team behind Illunexus. Built with modern web principles, the final product empowers the agency to grow while looking sharp, credible, and professional.",
-  
-   "media":"/images/works/hypercritical/Hypercritical-Macbook-Air-M2psd-0-2.webp || /images/works/hypercritical/hypercritical-menu.webp || /images/works/hypercritical/works-iphone.webp || /images/works/hypercritical/Hypercritical-ipad.webp || /images/works/hypercritical/Macbook-Air-2022.webp ",
-  
-  "mediaLarge":"/images/works/hypercritical/0-mockuppsd-02.webp || /images/works/hypercritical/hypercritical-menu.webp || /images/works/hypercritical/works-iphone.webp || /images/works/hypercritical/Hypercritical-ipad.webp || /images/works/hypercritical/Macbook-Air-2022.webp ",
-  
+    "content": "Illunexus is the brainchild of bold marketers and growth hackers—built to **elevate brands digitally through powerful, data-backed strategies**. From SEO and CPA campaigns to social media dominance and email automation, Illunexus is engineered to be the **go-to digital partner** for businesses ready to scale. Our build reflects that same energy: clean, responsive, and made to perform.",
 
-  
-  "previewImage": "/images/works/hypercritical/Hypercritical-Macbook-Air-M2psd-0-2.webp",
-  "showoffImage":"/images/works/hypercritical/hypercritical-menu.webp",
-  
-  "title": "hypercritical",
-  
-  "client": "Illunexus Agency",
-  
-  "year": "2024",
-  
-  "link": "https://illunexus.vercel.app",  "dataContent":"status-quo business tools",
-   "task":["UI DESIGN ", "BRANDING","DEVELOPMENT","SEO","MARKETING","ANALYTICS","CONTENT STRATEGY"]
-},
-{
-  "aim": "The goal of the Medivana project was to design & build a seamless healthcare platform that empowers users to **find trusted doctors**, browse specialties, check real-time availability, and book appointments in seconds. The idea was to simplify healthcare access via sleek UI, mobile-friendly design, and scalable architecture that can grow with new modules (e.g. telehealth, record keeping).",
-  
-  "content": "Medivana is a user-centric healthcare companion—built for people who want to manage their health without friction. Whether you’re looking for a specialist, checking who’s available, or scheduling care—Medivana makes it fast, reliable, and trustworthy. Our UI reflects clarity and trust through intuitive navigation, clean design, and empathetic touches.",
-  
-  "analysis": "What sets Medivana apart is its focus on **user trust and speed** in a domain where both are critical. In the healthcare space, delays, confusing workflows, or poor UX can seriously erode confidence. My role was to translate medical utility into an interface that feels human: clear doctor profiles, visible availability, minimal form steps. Designed responsively for mobile & desktop. Built so the system is modular — easy to add features like ratings, notifications, or patient records — while maintaining performance and accessibility.",
-  
-  "id": "medivana",
-  
-  "highlights": [
-    "Designed doctor directory with clean profiles & specialty filters.",
-    "Built appointment booking flow that minimizes friction and time-to-book.",
-    "Developed a responsive UI with mobile-first design for users on the go.",
-    "Ensured clarity and trust through thoughtful design (e.g. trust indicators, transparent availability).",
-    "Architected modular frontend to allow future scaling and feature expansion.",
-    "Optimized performance and load speeds for smoother user experience.",
-    "Focused on accessibility and usability across devices.",
-    "Incorporated real-time availability / status updates.",
-    "Set up infrastructure to support security and privacy as core considerations."
-  ],
-  
-  "solution": "I developed the Medivana platform using a modern architecture that prioritizes user flow: fast searches, minimal clicks to book, clean presentation of doctors & specialties. Emphasized performance, responsiveness, and modularity so that new features can slot in smoothly. Also baked in privacy/security from the start (doctor credentials display, secure data handling).",
-  
-  "media": "/images/works/medivana/splash2.png || /images/works/medivana/categories.webp || /images/works/medivana/signup.webp || /images/works/medivana/home.webp || /images/works/medivana/docdetails.webp || /images/works/medivana/signin.webp || /images/works/medivana/profile.webp || /images/works/medivana/appointments.webp || /images/works/medivana/appointment-details.webp || /images/works/medivana/tilted.webp",
-  
-  "mediaLarge": " /images/works/medivana/splash2.png || /images/works/medivana/categories.webp || /images/works/medivana/signup.webp || /images/works/medivana/home.webp || /images/works/medivana/docdetails.webp || /images/works/medivana/signin.webp || /images/works/medivana/profile.webp || /images/works/medivana/appointments.webp || /images/works/medivana/appointment-details.webp || /images/works/medivana/tilted.webp ",
-  
-  "previewImage": "/images/works/medivana/splashscreen.webp",
-  "showoffImage": "/images/works/medivana/splashscreen.webp",
-  
-  "title": "Medivana",
-  
-  "client": "Medivana (personal / portfolio project)",
-  
-  "year": "2025",
-  
-  "link": "https://github.com/vickkie/Medivana",
-  
-  "dataContent": "on-demand health services platform",
-  
-  "task": ["UX / UI Design", "Frontend Development", "Booking Flow", "Performance Optimization"]
-}
+    "analysis": "Illunexus sets itself apart by offering a **360° digital marketing approach** rooted in execution, not fluff. My job was to translate that into a **website that feels light but hits heavy**. We designed each section to focus on clarity and action: bold messaging, case study highlights, and a modular layout for scalability. With an intuitive structure and optimized performance across all devices, the site acts as both a digital business card and a lead magnet for Illunexus.",
 
+    "id": "illunexus",
+    "highlights": [
+      "Crafted a bold digital identity tailored for conversion and visual impact.",
+      "Engineered a modern frontend with responsive, CTA-driven architecture.",
+      "Built a modular design system for fast editing and future scalability.",
+      "Optimized UX with smooth flow, bold messaging, and clear service hierarchy.",
+      "Integrated SEO, analytics, and performance enhancements from day one.",
+      "Elevated brand perception with slick visuals and interactive storytelling.",
+      "Improved engagement metrics via fast load times and intuitive structure.",
+      "Delivered a future-proof site acting as both business card and lead funnel.",
+      "Showcased Illunexus' 360° marketing power through data-backed UI choices."
+    ],
+    "solution": "I crafted the Illunexus platform using a custom frontend that emphasizes **user flow and CTA-driven navigation**. We baked in performance, responsiveness, and flexibility—while keeping editing easy for the team behind Illunexus. Built with modern web principles, the final product empowers the agency to grow while looking sharp, credible, and professional.",
 
+    "media": "/images/works/illunexus/0_1_Free MacBook Pro on Stand Mockup.psd_0cc.webp || /images/works/illunexus/0_2_iPhone Mockup.psd_0x.webp || /images/works/illunexus/0_Free MacBook Pro on Chair Mockup.psd_0.webp || /images/works/illunexus/0_2_Free Front View MacBook 16 Pro Mockup.psd_0.webp || /images/works/illunexus/0_3_Free Front View MacBook 16 Pro Mockup.psd_0.webp ",
 
+    "mediaLarge": "/images/works/illunexus/0_1_Free MacBook Pro on Stand Mockup.psd_0cc.webp || /images/works/illunexus/0_2_iPhone Mockup.psd_0x.webp || /images/works/illunexus/0_Free MacBook Pro on Chair Mockup.psd_0.webp || /images/works/illunexus/0_2_Free Front View MacBook 16 Pro Mockup.psd_0.webp || /images/works/illunexus/0_3_Free Front View MacBook 16 Pro Mockup.psd_0.webp ",
 
+    "previewImage": "/images/works/illunexus/preview-hero.webp",
+    "showoffImage": "/images/works/illunexus/0_2_Free MacBook Pro on Stand Mockup.psd_0z.webp",
+
+    "title": "illunexus",
+
+    "client": "Illunexus Agency",
+
+    "year": "2024",
+
+    "link": "https://illunexus.vercel.app",
+    "dataContent": "status-quo business tools",
+    "task": ["UI DESIGN ", "BRANDING", "DEVELOPMENT", "SEO", "MARKETING", "ANALYTICS", "CONTENT STRATEGY"]
+  },
+  {
+    "aim": "The main development goal with the Illunexus project was to build a sleek, conversion-optimized digital identity for a modern marketing agency. We wanted to create a platform that not only communicated Illunexus’ wide array of services but also positioned them as a bold leader in the digital marketing space through sharp UI, interactive content, and a future-proof tech stack.",
+
+    "content": "Illunexus is the brainchild of bold marketers and growth hackers—built to **elevate brands digitally through powerful, data-backed strategies**. From SEO and CPA campaigns to social media dominance and email automation, Illunexus is engineered to be the **go-to digital partner** for businesses ready to scale. Our build reflects that same energy: clean, responsive, and made to perform.",
+
+    "analysis": "Illunexus sets itself apart by offering a **360° digital marketing approach** rooted in execution, not fluff. My job was to translate that into a **website that feels light but hits heavy**. We designed each section to focus on clarity and action: bold messaging, case study highlights, and a modular layout for scalability. With an intuitive structure and optimized performance across all devices, the site acts as both a digital business card and a lead magnet for Illunexus.",
+
+    "id": "hypercritical",
+    "highlights": [
+      "Crafted a bold digital identity tailored for conversion and visual impact.",
+      "Engineered a modern frontend with responsive, CTA-driven architecture.",
+      "Built a modular design system for fast editing and future scalability.",
+      "Optimized UX with smooth flow, bold messaging, and clear service hierarchy.",
+      "Integrated SEO, analytics, and performance enhancements from day one.",
+      "Elevated brand perception with slick visuals and interactive storytelling.",
+      "Improved engagement metrics via fast load times and intuitive structure.",
+      "Delivered a future-proof site acting as both business card and lead funnel.",
+      "Showcased Illunexus' 360° marketing power through data-backed UI choices."
+    ],
+    "solution": "I crafted the Illunexus platform using a custom frontend that emphasizes **user flow and CTA-driven navigation**. We baked in performance, responsiveness, and flexibility—while keeping editing easy for the team behind Illunexus. Built with modern web principles, the final product empowers the agency to grow while looking sharp, credible, and professional.",
+
+    "media": "/images/works/hypercritical/Hypercritical-Macbook-Air-M2psd-0-2.webp || /images/works/hypercritical/hypercritical-menu.webp || /images/works/hypercritical/works-iphone.webp || /images/works/hypercritical/Hypercritical-ipad.webp || /images/works/hypercritical/Macbook-Air-2022.webp ",
+
+    "mediaLarge": "/images/works/hypercritical/0-mockuppsd-02.webp || /images/works/hypercritical/hypercritical-menu.webp || /images/works/hypercritical/works-iphone.webp || /images/works/hypercritical/Hypercritical-ipad.webp || /images/works/hypercritical/Macbook-Air-2022.webp ",
+
+    "previewImage": "/images/works/hypercritical/Hypercritical-Macbook-Air-M2psd-0-2.webp",
+    "showoffImage": "/images/works/hypercritical/hypercritical-menu.webp",
+
+    "title": "hypercritical",
+
+    "client": "Illunexus Agency",
+
+    "year": "2024",
+
+    "link": "https://illunexus.vercel.app",
+    "dataContent": "status-quo business tools",
+    "task": ["UI DESIGN ", "BRANDING", "DEVELOPMENT", "SEO", "MARKETING", "ANALYTICS", "CONTENT STRATEGY"]
+  },
+  {
+    "aim": "The goal of the Medivana project was to design & build a seamless healthcare platform that empowers users to **find trusted doctors**, browse specialties, check real-time availability, and book appointments in seconds. The idea was to simplify healthcare access via sleek UI, mobile-friendly design, and scalable architecture that can grow with new modules (e.g. telehealth, record keeping).",
+
+    "content": "Medivana is a user-centric healthcare companion—built for people who want to manage their health without friction. Whether you’re looking for a specialist, checking who’s available, or scheduling care—Medivana makes it fast, reliable, and trustworthy. Our UI reflects clarity and trust through intuitive navigation, clean design, and empathetic touches.",
+
+    "analysis": "What sets Medivana apart is its focus on **user trust and speed** in a domain where both are critical. In the healthcare space, delays, confusing workflows, or poor UX can seriously erode confidence. My role was to translate medical utility into an interface that feels human: clear doctor profiles, visible availability, minimal form steps. Designed responsively for mobile & desktop. Built so the system is modular — easy to add features like ratings, notifications, or patient records — while maintaining performance and accessibility.",
+
+    "id": "medivana",
+
+    "highlights": [
+      "Designed doctor directory with clean profiles & specialty filters.",
+      "Built appointment booking flow that minimizes friction and time-to-book.",
+      "Developed a responsive UI with mobile-first design for users on the go.",
+      "Ensured clarity and trust through thoughtful design (e.g. trust indicators, transparent availability).",
+      "Architected modular frontend to allow future scaling and feature expansion.",
+      "Optimized performance and load speeds for smoother user experience.",
+      "Focused on accessibility and usability across devices.",
+      "Incorporated real-time availability / status updates.",
+      "Set up infrastructure to support security and privacy as core considerations."
+    ],
+
+    "solution": "I developed the Medivana platform using a modern architecture that prioritizes user flow: fast searches, minimal clicks to book, clean presentation of doctors & specialties. Emphasized performance, responsiveness, and modularity so that new features can slot in smoothly. Also baked in privacy/security from the start (doctor credentials display, secure data handling).",
+
+    "media": "/images/works/medivana/splash2.png || /images/works/medivana/categories.webp || /images/works/medivana/signup.webp || /images/works/medivana/home.webp || /images/works/medivana/docdetails.webp || /images/works/medivana/signin.webp || /images/works/medivana/profile.webp || /images/works/medivana/appointments.webp || /images/works/medivana/appointment-details.webp || /images/works/medivana/tilted.webp",
+
+    "mediaLarge": " /images/works/medivana/splash2.png || /images/works/medivana/categories.webp || /images/works/medivana/signup.webp || /images/works/medivana/home.webp || /images/works/medivana/docdetails.webp || /images/works/medivana/signin.webp || /images/works/medivana/profile.webp || /images/works/medivana/appointments.webp || /images/works/medivana/appointment-details.webp || /images/works/medivana/tilted.webp ",
+
+    "previewImage": "/images/works/medivana/splashscreen.webp",
+    "showoffImage": "/images/works/medivana/splashscreen.webp",
+
+    "title": "Medivana",
+
+    "client": "Medivana (personal / portfolio project)",
+
+    "year": "2025",
+
+    "link": "https://github.com/vickkie/Medivana",
+
+    "dataContent": "on-demand health services platform",
+
+    "task": ["UX / UI Design", "Frontend Development", "Booking Flow", "Performance Optimization"]
+  },
+  {
+    "aim": "Meru Chess Training Center's online presence blends community building, educational focus, and competitive spirit into an engaging digital hub. From strategic design to user-friendly navigation, the website serves as a gateway for chess enthusiasts in Meru and beyond to learn, connect, compete, and grow in the game.",
+    "content": "Where strategy meets passion.",
+    "Analysis": "Meru Chess Training Center is a vibrant chess community and training academy based in Meru, Kenya. It serves as more than just a club — it's a gathering place for thinkers, strategists, and enthusiasts of all levels who live and breathe chess. Offering expert coaching from experienced masters and FIDE-rated coaches, the center provides tailored programs to help players master openings, endgames, tactics, and overall improvement, targeting beginners, kids, adults, and tournament-ready competitors.",
+    "id": "meru-chess-training-center",
+    "media": "/images/works/mcc/doubles.webp || /images/works/mcc/matapeli.webp || /images/works/mcc/mimiwewe.webp || /images/works/mcc/meru-chess-hero.png || /images/works/mcc/bankotuch.webp || /images/works/mcc/nakshi.webp",
+    "mediaLarge": "/images/works/mcc/doubles.webp || /images/works/mcc/matapeli.webp || /images/works/mcc/mimiwewe.webp || /images/works/mcc/mapepo.webp || /images/works/mcc/nakshi.webp || /images/works/mcc/bankotuch.webp",
+    "previewImage": "/images/works/mcc/mcc-home.webp",
+    "solution": "Strategic Design & Branding Phase:<br><br>Community-Centric Identity : The website highlights Meru Chess as a welcoming community that fosters growth, competition, and lasting connections, positioning it as the go-to hub for chess in Meru with the tagline 'Where strategy meets passion'.<br><br>Intuitive User Experience (UX): Clean, responsive layout ensures easy access to classes, events, and membership info across devices, making it simple for beginners and pros alike to explore programs and join.<br><br>Digital Enhancements:<br><br>Program Showcasing: Detailed sections for classes like Tournament Readiness, Endgame Essentials, and Positional Play make offerings clear and compelling.<br><br>Engagement Features: Integrated calls-to-action for 'Join the Club', event calendars for tournaments (e.g., KUSF events), testimonials from students (like rapid progress stories), and membership perks (private lessons, exclusive tournaments) drive sign-ups and retention.<br><br>Scalable Structure: Flexible content areas support upcoming events, online/in-person hybrid options, and growth into more interactive features like registration forms or member portals.",
+    "highlights": [
+      "Crafted a community-focused design that emphasizes passion, strategy, and connection.",
+      "Showcased expert coaching and level-specific programs for all ages and skills.",
+      "Created responsive, intuitive navigation to improve accessibility and engagement.",
+      "Boosted conversions through strong CTAs, testimonials, and event highlights.",
+      "Positioned Meru Chess as the premier training hub in Meru, Kenya.",
+      "Integrated membership benefits to encourage long-term participation.",
+      "Delivered a scalable platform balancing education, competition, and fun.",
+      "Enhanced user trust with real student success stories and FIDE-rated coach emphasis.",
+      "Fostered an inviting digital space for beginners to legends of the board."
+    ],
+    "title": "Meru Chess Training Center",
+    "year": "2026",
+    "link": "https://meruchesstrainingcenter.com",
+    "showoffImage": "/images/works/mcc/mcc-home2.webp",
+    "task": ["Web Design", "UX/UI", "Community Building", "Branding", "Content Strategy", "Responsive Development"],
+    "dataContent": "Checkmate your potential – join the legends of the board"
+  }
 ]
