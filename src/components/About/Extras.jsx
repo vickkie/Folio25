@@ -9,10 +9,10 @@ const Extra = () => {
     {
       id: "github",
       data: [
-        "133 followers",
+        "1330 followers",
         "69 public repos",
         "142 total stars",
-        "435 contributions last year",
+        "735 contributions last year",
         "142 all-time stargazers",
       ],
       url: "https://github.com/vickkie",

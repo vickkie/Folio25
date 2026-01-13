@@ -382,8 +382,8 @@
     "content": "Where strategy meets passion.",
     "Analysis": "Meru Chess Training Center is a vibrant chess community and training academy based in Meru, Kenya. It serves as more than just a club — it's a gathering place for thinkers, strategists, and enthusiasts of all levels who live and breathe chess. Offering expert coaching from experienced masters and FIDE-rated coaches, the center provides tailored programs to help players master openings, endgames, tactics, and overall improvement, targeting beginners, kids, adults, and tournament-ready competitors.",
     "id": "meru-chess-training-center",
-    "media": "/images/works/mcc/doubles.webp || /images/works/mcc/matapeli.webp || /images/works/mcc/mimiwewe.webp || /images/works/mcc/meru-chess-hero.png || /images/works/mcc/bankotuch.webp || /images/works/mcc/nakshi.webp",
-    "mediaLarge": "/images/works/mcc/doubles.webp || /images/works/mcc/matapeli.webp || /images/works/mcc/mimiwewe.webp || /images/works/mcc/mapepo.webp || /images/works/mcc/nakshi.webp || /images/works/mcc/bankotuch.webp",
+    "media": "/images/works/mcc/doubles.webp || /images/works/mcc/matapeli.webp || /images/works/mcc/mimiwewe.webp || /images/works/mcc/nochurchinwild.webp || /images/works/mcc/bankotuch.webp || /images/works/mcc/nakshi.webp",
+    "mediaLarge": "/images/works/mcc/doubles.webp || /images/works/mcc/champion.webp || /images/works/mcc/mimiwewe.webp || /images/works/mcc/mapepo.webp || /images/works/mcc/nakshi.webp || /images/works/mcc/bankotuch.webp || /images/works/mcc/nochurchinwild.webp",
     "previewImage": "/images/works/mcc/mcc-home.webp",
     "solution": "Strategic Design & Branding Phase:<br><br>Community-Centric Identity : The website highlights Meru Chess as a welcoming community that fosters growth, competition, and lasting connections, positioning it as the go-to hub for chess in Meru with the tagline 'Where strategy meets passion'.<br><br>Intuitive User Experience (UX): Clean, responsive layout ensures easy access to classes, events, and membership info across devices, making it simple for beginners and pros alike to explore programs and join.<br><br>Digital Enhancements:<br><br>Program Showcasing: Detailed sections for classes like Tournament Readiness, Endgame Essentials, and Positional Play make offerings clear and compelling.<br><br>Engagement Features: Integrated calls-to-action for 'Join the Club', event calendars for tournaments (e.g., KUSF events), testimonials from students (like rapid progress stories), and membership perks (private lessons, exclusive tournaments) drive sign-ups and retention.<br><br>Scalable Structure: Flexible content areas support upcoming events, online/in-person hybrid options, and growth into more interactive features like registration forms or member portals.",
     "highlights": [
@@ -397,11 +397,11 @@
       "Enhanced user trust with real student success stories and FIDE-rated coach emphasis.",
       "Fostered an inviting digital space for beginners to legends of the board."
     ],
-    "title": "Meru Chess Training Center",
+    "title": "Meru Chess",
     "year": "2026",
     "link": "https://meruchesstrainingcenter.com",
     "showoffImage": "/images/works/mcc/mcc-home2.webp",
     "task": ["Web Design", "UX/UI", "Community Building", "Branding", "Content Strategy", "Responsive Development"],
-    "dataContent": "Checkmate your potential – join the legends of the board"
+    "dataContent": "Checkmate your potential"
   }
 ]

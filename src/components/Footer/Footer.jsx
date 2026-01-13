@@ -107,10 +107,10 @@ const Footer = () => {
           { label: "Privacy policy", link: "/privacy" },
         ])}
         {renderSectionContent("socials", [
-          { label: "Facebook", link: `${data?.facebook}` },
-          { label: "Twitter", link: `${data?.twitter}` },
-          { label: "LinkedIn", link: `${data?.linkedin}` },
-          { label: "Instagram", link: `${data?.instagram}` },
+          { label: "Facebook", link: `${data?.facebook ?? "#"}` },
+          { label: "Twitter", link: `${data?.twitter ?? "#"}` },
+          { label: "LinkedIn", link: `${data?.linkedin ?? "#"}` },
+          { label: "Instagram", link: `${data?.instagram ?? "#"}` },
         ])}
       </div>
       <p className="bottomRights">
