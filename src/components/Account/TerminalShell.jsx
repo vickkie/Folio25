@@ -206,10 +206,50 @@ const TerminalShell = () => {
           "🚫 Avoid merging without testing. Trust me.",
           "🔮 A new framework will appear… again.",
           "🎯 Your code will pass all tests — eventually.",
+          "🐛 The bug is not where you think it is.",
+          "✨ A console.log will reveal the truth.",
+          "🧠 You already know the solution. Take a break.",
+          "⚠️ That TODO will haunt you later.",
+          "🚀 Performance gains incoming (after refactor #3).",
+          "📦 Node_modules will betray you today.",
+          "🧹 Refactoring will feel illegal but be correct.",
+          "🕰️ The fix will take 5 minutes… after 2 hours.",
+          "📉 The issue is data, not logic.",
+          "📈 The issue is logic, not data.",
+          "🧪 A test will fail for a very stupid reason.",
+          "🔁 Turning it off and on will work.",
+          "📚 The docs were right. You just skimmed.",
+          "🧩 One missing dependency is the villain.",
+          "😌 Today you will resist rewriting everything.",
+          "🔥 You will consider rewriting everything anyway.",
+          "🧠 Rubber-duck debugging will save the day.",
+          "📦 Version mismatch detected. Pain imminent.",
+          "🤝 Pair programming will expose the bug instantly.",
+          "🧯 Production will survive… barely.",
+          "🛠️ The fix is smaller than you fear.",
+          "👀 Someone else already solved this on StackOverflow.",
+          "🔐 Permissions are the real bug.",
+          "📛 Naming things will hurt more than logic.",
+          "🧭 The error message is lying.",
+          "🧬 The error message is telling the truth—read it slowly.",
+          "🪄 Magic numbers will be questioned today.",
+          "🧊 Cold restart, warm success.",
+          "📐 Off-by-one errors are watching you.",
+          "🧠 Sleep is the missing dependency.",
+          "🪦 Dead code will be discovered.",
+          "🔄 Infinite loop narrowly avoided.",
+          "🧪 Works on your machine. Not theirs.",
+          "📡 Network latency is the real enemy.",
+          "🏁 Done is better than perfect."
         ];
-        return ["> fortune", fortunes[Math.floor(Math.random() * fortunes.length)]];
+    
+        return [
+          "> fortune",
+          fortunes[Math.floor(Math.random() * fortunes.length)],
+        ];
       },
     },
+    
 
     format: {
       description: "Wipe the entire simulated OS (fake)",
