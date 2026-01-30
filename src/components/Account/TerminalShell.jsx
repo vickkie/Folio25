@@ -119,7 +119,7 @@ const TerminalShell = () => {
 
         if (fakeFileSystem[newPath]) {
           setCurrentDir(newPath);
-          return ["> cd " + target, `📂 Moved to ${newPath}`];
+          return ["> cd " + target, `Moved to ${newPath}`];
         }
 
         return ["> cd " + target, `❌ Directory '${target}' not found`];
@@ -135,13 +135,13 @@ const TerminalShell = () => {
           setRootAccess(true);
           return [
             "> sudo uzi --power",
-            "🧠 Root access granted...",
+            " Root access granted...",
             "✨ Welcome, Superuser Uzi Trake",
             "Type `format`, `inject`, or `shutdown` to proceed.",
           ];
         }
 
-        return ["> sudo", "🛡️  Access Denied. You're not root... yet 👀"];
+        return ["> sudo", "  Access Denied. You're not root... yet 👀"];
       },
     },
     mkdir: {
@@ -167,11 +167,11 @@ const TerminalShell = () => {
       description: "Get a random motivational quote",
       action: () => {
         const quotes = [
-          "🚀 'Stay hungry, stay foolish.' – Steve Jobs",
-          "🔥 'Code is like humor. When you have to explain it, it’s bad.' – Cory House",
-          "🌍 'The best way to predict the future is to invent it.' – Alan Kay",
-          "😤 'No pressure, no diamonds.' – Thomas Carlyle",
-          "💡 'Simplicity is the soul of efficiency.' – Austin Freeman",
+          "Stay hungry, stay foolish.' – Steve Jobs",
+          "Code is like humor. When you have to explain it, it’s bad.' – Cory House",
+          "The best way to predict the future is to invent it.' – Alan Kay",
+          "No pressure, no diamonds.' – Thomas Carlyle",
+          "Simplicity is the soul of efficiency.' – Austin Freeman",
         ];
         const pick = quotes[Math.floor(Math.random() * quotes.length)];
         return ["> quote", pick];
@@ -198,53 +198,53 @@ const TerminalShell = () => {
     },
 
     fortune: {
-      description: "Consult the chaotic developer oracle 🧙‍♂️",
+      description: "Consult the chaotic developer oracle",
       action: () => {
         const fortunes = [
-          "🧠 Your brain will buffer today. Refresh recommended.",
-          "🐛 The bug knows you’re looking for it and moved.",
-          "🔥 You will fix one thing and break three unrelated things.",
-          "🧪 It works. You don’t know why. Do not touch it.",
-          "👁️ The error message is gaslighting you.",
-          "🧱 The problem is a missing semicolon. Yes, really.",
-          "🧃 You will debug for hours and it will be a typo.",
-          "🕳️ You are about to fall into a documentation hole.",
-          "🧠 StackOverflow will judge you silently.",
-          "🧙‍♂️ A random comment from 2017 will save you.",
-          "📦 node_modules weighs more than your OS.",
-          "🧟‍♂️ Dead code is still alive and angry.",
-          "🎭 You will pretend you understand async.",
-          "🧨 The fix will feel illegal but work.",
-          "🧊 Cold coffee. Hot bugs.",
-          "🌀 Infinite loop detected (in your thoughts).",
-          "🪦 You will delete code and everything improves.",
-          "🤡 You will console.log the same thing 12 times.",
-          "📉 Your confidence will drop after running tests.",
-          "📈 Your confidence will rise after commenting them out.",
-          "🔁 Have you tried restarting? Be honest.",
-          "🧪 The test failed because it felt like it.",
-          "🪤 The bug was introduced by past-you. Past-you denies it.",
-          "🧠 You will refactor and accidentally invent a new bug species.",
-          "🧃 Memory leak detected. In your brain.",
-          "🛑 You will ignore a warning. It will matter.",
-          "📡 The network request is haunted.",
-          "🧯 Production is on fire but vibes are calm.",
-          "👀 Someone will say “it works on my machine.” It’s you.",
-          "🧵 Race condition? Or fate?",
-          "🧪 The fix is one line. You changed 40.",
-          "🧙‍♀️ You will summon a bug by renaming a variable.",
-          "🧬 Schrödinger’s bug: fixed and broken until observed.",
-          "📚 The docs explain it. You refuse to read them.",
-          "🧠 Sleep is deprecated in this build.",
-          "🗑️ You will delete something important. Probably.",
-          "🔮 A dependency update will ruin your day.",
-          "🧯 You will hotfix and immediately regret it.",
-          "🧃 Your code compiles out of pity.",
-          "🧱 You will fight CSS and lose.",
-          "🤖 The linter knows your sins.",
-          "🪞 You are the edge case.",
-          "🎲 You will change something “just to see”.",
-          "🏁 It works. Ship it. Don’t ask questions."
+          "Your brain will buffer today. Refresh recommended.",
+          "The bug knows you’re looking for it and moved.",
+          "You will fix one thing and break three unrelated things.",
+          "It works. You don’t know why. Do not touch it.",
+          "The error message is gaslighting you.",
+          "The problem is a missing semicolon. Yes, really.",
+          "You will debug for hours and it will be a typo.",
+          "You are about to fall into a documentation hole.",
+          "StackOverflow will judge you silently.",
+          " A random comment from 2017 will save you.",
+          "node_modules weighs more than your OS.",
+          " Dead code is still alive and angry.",
+          " You will pretend you understand async.",
+          "The fix will feel illegal but work.",
+          "Cold coffee. Hot bugs.",
+          "Infinite loop detected (in your thoughts).",
+          " You will delete code and everything improves.",
+          " You will console.log the same thing 12 times.",
+          " Your confidence will drop after running tests.",
+          " Your confidence will rise after commenting them out.",
+          "Have you tried restarting? Be honest.",
+          "The test failed because it felt like it.",
+          "The bug was introduced by past-you. Past-you denies it.",
+          "You will refactor and accidentally invent a new bug species.",
+          " Memory leak detected. In your brain.",
+          " You will ignore a warning. It will matter.",
+          "The network request is haunted.",
+          " Production is on fire but vibes are calm.",
+          " Someone will say “it works on my machine.” It’s you.",
+          " Race condition? Or fate?",
+          " The fix is one line. You changed 40.",
+          "You will summon a bug by renaming a variable.",
+          " Schrödinger’s bug: fixed and broken until observed.",
+          " The docs explain it. You refuse to read them.",
+          " Sleep is deprecated in this build.",
+          " You will delete something important. Probably.",
+          " A dependency update will ruin your day.",
+          " You will hotfix and immediately regret it.",
+          " Your code compiles out of pity.",
+          " You will fight CSS and lose.",
+          " The linter knows your sins.",
+          " You are the edge case.",
+          " You will change something “just to see”.",
+          " It works. Ship it. Don’t ask questions."
         ];
     
         return [
@@ -260,11 +260,11 @@ const TerminalShell = () => {
       description: "Wipe the entire OS",
       action: async (_setMode, setLogs) => {
         if (!rootAccess) {
-          return ["⛔ Permission denied. Try `sudo uzi --power`"];
+          return [" Permission denied. Try `sudo uzi --power`"];
         }
 
         const steps = [
-          "💣 Formatting virtual disk...",
+          " Formatting virtual disk...",
           "█░░░░░░░░░░ 10%",
           "███░░░░░░░░ 30%",
           "██████░░░░░ 60%",
@@ -288,10 +288,10 @@ const TerminalShell = () => {
         if (!rootAccess) return ["> inject", "⚠️  Access denied. Root access needed."];
         return [
           "> inject",
-          "🧬 Injecting payload into system...",
-          "🦠 Virus uploaded successfully.",
-          "💀 Target IP: 1.1.1.1",
-          "🔥 Status: SYSTEM OVERRIDE INITIATED",
+          " Injecting payload into system...",
+          " Virus uploaded successfully.",
+          "Target IP: 1.1.1.1",
+          "Status: SYSTEM OVERRIDE INITIATED",
         ];
       },
     },
@@ -308,18 +308,18 @@ const TerminalShell = () => {
           if (shell) {
             shell.innerHTML = `
           <div class="h-screen bg-black text-green-400 flex items-center justify-center text-xl">
-            🧠 SYSTEM HALTED. <br /> Press F5 to restart.
+             SYSTEM HALTED. <br /> Press F5 to restart.
           </div>`;
           }
         }, 10000);
 
         return [
           "> shutdown",
-          "🛑 SYSTEM SHUTDOWN IN 3...",
+          " SYSTEM SHUTDOWN IN 3...",
           "2...",
           "1...",
-          "💤 Goodbye, Trake...",
-          "💀 Shell terminated.",
+          " Goodbye, Trake...",
+          " Shell terminated.",
         ];
       },
     },
@@ -366,7 +366,7 @@ const TerminalShell = () => {
       description: "Install package on server",
       action: async (_setMode, setLogs, input = "") => {
         if (!rootAccess) {
-          return ["⛔ Permission denied. Try `sudo uzi --power`"];
+          return [" Permission denied. Try `sudo uzi --power`"];
         }
 
         const parts = input.trim().split(" ");
@@ -377,13 +377,13 @@ const TerminalShell = () => {
         }
 
         const steps = [
-          `📦 Fetching package: ${pkg}...`,
-          `🔧 Resolving dependencies...`,
-          `📁 Installing ${pkg}@1.0.0`,
-          `🔩 Linking binaries...`,
-          `🧪 Running post-install hooks...`,
-          `✅ ${pkg} installed successfully!`,
-          `⚠️  Warning: You've unlocked unstable dev powers.`,
+          ` Fetching package: ${pkg}...`,
+          ` Resolving dependencies...`,
+          ` Installing ${pkg}@1.0.0`,
+          ` Linking binaries...`,
+          ` Running post-install hooks...`,
+          ` ${pkg} installed successfully!`,
+          `  Warning: You've unlocked unstable dev powers.`,
         ];
 
         setLogs((prev) => [...prev, `> install ${pkg}`]);
@@ -409,7 +409,7 @@ const TerminalShell = () => {
 
         log("> rm -rf /");
         await new Promise((r) => setTimeout(r, 500));
-        log("🔥 Warning: Deleting everything...");
+        log(" Warning: Deleting everything...");
 
         const fakeFiles = [
           "Deleting /etc/passwd...",
@@ -418,7 +418,7 @@ const TerminalShell = () => {
           "Deleting /opt/memes/collection.zip...",
           "Deleting /var/log/this_joke.log...",
           "Deleting /System32 (even though you're on Linux?)...",
-          "Deleting your browser history 😳...",
+          "Deleting browser history ...",
           "Deleting your terminal...",
         ];
 
@@ -428,9 +428,9 @@ const TerminalShell = () => {
         }
 
         await new Promise((r) => setTimeout(r, 600));
-        log("💣 BOOM. System files nuked.");
+        log(" BOOM. System files nuked.");
         await new Promise((r) => setTimeout(r, 800));
-        log("😅 Just kidding. Your files are safe.");
+        log(" Just kidding. Your files are safe.");
         return null; // prevent double logging
       },
     },
