@@ -257,7 +257,7 @@ const TerminalShell = () => {
     
 
     format: {
-      description: "Wipe the entire simulated OS (fake)",
+      description: "Wipe the entire OS",
       action: async (_setMode, setLogs) => {
         if (!rootAccess) {
           return ["⛔ Permission denied. Try `sudo uzi --power`"];
