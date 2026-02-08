@@ -157,7 +157,7 @@ function ProjectContent({ pageData, nextPage, nextPageData }) {
                 <source src={media1} type={media1.endsWith(".mp4") ? "video/mp4" : "video/webm"} />
               </video>
             ) : (
-              <img src={media1} alt={pageData.title} />
+              <img src={`/${media1}`} alt={pageData.title} />
             )}
           </div>
         </div>
