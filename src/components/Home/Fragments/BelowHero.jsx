@@ -171,7 +171,7 @@ export const BelowHero = () => {
                   </clipPath>
                   <image
                     clipPath="url(#e-letter)"
-                    xlinkHref="images/my_memoji.png"
+                    xlinkHref="images/image-wm.png"
                     alt="Image"
                     width="100%"
                     className="e-letter"
