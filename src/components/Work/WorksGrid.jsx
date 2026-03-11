@@ -1,25 +1,21 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import "./css/worksGrid.css";
 import data from "../../assets/json/allWorks.json";
 
 const WorksGrid = () => {
-  //   const [data, setData] = useState([]);
   const [visible, setVisible] = useState(2);
   const loadMoreRef = useRef(null);
 
-  // Load JSON data from public folder
-  //   useEffect(() => {
-  //     fetch("../..assets/jsonworks.json")
-  //       .then((res) => res.json())
-  //       .then((json) => setData(json))
-  //       .catch((err) => console.error("Failed to load JSON", err));
-  //   }, []);
+  // Sort once: newest first
+  const sortedData = useMemo(() => {
+    return [...data].sort((a, b) => b.year - a.year);
+  }, []);
 
-  // Lazy load as user scrolls
+  // IntersectionObserver for lazy load
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting && visible < data.length) {
+        if (entry.isIntersecting && visible < sortedData.length) {
           setVisible((prev) => prev + 2);
         }
       },
@@ -28,10 +24,11 @@ const WorksGrid = () => {
 
     if (loadMoreRef.current) observer.observe(loadMoreRef.current);
     return () => observer.disconnect();
-  }, [visible, data.length]);
+  }, [visible, sortedData.length]);
 
   return (
     <>
+      {/* Header section */}
       <div className="belowAbouthero">
         <div className="tppl">
           <div className="worksline"></div>
@@ -43,7 +40,7 @@ const WorksGrid = () => {
             <span className="inlineTxt">@2018-25</span>
           </div>
           <div className="belowLeftCenter">
-            <span className="inlineTxt">works [{data.length}]</span>
+            <span className="inlineTxt">works [{sortedData.length}]</span>
           </div>
           <div className="belowRightHero">
             <div className="arrangeTabs">
@@ -53,18 +50,20 @@ const WorksGrid = () => {
         </div>
         <div className="tpbl"></div>
       </div>
+
+      {/* Grid section */}
       <div className="works-container">
         <div className="grid">
-          {data.reverse().slice(0, visible).map((work) => (
-            <a href={`/projects/${work.id}`}>
-              <div className="work-card" key={work.id}>
+          {sortedData.slice(0, visible).map((work) => (
+            <a href={`/projects/${work.id}`} key={work.id}>
+              <div className="work-card">
                 <div className="yearmade">{work?.year}</div>
                 <div
                   className="work-tile"
-                  style={{ backgroundImage: `url(${encodeURI(work?.showoffImage || work?.previewImage)})` }}
+                  style={{
+                    backgroundImage: `url(${encodeURI(work?.showoffImage || work?.previewImage)})`,
+                  }}
                 ></div>
-                {console.log(work?.showoffImage)}
-
                 <div className="explaWorkx">
                   <div className="work-title">{work?.title}</div>
                   <div className="work-subtitle">{work?.dataContent}</div>
