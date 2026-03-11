@@ -55,7 +55,7 @@ const WorksGrid = () => {
       </div>
       <div className="works-container">
         <div className="grid">
-          {data.slice(0, visible).map((work) => (
+          {data.reverse().slice(0, visible).map((work) => (
             <a href={`/projects/${work.id}`}>
               <div className="work-card" key={work.id}>
                 <div className="yearmade">{work?.year}</div>
