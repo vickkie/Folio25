@@ -19,8 +19,21 @@
     flex-direction: column !important;
     gap: 0.5rem !important;
   }
+  
 }
 
+    
+
+@media (max-width: 400px) {
+.work-tag{
+  font-size:0.7rem;
+}
+span.work-tag{
+padding-left:5px;
+    padding-right:5px;
+  }
+  
+}
 .work-card {
   display: flex;
   flex-direction: column;
