@@ -19,7 +19,7 @@ const Extra = () => {
     },
     {
       id: "codepen",
-      data: ["8.1k total views", "12 pens", "42 likes", "10 followers"],
+      data: ["8.1k total views", "25 pens", "242 likes", "106 followers"],
       url: "https://codepen.io/uzitrake",
     },
     {
