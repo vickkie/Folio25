@@ -35,7 +35,7 @@
     ],
     "tools": {
       "Software and Tech": {
-           "Development": ["HTML", "CSS", "React JS", "Webflow","Python", "PHP"],
+           "Development": ["HTML", "CSS", "React JS", "Webflow", "PHP"],
         "Design": ["Adobe Photoshop", "Adobe InDesign", "Figma", "Canva"]
       }
     }
@@ -47,7 +47,7 @@
        "experiences": [
   
     {
-      "role": "Senior developer",
+      "role": "Fullstack developer",
       "company": "Hypercritical studio, FreeLance",
       "year": "2023–Present"
     },
