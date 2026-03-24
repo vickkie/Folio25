@@ -185,54 +185,6 @@
 }
 ,
 {
-  "id": 5,
-  "title": "Impostor Syndrome as a Service (ISaaS)",
-  "excerpt": "Am I a dev? Or just really good at googling and pretending to understand webpack?",
-  "heroImage": "https://i.postimg.cc/sg7QjV15/vibecoding.jpg",
-  "additionalImages": ["https://i.postimg.cc/WbQqcDp2/maxresdefault.webp"],
-  "date": "2025-07-04",
-  "isPopular": false,
-  "isRecommended": true,
-  "content": [
-    {
-      "text": "Every time I open VS Code, I whisper to myself, *'Let’s scam them again, boys.'* Not out loud, of course. Out loud I say *'yep just cleaning up some logic here.'*"
-    },
-    {
-      "subheading": "The Stack Overflow Shuffle",
-      "text": "We've all done it. You hit a bug, you copy the error into Google, land on a Stack Overflow post from 2013, and blindly CTRL+C some guy’s answer with 17 upvotes and a warning comment underneath saying 'this causes memory leaks.' You paste it. It works. You don't ask questions. You ship it."
-    },
-    {
-      "subheading": "Daily Rituals of the Impostor Coder",
-      "text": "- Open project. Close it again.\n- Stare at Jira ticket for 12 minutes.\n- Open Stack Overflow.\n- Apologize to ChatGPT because you're about to ask it something truly stupid.\n- Type: *'how to get today’s date in JavaScript'*\n- Re-run the same build that failed 9 times hoping this time it magically works."
-    },
-    {
-      "subheading": "Meetings Are Performance Art",
-      "text": "There’s a special kind of panic when someone says *'Can you walk us through your solution?'* and all you did was mash keys until the red underline went away.\n\nSo you put on your Dev Shakespeare voice: *'Yeah so I refactored the hook to improve modularity and ensure compatibility with the store context…'* (You don’t know what that means. But neither do they.)"
-    },
-    {
-      "subheading": "Symptoms of Dev Impostor Syndrome",
-      "text": "- Googling 'how to write a good commit message' every. single. time.\n- Feeling like your pull request is being judged by ancient gods.\n- Watching a junior ask a question you also don’t know the answer to… and pretending you're 'letting them figure it out on their own'.\n- Accidentally deleting `node_modules`, reinstalling, and it works… now you’re scared to touch anything."
-    },
-    {
-      "subheading": "Coping Mechanisms",
-      "text": "- Give your bugs funny names (I once named a memory leak 'leaky boi').\n- Blame race conditions, async timing, or just the 'React lifecycle'.\n- Add `// TODO: fix this later` and hope you get hit by a reorg before anyone reads it.\n- Pair programming but you’re just there for emotional support."
-    },
-    {
-      "subheading": "It's Not Just You",
-      "text": "Even that senior dev with the 3-monitor battlestation, custom TMUX config, and Dvorak keyboard layout? Yeah. They also don’t fully understand Docker.\n\nTruth is, most of us are just duct-taping abstractions and praying nothing breaks on deploy. The difference between junior and senior often isn’t knowledge—it’s how confidently you can Google and how calm you look while everything is on fire."
-    },
-    {
-      "subheading": "The Dark Side",
-      "text": "Impostor syndrome can get heavy. That constant anxiety that you're one Slack message away from being exposed. The late-night overthinking. The *'do I even belong here?'* spiral.\n\nSo here’s a truth bomb: **if you care enough to doubt yourself, you're probably better than you think.** The real impostors don’t worry—they overpromise and crash prod on Fridays."
-    },
-    {
-      "subheading": "Conclusion",
-      "text": "So yeah, maybe you *are* faking it a little. But guess what? So is everyone else. The difference is you're faking it with empathy, grit, and low-key genius-level creativity.\n\nKeep shipping. Keep googling. Keep lying to Webpack. You’re doing amazing, king/queen 👑💻✨"
-    }
-  ]
-}
-,
-{
   "id": 6,
   "title": "The Tailwind vs CSS War: I Just Wanted to Style a Button",
   "excerpt": "It started with a button. It ended in a war between utility and sanity.",
