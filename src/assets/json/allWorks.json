@@ -298,42 +298,42 @@
     "task": ["UI DESIGN ", "BRANDING", "DEVELOPMENT", "SEO", "MARKETING", "ANALYTICS", "CONTENT STRATEGY"]
   },
   {
-    "aim": "The main development goal with the Illunexus project was to build a sleek, conversion-optimized digital identity for a modern marketing agency. We wanted to create a platform that not only communicated Illunexus’ wide array of services but also positioned them as a bold leader in the digital marketing space through sharp UI, interactive content, and a future-proof tech stack.",
-
-    "content": "Illunexus is the brainchild of bold marketers and growth hackers—built to **elevate brands digitally through powerful, data-backed strategies**. From SEO and CPA campaigns to social media dominance and email automation, Illunexus is engineered to be the **go-to digital partner** for businesses ready to scale. Our build reflects that same energy: clean, responsive, and made to perform.",
-
-    "analysis": "Illunexus sets itself apart by offering a **360° digital marketing approach** rooted in execution, not fluff. My job was to translate that into a **website that feels light but hits heavy**. We designed each section to focus on clarity and action: bold messaging, case study highlights, and a modular layout for scalability. With an intuitive structure and optimized performance across all devices, the site acts as both a digital business card and a lead magnet for Illunexus.",
-
+    "aim": "The Hypercritical project set out to create an uncompromising digital presence for a technology thought-leadership blog and platform. The goal: a site that exudes editorial authority, elevates longform writing, and offers a premium reading experience through sharp, minimalist UI and advanced technical underpinnings. Every element was designed to ensure clarity, readability, and a memorable identity for discerning tech audiences.",
+  
+    "content": "Hypercritical is a publication and platform built for critical thinkers and innovation leaders—dedicated to **in-depth analysis, original perspectives, and the future of technology**. The website acts as a stage for deep dives, interviews, essays, and curated insights. Every interaction is engineered for engagement and discovery, reflecting the platform’s ethos: to challenge the status-quo and spark conversation with every post.",
+  
+    "analysis": "Hypercritical stands out by pushing editorial and design boundaries for tech media—a space that often under-delivers on user experience. My challenge was to build an interface that's **strikingly simple, fast, and immersive**, while handling heavy content and multimedia. The site features smart navigation, scalable content modules, and a timeless monochrome aesthetic. Accessible across all devices, it is both an archive of ideas and an invitation to dig deeper.",
+  
     "id": "hypercritical",
     "highlights": [
-      "Crafted a bold digital identity tailored for conversion and visual impact.",
-      "Engineered a modern frontend with responsive, CTA-driven architecture.",
-      "Built a modular design system for fast editing and future scalability.",
-      "Optimized UX with smooth flow, bold messaging, and clear service hierarchy.",
-      "Integrated SEO, analytics, and performance enhancements from day one.",
-      "Elevated brand perception with slick visuals and interactive storytelling.",
-      "Improved engagement metrics via fast load times and intuitive structure.",
-      "Delivered a future-proof site acting as both business card and lead funnel.",
-      "Showcased Illunexus' 360° marketing power through data-backed UI choices."
+      "Established a distinct digital identity that elevates the Hypercritical voice.",
+      "Developed a robust, modular design system supporting articles, essays, and multimedia.",
+      "Crafted an ultra-readable layout with focus on content and zero distraction.",
+      "Engineered a fast, SEO-optimized static frontend for blazing load times and discoverability.",
+      "Enabled rich storytelling with elegant support for images, code, and embedded media.",
+      "Integrated advanced filtering and navigation for deep content discovery.",
+      "Designed for dark/light mode aesthetics and accessibility out of the box.",
+      "Leveraged interactive details (like footnotes, hover previews) for power users.",
+      "Built a platform that positions Hypercritical as a reference in tech media and critical writing."
     ],
-    "solution": "I crafted the Illunexus platform using a custom frontend that emphasizes **user flow and CTA-driven navigation**. We baked in performance, responsiveness, and flexibility—while keeping editing easy for the team behind Illunexus. Built with modern web principles, the final product empowers the agency to grow while looking sharp, credible, and professional.",
-
+    "solution": "I architected the Hypercritical platform as a modern JAMstack site—balancing technical power with editorial polish. The frontend emphasizes content-first design, lightning speed, and long-term scalability. Through atomic UI components and markdown-driven publishing, the team or guest writers can easily create, edit, or expand. Each decision was focused on enhancing the reading experience and establishing Hypercritical as a new standard for independent tech critique.",
+  
     "media": "/images/works/hypercritical/Hypercritical-Macbook-Air-M2psd-0-2.webp || /images/works/hypercritical/hypercritical-menu.webp || /images/works/hypercritical/works-iphone.webp || /images/works/hypercritical/Hypercritical-ipad.webp || /images/works/hypercritical/Macbook-Air-2022.webp ",
-
+  
     "mediaLarge": "/images/works/hypercritical/0-mockuppsd-02.webp || /images/works/hypercritical/hypercritical-menu.webp || /images/works/hypercritical/works-iphone.webp || /images/works/hypercritical/Hypercritical-ipad.webp || /images/works/hypercritical/Macbook-Air-2022.webp ",
-
+  
     "previewImage": "/images/works/hypercritical/Hypercritical-Macbook-Air-M2psd-0-2.webp",
     "showoffImage": "/images/works/hypercritical/hypercritical-menu.webp",
-
+  
     "title": "hypercritical",
-
-    "client": "Illunexus Agency",
-
+  
+    "client": "Independent Tech Media",
+  
     "year": "2024",
-
-    "link": "https://illunexus.vercel.app",
-    "dataContent": "status-quo business tools",
-    "task": ["UI DESIGN ", "BRANDING", "DEVELOPMENT", "SEO", "MARKETING", "ANALYTICS", "CONTENT STRATEGY"]
+  
+    "link": "https://hypercritical.vercel.app",
+    "dataContent": "cutting-edge tech critique and editorial",
+    "task": ["UI DESIGN", "EDITORIAL PLATFORM", "BRANDING", "DEVELOPMENT", "PERFORMANCE", "CONTENT STRATEGY", "SEO"]
   },
   {
     "aim": "The goal of the Medivana project was to design & build a seamless healthcare platform that empowers users to **find trusted doctors**, browse specialties, check real-time availability, and book appointments in seconds. The idea was to simplify healthcare access via sleek UI, mobile-friendly design, and scalable architecture that can grow with new modules (e.g. telehealth, record keeping).",
