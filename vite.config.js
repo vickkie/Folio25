@@ -6,7 +6,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const isProduction = process.env.NODE_ENV === "production";
-const backendUrl = isProduction ? "https://uzigateway.vercel.app" : "http://192.168.100.35:7000";
+const backendUrl = isProduction ? "https://uzigateway.vercel.app" : "http://172.28.36.207:7000";
 
 export default defineConfig({
   server: {
