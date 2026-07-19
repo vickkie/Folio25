@@ -1,9 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
-import * as dotenv from "dotenv";
-
-dotenv.config();
 
 const isProduction = process.env.NODE_ENV === "production";
 const backendUrl = isProduction ? "https://uzigateway.vercel.app" : "http://172.28.36.207:7000";
