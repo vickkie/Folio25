@@ -1,1 +1,0 @@
-import{j as r}from"./index-B2FDVODs.js";import{D as s}from"./DashboardLayout-CBMKARDl.js";import"./createLucideIcon-DivuXa0i.js";import"./index.esm-B7q1emly.js";const a="QQ8hRn",o={dashboardGrid:a},e=()=>r.jsx(s,{children:r.jsx("div",{className:o.dashboardGrid})});export{e as default};

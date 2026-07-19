@@ -2,3 +2,9 @@ node_modules
 .env
 .vercel
 .env*.local
+
+# Build output
+dist/
+
+# Misnamed EPS file that was accidentally tracked as CSS
+/ProfileSettings.css
