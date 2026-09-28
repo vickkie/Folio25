@@ -65,6 +65,7 @@ export default defineConfig(({ mode }) => {
         },
         workbox: {
           maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+          globIgnores: ["**/~partytown/debug/**"],
           runtimeCaching: [
             {
               urlPattern: ({ request }) => request.destination === "image",
