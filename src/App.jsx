@@ -14,7 +14,6 @@ import ProjectPage from "./components/Work/projects/ProjectPage";
 import MouseFollower from "mouse-follower";
 import "./components/css/mouse-follow.css";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // Lazy-loaded pages
 const Home = lazy(() => import("./components/Home/Home"));
@@ -50,9 +49,8 @@ function App() {
     };
   }, []);
 
-  MouseFollower.registerGSAP(gsap);
-  // MouseFollower.registerScrollTrigger(ScrollTrigger);
   useEffect(() => {
+    MouseFollower.registerGSAP(gsap);
     const cursor = new MouseFollower();
     return () => {
       cursor.destroy();
