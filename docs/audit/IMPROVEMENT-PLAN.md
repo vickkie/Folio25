@@ -212,5 +212,5 @@ Addresses: PF-1…PF-6, AX-1…AX-6, CF-1 (tests), ST-3
 2. ~~Are `SignUp`, `LoginTrader`, `Maintainance`, `/terminal`, and the empty `Dashboard` dormant features or abandoned?~~ **Answered:** Dashboard subtree = intended portfolio CMS (keep); TerminalShell = intentional fun login path (keep); SignUp/LoginTrader/Maintainance = scaffold leftovers (delete); PageTransition = dead+broken but owner wants kept.
 3. Canonical brand name — Vickkie, Uzitrake, or uzifolio25? (Title, PWA manifest, og:url, CSP currently disagree.)
 4. Keep vite-plugin-pwa only, or was the workbox-cli SW intended to replace it?
-5. Is Firebase (Firestore + Realtime DB) actively used, or legacy? It drives a large share of the vuln count.
-6. Any objection to moving portfolio media to ik.imagekit.io entirely (already used for some assets)?
+5. Is Firebase (Firestore + Realtime DB) actively used, or legacy? It drives a large share of the vuln count. - legacy
+6. Any objection to moving portfolio media to ik.imagekit.io entirely (already used for some assets)? - no objections.. what do i or you need to do?
