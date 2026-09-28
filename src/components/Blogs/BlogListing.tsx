@@ -15,7 +15,7 @@ export default function BlogListing() {
   const sortPosts = (posts) => {
     switch (sortOption) {
       case "Newest":
-        //@ts-ignore
+        //@ts-expect-error date string coercion
         return posts.slice().sort((a, b) => new Date(b.date) - new Date(a.date));
       case "Most Popular":
         return posts.filter(post => post.isPopular);

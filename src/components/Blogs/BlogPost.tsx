@@ -57,7 +57,7 @@ export default function BlogPost() {
   }, [id]);
 
   if (!blogPost) {
-    //@ts-expect-error
+    //@ts-expect-error Loading isLoading prop is optional at runtime
     return <Loading/>
   }
 
@@ -68,10 +68,9 @@ export default function BlogPost() {
     <React.Fragment key={index}>
       {section.subheading && <h2 className="article__subheading">{section.subheading}</h2>}
       <ReactMarkdown
-        children={section.text}
         components={{
-          //@ts-ignore
-          code({ node, inline, className, children, ...props }) {
+          //@ts-expect-error markdown component renderer props are loosely typed
+          code({ node: _node, inline, className, children, ...props }) {
             const match = /language-(\w+)/.exec(className || '');
             return !inline && match ? (
               <SyntaxHighlighter style={atomDark} language={match[1]} PreTag="pre" {...props}>
@@ -84,7 +83,9 @@ export default function BlogPost() {
             );
           },
         }}
-      />
+      >
+        {section.text}
+      </ReactMarkdown>
       {index < additionalImages.length && (
         <img
           src={additionalImages[index]}
