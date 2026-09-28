@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useFormik, Field } from "formik";
+import { useFormik } from "formik";
 import * as Yup from "yup";
 import usePost from "../hooks/usePost";
 import { AuthContext } from "../contexts/AuthContext";
@@ -34,26 +34,24 @@ const Login = () => {
   useEffect(() => {
     const storedAuthData = localStorage.getItem("authData");
 
-    // if (!storedAuthData) {
-    //   console.log("No local auth, trying refresh token");
-    // No local auth, try refresh token
-    axios
-      .post(`${BACKEND_URL}/api/refresh-token`, {}, { withCredentials: true })
-      .then((res) => {
-        setAuthData(res.data?.user);
-        navigate("/dashboard");
-      })
-      .catch(() => {
-        // console.log("Refresh token expired or missing");
-        if (location.pathname !== "/login") {
-          navigate("/login", {
-            state: {
-              message: "Session expired, please login again",
-            },
-          });
-        }
-      });
-    // }
+    if (!storedAuthData) {
+      // No local auth, try refresh token
+      axios
+        .post(`${BACKEND_URL}/api/refresh-token`, {}, { withCredentials: true })
+        .then((res) => {
+          setAuthData(res.data?.user);
+          navigate("/dashboard");
+        })
+        .catch(() => {
+          if (location.pathname !== "/login") {
+            navigate("/login", {
+              state: {
+                message: "Session expired, please login again",
+              },
+            });
+          }
+        });
+    }
   }, []);
 
   useEffect(() => {

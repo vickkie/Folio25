@@ -9,7 +9,7 @@ import commonPasswords from "../../assets/json/commonPassword.json";
 const ResetPassword = () => {
   const [resetToken, setResetToken] = useState(null);
   const navigate = useNavigate();
-  const { postData, isLoading, error, errorMessage, responseData, updateStatus } = usePost("user/reset-password");
+  const { postData, isLoading, error, errorMessage, updateStatus } = usePost("user/reset-password");
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
