@@ -9,7 +9,7 @@ const usePost = (endpoint, requiresAuth = false, token = null) => {
   const [errorMessage, setErrorMessage] = useState(null);
   const [data, setData] = useState(null);
   const [responseData, setResponseData] = useState(null);
-  const isDevelopment = process.env.NODE_ENV === "development";
+  const isDevelopment = import.meta.env.DEV;
 
   const handleApiCall = () => {
     //* this commented section is  for testin this using proxy- dont remove
