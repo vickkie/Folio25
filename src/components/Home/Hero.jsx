@@ -1,11 +1,8 @@
 import React from "react";
 import "../Home/css/Hero.css";
-import { useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
 import SvgIcon from "./Fragments/Svg";
 
 const Hero = () => {
-  const navigate = useNavigate();
   return (
     <div className="hero" data-cursor-img="/images/giphy.gif" data-cursor="-medium">
       <div className="hero-content">

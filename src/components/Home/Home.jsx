@@ -55,4 +55,6 @@ const Home = forwardRef((props, ref) => {
   );
 });
 
+Home.displayName = "Home";
+
 export default Home;

@@ -22,7 +22,7 @@ export const BelowHero = () => {
               <div className="intro-port-menu">
                 <div className="top-border"></div>
                 <div className="bottom-border"></div>
-                <div className="guide-line" line-triggery=".frame__line__low"></div>
+                <div className="guide-line"></div>
 
                 <div className="name-gmt">
                   <div className="dim-header">Location</div>

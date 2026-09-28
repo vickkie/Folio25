@@ -6,10 +6,6 @@ import data from "../../assets/json/uzidata.json";
 const Footer = () => {
   const [expandedSection, setExpandedSection] = useState(null);
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
-  const [email, setEmail] = useState("");
-  const [isEmailVisible, setIsEmailVisible] = useState(false);
-  const [formStatus, setFormStatus] = useState(""); // "success" or "error"
-
   useEffect(() => {
     const handleResize = () => {
       setIsSmallScreen(window.innerWidth < 768);
@@ -18,25 +14,6 @@ const Footer = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  const handleSubscribeClick = (e) => {
-    e.preventDefault();
-
-    if (!isEmailVisible) {
-      setIsEmailVisible(true);
-    } else {
-      if (email) {
-        //Api call here
-        const isSuccess = true; // Change based on your logic
-
-        if (isSuccess) {
-          setFormStatus("success");
-        } else {
-          setFormStatus("error");
-        }
-      }
-    }
-  };
 
   const toggleSection = (section) => {
     setExpandedSection(expandedSection === section ? null : section);

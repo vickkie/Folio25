@@ -185,10 +185,6 @@ button {
   grid-template-columns: 1fr;
   grid-template-rows: 70% 30%;
 }
-.AvatarSection {
-  display: flex;
-  gap: 26px;
-}
 .numbers {
   font-family: var(--font-2);
   font-size: var(--hc-xxl);
@@ -243,17 +239,8 @@ button {
 }
 
 @media screen and (max-width: 564px) {
-  .AvatarSection {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
   .heroPhrase {
     font-size: calc(var(--hc-xxl));
-  }
-}
-@media screen and (min-width: 565px) and (max-width: 768px) {
-  .AvatarSection {
-    flex-direction: column;
   }
 }
 @media screen and (min-width: 1200px) {

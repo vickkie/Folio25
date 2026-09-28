@@ -2,9 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./NavBar.css";
 import gsap from "gsap";
-const companyName = import.meta.env.VITE_COMPANY_NAME;
 
-const NavBar = React.forwardRef((props, ref) => {
+const NavBar = React.forwardRef(() => {
   const navigate = useNavigate();
   const [deviceWidth, setDeviceWidth] = useState(window.innerWidth);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,7 +27,11 @@ const NavBar = React.forwardRef((props, ref) => {
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
-    menuOpen ? closeMenu() : openMenu();
+    if (menuOpen) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
   };
 
   function openMenu() {
@@ -135,5 +138,7 @@ const NavBar = React.forwardRef((props, ref) => {
     </>
   );
 });
+
+NavBar.displayName = "NavBar";
 
 export default NavBar;

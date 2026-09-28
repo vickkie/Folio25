@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Menu = () => {
   const navigate = useNavigate();
-  const [urlstate, seturlState] = useState("FAILED");
+  const [, seturlState] = useState("FAILED");
 
   useEffect(() => {
     const isBrowser =
@@ -32,7 +32,7 @@ const Menu = () => {
     const home = links[0];
     const home2 = mainlinks[0];
 
-    links.forEach((link, i) => {
+    links.forEach((link) => {
       const linkpath = link.innerHTML.toLowerCase();
 
       const currentCutpath = `/${linkpath}`;
@@ -46,7 +46,7 @@ const Menu = () => {
       }
     });
 
-    mainlinks.forEach((link, i) => {
+    mainlinks.forEach((link) => {
       const linkpath = link.innerHTML.toLowerCase();
 
       const currentCutpath = `/${linkpath}`;
