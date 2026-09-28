@@ -69,7 +69,7 @@ const Extra = () => {
                         <div className="link">Visit</div>
                         <div>
                           <svg
-                            class="new-tab"
+                            className="new-tab"
                             width="20"
                             height="20"
                             viewBox="0 0 20 20"

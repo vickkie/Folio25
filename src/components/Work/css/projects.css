@@ -422,7 +422,7 @@
 @media screen and (min-width: 768px) {
   .aboutCenter,
   .solutionCenter {
-    background: url(../assets/svg-pathz.svg);
+    background: url(/svg-path.svg);
     padding: 20px;
     background-repeat: no-repeat;
     background-position: left;

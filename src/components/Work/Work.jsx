@@ -1,7 +1,6 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, { useEffect } from "react";
 import NavBar from "../Navbar/NavBar";
 import Footer from "../Footer/Footer";
-import Styles from "./css/about.module.css";
 import Hero from "./Hero";
 import Lenis from "@studio-freight/lenis";
 

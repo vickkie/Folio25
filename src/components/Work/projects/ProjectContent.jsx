@@ -19,7 +19,6 @@ function ProjectContent({ pageData, nextPage, nextPageData }) {
   const media3 = mediaUrls[2];
 
   const importantMedia = [...mediaUrls.slice(0, 15)];
-  const restMedia = [...mediaUrls.slice(3)];
 
   useGsapMagic({
     splitText: true,
@@ -76,7 +75,7 @@ function ProjectContent({ pageData, nextPage, nextPageData }) {
                 <div className="preview__img-inner relative">
                   <video
                     muted={true}
-                    metadata
+                    preload="metadata"
                     loop={true}
                     autoPlay={true}
                     playsInline={true}
@@ -129,7 +128,7 @@ function ProjectContent({ pageData, nextPage, nextPageData }) {
                       <div className="highlight-link">Visit Website</div>
                       <div>
                         <svg
-                          class="new-tab"
+                          className="new-tab"
                           width="20"
                           height="20"
                           viewBox="0 0 20 20"

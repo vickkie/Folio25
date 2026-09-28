@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import ProjectContent from "./ProjectContent";
 import pagesData from "../../../assets/json/allWorks.json";
 import ErrorBoundary from "../../ErrorBoundary";
 import NavBar from "../../Navbar/NavBar";
 import Footer from "../../Footer/Footer";
-import Styles from "../css/about.module.css";
-import Hero from "../Hero";
 import Lenis from "@studio-freight/lenis";
 
 import Menu from "../../Menu/Menu";
@@ -14,7 +12,6 @@ import "../css/projects.css";
 
 const ProjectPage = () => {
   const { slug } = useParams();
-  const navigate = useNavigate();
 
   useEffect(() => {
     const lenis = new Lenis({
@@ -57,10 +54,6 @@ const ProjectPage = () => {
       setDataState("ERROR");
     }
   }, [slug]);
-
-  const errorHere = () => {
-    throw new Error("Simulated error for testing");
-  };
 
   return (
     <ErrorBoundary>

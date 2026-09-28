@@ -15,7 +15,7 @@ const Experience = () => {
 
   if (!experienceSection) return null;
 
-  const { title, experiences } = experienceSection.experience;
+  const { experiences } = experienceSection.experience;
 
   return (
     <>
