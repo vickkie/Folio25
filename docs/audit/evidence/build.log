@@ -1,0 +1,106 @@
+
+> uzitrake@0.0.0 build
+> vite build && workbox generateSW workbox-config.cjs
+
+vite v5.4.20 building for production...
+transforming...
+Browserslist: browsers data (caniuse-lite) is 15 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+src/components/Loading/Preloader.jsx (1:0): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+
+../assets/svg-pathz.svg referenced in ../assets/svg-pathz.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+images/unknown/665dd0c3419f9932b6cbff8e_card 3.avif referenced in images/unknown/665dd0c3419f9932b6cbff8e_card 3.avif didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+./images/story-bg.png referenced in ./images/story-bg.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+src/components/Home/Fragments/Svg.jsx (1:0): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+✓ 3531 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/registerSW.js                          0.13 kB
+dist/manifest.webmanifest                   0.75 kB
+dist/index.html                             3.57 kB │ gzip:   1.05 kB
+dist/assets/TerminalShell-Bt_UlrHx.css      0.07 kB │ gzip:   0.08 kB
+dist/assets/extras-PyVsJe1h.css             1.15 kB │ gzip:   0.54 kB
+dist/assets/Work-DwENzjAD.css               1.44 kB │ gzip:   0.64 kB
+dist/assets/ResetPassword-BS7m5TEH.css      1.49 kB │ gzip:   0.69 kB
+dist/assets/ForgotPasword-BXu3PjUx.css      1.78 kB │ gzip:   0.76 kB
+dist/assets/Dashboard-DO15O4Eg.css          1.99 kB │ gzip:   0.83 kB
+dist/assets/Blog-xus4TJ9v.css               2.25 kB │ gzip:   0.88 kB
+dist/assets/BlogPost-ypL2rwGU.css           2.82 kB │ gzip:   1.05 kB
+dist/assets/FooterCTA-DQgti-C-.css          3.36 kB │ gzip:   1.17 kB
+dist/assets/Login-MRtHjVyi.css              4.36 kB │ gzip:   1.31 kB
+dist/assets/Profile-IsUUPIPA.css            4.81 kB │ gzip:   1.50 kB
+dist/assets/About-mD4IJ1gS.css              5.10 kB │ gzip:   1.67 kB
+dist/assets/DashboardLayout-BqFc29gN.css    5.70 kB │ gzip:   1.88 kB
+dist/assets/Contact-IaaaTFPV.css            6.85 kB │ gzip:   1.90 kB
+dist/assets/Home-Dpf1ZJ4b.css              21.78 kB │ gzip:   5.19 kB
+dist/assets/index-BZoYLSEc.css             39.18 kB │ gzip:   9.21 kB
+dist/assets/Dashboard-sfKZdRy4.js           0.29 kB │ gzip:   0.23 kB
+dist/assets/Logout-CSIlqVuK.js              0.48 kB │ gzip:   0.36 kB
+dist/assets/404-HKsEWWPn.js                 0.65 kB │ gzip:   0.40 kB
+dist/assets/usePost-DrnHsK1R.js             0.91 kB │ gzip:   0.52 kB
+dist/assets/Contact-CfgomaWE.js             1.07 kB │ gzip:   0.56 kB
+dist/assets/createLucideIcon-Dd78O8ri.js    1.55 kB │ gzip:   0.65 kB
+dist/assets/ForgotPasword-D5NyUvyl.js       1.96 kB │ gzip:   0.91 kB
+dist/assets/Blog-jrsHfo5y.js                2.06 kB │ gzip:   0.82 kB
+dist/assets/FooterCTA-Dnz9oSg3.js           2.33 kB │ gzip:   0.68 kB
+dist/assets/Work-b4xqqqyd.js                2.61 kB │ gzip:   0.96 kB
+dist/assets/ResetPassword-d8aVEFID.js       3.58 kB │ gzip:   1.47 kB
+dist/assets/Cookies-C6ohO0z0.js             6.20 kB │ gzip:   2.39 kB
+dist/assets/Login-Bdu6rJYW.js               6.23 kB │ gzip:   2.45 kB
+dist/assets/index-R69RRVUT.js              11.07 kB │ gzip:   4.46 kB
+dist/assets/Profile-DbY1Nblb.js            11.15 kB │ gzip:   3.35 kB
+dist/assets/TerminalShell-DJ9FDbc7.js      12.19 kB │ gzip:   5.45 kB
+dist/assets/About-DMZit2tM.js              13.80 kB │ gzip:   4.35 kB
+dist/assets/Home-CXjul473.js               21.37 kB │ gzip:   8.12 kB
+dist/assets/Privacy-9tK9wOCl.js            31.00 kB │ gzip:   9.06 kB
+dist/assets/formik.esm-BVTE8swG.js         33.89 kB │ gzip:  11.35 kB
+dist/assets/index.esm-_mTanwGd.js          34.17 kB │ gzip:  11.48 kB
+dist/assets/DashboardLayout-Bp1h1N-j.js   219.50 kB │ gzip:  57.07 kB
+dist/assets/index.esm-B7q1emly.js         325.80 kB │ gzip:  80.52 kB
+dist/assets/index-DLAXCH5k.js             530.49 kB │ gzip: 182.63 kB
+dist/assets/BlogPost-wl2tzKwx.js          751.62 kB │ gzip: 266.89 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 11.70s
+
+PWA v0.20.5
+mode      generateSW
+precache  61 entries (2254.46 KiB)
+files generated
+  dist/sw.js
+  dist/workbox-b765731c.js
+Using configuration from /home/quinzel/projects/Folio25/workbox-config.cjs.
+Browserslist: browsers data (caniuse-lite) is 15 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+images/works/dna/dna-mockall.png is 2.19 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/general/videoframe_47633.png is 2.14 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/Hypercritical-studio.png is 11.6 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/illunexus/0_Free MacBook Pro on Chair Mockup.psd_0.png is 9.56 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/kizik/kizik.com_en-ke(Nest Hub Max).png is 2.22 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/medivana/splash2.png is 3.37 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/portfolio/iphone-extrahigh.png is 2.58 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/portfolio/uziportfolio-phone-extrahigh.png is 3.93 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/spoiled-child/www.spoiledchild.com_(Nest Hub Max) (2).png is 2.16 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/trakexcel/Index-page-main.png is 7.63 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/trakexcel/Trakexcel-iPhone-extrahigh.png is 4.62 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/zephir/0_0_Free Standing iPhone Pro Mockup.psd_01.png is 3.99 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/zephir/0_Free MacBook on Dresser Mockup.psd_0fr2.png is 2.66 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/zephir/0_Free MacBook Pro on Settee Mockup.psd_01.png is 2.5 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/zephir/0_Free MacBook Pro On The Cabinet Mockup (copy).psd_01.png is 4.71 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/zephir/0_iPhone Stone Hands Mockup DKgoodart.psd_10.png is 4.3 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/zephir/1_iPhone 16 Pro Mockup DKgoodart.psd_0.png is 2.31 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+images/works/zephir/101-large.png is 2.92 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+svg/9.svg is 4.8 MB, and won't be precached. Configure maximumFileSizeToCacheInBytes to change this limit.
+The service worker files were written to:
+  • /home/quinzel/projects/Folio25/dist/service-worker.js
+  • /home/quinzel/projects/Folio25/dist/service-worker.js.map
+  • /home/quinzel/projects/Folio25/dist/workbox-e5ea8c57.js
+  • /home/quinzel/projects/Folio25/dist/workbox-e5ea8c57.js.map
+The service worker will precache 641 URLs, totaling 77.6 MB.
