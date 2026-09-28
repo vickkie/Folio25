@@ -8,11 +8,6 @@ const BACKEND_URL = import.meta.env.VITE_BACKEND_PORT;
 const isAccessTokenExpired = (token) => {
   try {
     const { exp } = jwtDecode(token);
-    const expDate = new Date(exp * 1000);
-
-    // Log in a human-readable format
-    // console.log(expDate.toLocaleString(), "← token expires at");
-
     const now = Date.now() / 1000;
     return exp < now;
   } catch (err) {
@@ -50,7 +45,7 @@ const ProtectedRoutes = () => {
           setAuthData(res.data.user);
 
           localStorage.setItem("authData", JSON.stringify(res.data.user));
-        } catch (err) {
+        } catch {
           console.error("Refreshing authentication failed. Logging out...");
 
           setAuthData(null);
