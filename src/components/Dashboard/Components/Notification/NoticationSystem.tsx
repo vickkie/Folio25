@@ -5,7 +5,7 @@ import { dbFirestore, dbRealtime } from './../../../../Firebase/firebaseConfig';
 import { collection, getDocs, doc, updateDoc } from 'firebase/firestore';
 import { ref, onValue, update } from 'firebase/database';
 import NotificationItem from './NotificationItem';
-//@ts-ignore
+//@ts-expect-error css module has no type declarations
 import styles from './css/notification-system.module.css';
 
 interface Notification {

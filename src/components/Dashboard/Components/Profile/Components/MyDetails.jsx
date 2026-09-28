@@ -42,7 +42,7 @@ const MyDetails = ({ user }) => {
     setFormSubmitted(true);
     try {
       await postData(values);
-    } catch (error) {
+    } catch {
       toast.error("Failed to update profile.");
     }
   };

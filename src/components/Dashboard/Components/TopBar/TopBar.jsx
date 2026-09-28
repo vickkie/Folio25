@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom"; // Import useLocati
 import { AuthContext } from "../../../contexts/AuthContext";
 import styles from "./top-bar.module.css";
 import BottomSheet from "./BottomSheet";
-import { Bell, Search, User, X, Menu, ChevronLeftCircleIcon } from "lucide-react";
+import { Search, X, Menu, ChevronLeftCircleIcon } from "lucide-react";
 import NotificationSystem from "../Notification/NoticationSystem";
 const companyName = import.meta.env.VITE_COMPANY_NAME;
 

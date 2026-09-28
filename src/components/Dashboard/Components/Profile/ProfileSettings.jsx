@@ -56,7 +56,7 @@ const ProfileSettings = () => {
 
     try {
       await postData(formData);
-    } catch (error) {
+    } catch {
       toast.error("Failed to upload image.");
     }
   };

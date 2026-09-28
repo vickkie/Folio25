@@ -20,7 +20,7 @@ const PasswordSettings = () => {
   useEffect(() => {
     if (error) {
       const message = typeof errorMessage === "string" ? errorMessage : "An error occurred. Please try again.";
-      toast.error(message), { duration: 6000 };
+      toast.error(message, { duration: 6000 });
       // console.log(isLoading);
     }
     if (updateStatus === 200) {

@@ -1,21 +1,15 @@
 import React, { useState, useEffect } from "react";
 import {
-  Home,
   Settings,
   HelpCircle,
-  WalletMinimal,
   ChevronLeftCircle,
   LucideLayoutDashboard,
   LogInIcon,
-  ChartBarBig,
-  UsersRoundIcon,
-  HandCoins,
 } from "lucide-react";
 import styles from "./DashboardLayout.module.css";
 import TopBar from "../Components/TopBar/TopBar";
 import { useNavigate } from "react-router-dom";
 const companyName = import.meta.env.VITE_COMPANY_NAME;
-const chaturl = "";
 
 const menuItems = [
   { icon: LucideLayoutDashboard, name: "Dashboard", route: "/dashboard" },

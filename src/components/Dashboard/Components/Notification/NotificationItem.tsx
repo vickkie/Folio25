@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React from 'react';
 import styles from './css/notification-item.module.css';
 
