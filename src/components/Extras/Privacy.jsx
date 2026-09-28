@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
 import NavBar from "../Navbar/NavBar";
 import Menu from "../Menu/Menu";
 import Footer from "../Footer/Footer";
 import termsDefinitions from "../../assets/json/termsDefinitions.json";
 import { Link } from "react-router-dom";
-const companyName = import.meta.env.VITE_COMPANY_NAME;
 import "./css/extras.css";
 
 export default function Privacy() {
@@ -75,7 +74,7 @@ export default function Privacy() {
           </div>
           <div className="subSection2midHeader">User’s rights</div>
           <div className="subSection2">
-            Each individual's personal non-proprietary rights regarding Personal Data are inalienable and inviolable.
+            Each individual&apos;s personal non-proprietary rights regarding Personal Data are inalienable and inviolable.
           </div>
           <div className="subSection2">The User has the following rights:</div>
           <div className="subSection2">
@@ -85,7 +84,7 @@ export default function Privacy() {
           <div className="subSection2">
             - If You believe that Your fundamental rights to privacy and Data protection outweigh Our legitimate
             interest in continuing the Processing, You may withdraw Your consent. We may keep an anonymous record of the
-            User's activities (except for Personal Data). The Company deletes all information it has about the User
+            User&apos;s activities (except for Personal Data). The Company deletes all information it has about the User
             within 30 (thirty) days of receiving Your request for deletion of information. Please contact Us
           </div>
           <div className="subSection2">
@@ -98,12 +97,12 @@ export default function Privacy() {
             possible.
           </div>
           <div className="subSection2">
-            - Obtaining a copy of the User's Personal Data in a structured, machine-readable, and widely used format.
+            - Obtaining a copy of the User&apos;s Personal Data in a structured, machine-readable, and widely used format.
           </div>
           <div className="subSection2midHeader">Data We collect</div>
           <div className="subSection2">
             We collect information and Personal Information from Users directly when they register on the Website in
-            sections such as “Sign up” or "Contact us" as well as when they browse Our Website. We collect Personal Data
+            sections such as “Sign up” or &quot;Contact us&quot; as well as when they browse Our Website. We collect Personal Data
             only when You fill out the form in the above sections of the Website and with Your permission, the rest of
             the Data We collect is mostly Usage Data.
           </div>
@@ -118,13 +117,13 @@ export default function Privacy() {
           <div className="subSection2">- Phone Number</div>
           <div className="subSection2">
             All Personal Data requested by is required for quality communication with You; failure to provide it may
-            impede the Company's ability to provide Services or make them impossible to provide.
+            impede the Company&apos;s ability to provide Services or make them impossible to provide.
           </div>
           <div className="subSection2midHeader">Automatically-collected information</div>
           <div className="subSection2">
             In addition to the Personal Data You provide, We automatically collect certain information about You
             (including Personal Data). We collect Usage Data from Users directly while they browse the Website. Usage
-            Data assists Us in ensuring the Website's smooth operation and improving the performance of the Services.
+            Data assists Us in ensuring the Website&apos;s smooth operation and improving the performance of the Services.
           </div>
           <div className="subSection2">
             When Users access or use Our Website, We collect Usage Data, which includes:
@@ -141,13 +140,13 @@ export default function Privacy() {
           <div className="subSection2">- Other diagnostic Data.</div>
           <div className="subSection2midHeader">Cookies Policy</div>
           <div className="subSection2">
-            The Website has the ability to generate objects and store them on the User's device. To set up and improve
+            The Website has the ability to generate objects and store them on the User&apos;s device. To set up and improve
             User interaction, We use Cookies to collect certain Usage Data, such as pages visited and Services used on
             Our Website.
           </div>
           <div className="subSection2">
             Session Cookies are typically stored and used to interact with Our Service. Session Cookies save the
-            information entered by the User and track the User's movement on the Website.
+            information entered by the User and track the User&apos;s movement on the Website.
           </div>
           <div className="subSection2">The Data received by session Cookies is stored for one (one) calendar year.</div>
           <div className="subSection2">
@@ -164,12 +163,12 @@ export default function Privacy() {
           </div>
           <div className="subSection2">
             We may share this information with partners who help Us restore, manage, or maintain Our Website (third
-            parties). By clearing Your browser's browsing history, You can delete all Cookies that are already on
+            parties). By clearing Your browser&apos;s browsing history, You can delete all Cookies that are already on
           </div>
           <div className="subSection2">
             Your device. You can set Your browser to prevent Cookies from being placed on Your device, but You may need
             to do so manually each time You visit the Website. If You live in the EU or are an EU citizen, You must
-            comply with the provisions of the European Commission's General Data Protection Regulation if You agree to
+            comply with the provisions of the European Commission&apos;s General Data Protection Regulation if You agree to
             the use of Cookies based on a message posted on Our Website according to the art. 6 (1) (a) on the General
             Data Protection Regulation of the European Commission.
           </div>
@@ -276,7 +275,7 @@ export default function Privacy() {
           <div className="subSection2midHeader">Cross Border Data Transfer</div>
           <div className="subSection2">
             Cross Border Data Transfer may occur if the transfer is required for the conclusion or performance of a
-            contract between the Controller and a Third Party, and only when it is in the data subject's best interests.
+            contract between the Controller and a Third Party, and only when it is in the data subject&apos;s best interests.
           </div>
           <div className="subSection2">Personal Data can be transferred to</div>
           <div className="subSection2">
@@ -310,7 +309,7 @@ export default function Privacy() {
 
           <div className="subSection2">
             Any information We collect or that You provide to Us may be transmitted and processed by any of the
-            Company's entities. We do not sell or transfer Your Personal Information to third parties for commercial
+            Company&apos;s entities. We do not sell or transfer Your Personal Information to third parties for commercial
             purposes. However, if necessary, We may transfer Personal Data to the following Third Parties:
           </div>
           <div className="subSection2">- Our professional consultants and hosting providers</div>
@@ -322,20 +321,20 @@ export default function Privacy() {
           <div className="subSection2">
             - If required by law (for example: law enforcement agencies, courts and other government agencies);
           </div>
-          <div className="subSection2">- To protect the Company's rights;</div>
+          <div className="subSection2">- To protect the Company&apos;s rights;</div>
           <div className="subSection2">
             - To share, summarize, or de-identify information with Third Parties for research, marketing, analytics, or
             other purposes if the information does not identify a specific person.
           </div>
           <div className="subSection2">
-            We also do our best to protect user information offline. All of our users' personal information is
+            We also do our best to protect user information offline. All of our users&apos; personal information is
             restricted to our offices. Only employees who need to see the information to perform their jobs are allowed
             to access it.
           </div>
           <div className="subSection2">
             We use Transport Layer Security (TLS) encryption technology in order to protect certain information that you
             submit to us. This technology protects you from having your information intercepted by anyone while it is
-            being transmitted to payment processor. While on a secure page, such as our order form, the "lock" icon in
+            being transmitted to payment processor. While on a secure page, such as our order form, the &quot;lock&quot; icon in
             the browser window is displayed, confirming that a secure and encrypted connection has been established with
             the Website. We work hard to ensure that our Service is secure and that we meet industry standards. We also
             use other safeguards, such as firewalls, authentication systems (i.e. passwords, and personal identification
@@ -377,8 +376,8 @@ export default function Privacy() {
             Deleting data You have the right to refuse to use our Services and may ask us to delete or remove your
             personal data in certain circumstances. If we share your data with others, we will notify them of the edits
             wherever possible. If prompted, and wherever possible and lawful to do so, we will also notify you with whom
-            we have shared your personal data so you can contact them directly if need be. Please see the "User account
-            deleting" section for more details.
+            we have shared your personal data so you can contact them directly if need be. Please see the &quot;User account
+            deleting&quot; section for more details.
           </div>
           <div className="subSection2midHeader">Third Party Sites</div>
           <div className="subSection2">
@@ -427,9 +426,9 @@ export default function Privacy() {
             disclosed their Personal Data (if any) for their direct marketing purposes in the prior calendar year, as
             well as the type of Personal Data disclosed to those parties.
           </div>
-          <div className="subSection2midHeader">Supplemental Notice for EEA and UK users'</div>
+          <div className="subSection2midHeader">Supplemental Notice for EEA and UK users&apos;</div>
           <div className="subSection2">
-            Individuals subject to European and United Kingdom ("UK") data protection laws may have data subject rights
+            Individuals subject to European and United Kingdom (&quot;UK&quot;) data protection laws may have data subject rights
             in relation to the personal data we hold on them (described in detail below). This may, in and of itself, be
             subject to limitations and/or restrictions. If you are located in the EEA or UK, please contact us to
             exercise your rights.

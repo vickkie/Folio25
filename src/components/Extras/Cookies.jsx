@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
 import NavBar from "../Navbar/NavBar";
 import Menu from "../Menu/Menu";
 import Footer from "../Footer/Footer";
 import "./css/extras.css";
-import termsDefinitions from "../../assets/json/termsDefinitions.json";
-import { Link } from "react-router-dom";
 
 export default function Privacy() {
   useEffect(() => {
@@ -38,8 +36,8 @@ export default function Privacy() {
         </div>
         <div className="policyDetails">
           <div className="policySuperheader">
-            This Cookies Policy ("Cookies Policy") describes cookies and other technologies that I use on its website
-            ("Site") and the choices that users have. This Cookies Policy is a part of Privacy Policy.
+            This Cookies Policy (&quot;Cookies Policy&quot;) describes cookies and other technologies that I use on its website
+            (&quot;Site&quot;) and the choices that users have. This Cookies Policy is a part of Privacy Policy.
           </div>
           <div className="subSection2">
             When you first visit the Site, you will be asked to consent to the use of cookies in accordance with this
@@ -48,12 +46,12 @@ export default function Privacy() {
 
           <div className="subSection2midHeader">What is a cookie?</div>
           <div className="subSection2">
-            A 'cookie' is a piece of information that is sent to your browser by a website you visit. The Site uses
+            A &apos;cookie&apos; is a piece of information that is sent to your browser by a website you visit. The Site uses
             first party cookies (those set by a website that is being visited by the user at the time. )
           </div>
           <div className="subSection2">
-            Cookies can be stored on your computer for various periods of time. They can be in a form of either "session
-            cookies" or "persistent cookies." A session cookie only lasts as long as the browser session and is
+            Cookies can be stored on your computer for various periods of time. They can be in a form of either &quot;session
+            cookies&quot; or &quot;persistent cookies.&quot; A session cookie only lasts as long as the browser session and is
             automatically deleted when you close your browser. A persistent cookie lasts long after your browser is
             closed and will remain until it expires (as determined by the third party in charge of placing it) or until
             you delete the cookie. Persistent cookies are used to help sites recognize and identify your computer when

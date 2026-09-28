@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
 import NavBar from "../Navbar/NavBar";
 import Menu from "../Menu/Menu";
