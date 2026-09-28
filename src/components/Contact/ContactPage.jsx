@@ -17,11 +17,6 @@ const ContactPage = () => {
     message: Yup.string().max(400, "Message cannot exceed 400 characters").required("Message is required"),
   });
 
-  // Validation Schema for subscription form
-  const subscriptionSchema = Yup.object().shape({
-    email: Yup.string().email("Invalid email format").required("Email is required"),
-  });
-
   // Contact form submission handler
   const handleContactSubmit = async (values, { resetForm }) => {
     try {
@@ -32,23 +27,8 @@ const ContactPage = () => {
 
       toast.success("Message sent successfully!");
       resetForm();
-    } catch (error) {
+    } catch {
       toast.error("Failed to send the message");
-    }
-  };
-
-  // Newsletter subscription handler
-  const handleSubscribe = async (values, { resetForm }) => {
-    try {
-      await addDoc(collection(db, "subscribers"), {
-        email: values.email,
-        subscribedAt: new Date().toISOString(),
-      });
-      toast.success("Subscribed successfully!");
-      resetForm();
-    } catch (error) {
-      console.error("Error subscribing to the newsletter: ", error);
-      toast.error("Failed to subscribe");
     }
   };
 
@@ -58,10 +38,6 @@ const ContactPage = () => {
       return "0.0058vw solid var(--red)";
     }
     return;
-  };
-
-  const clearConsole = () => {
-    console.clear();
   };
 
   return (

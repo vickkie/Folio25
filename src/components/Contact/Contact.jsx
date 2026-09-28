@@ -6,7 +6,6 @@ import Footer from "../Footer/Footer";
 import Menu from "../Menu/Menu";
 import Lenis from "@studio-freight/lenis";
 import "./contact.css";
-import ContactPage from "./ContactPage";
 import Hero from "./Hero";
 import { FooterCTA } from "../Home/FooterCTA";
 
